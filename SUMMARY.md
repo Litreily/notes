@@ -1,5 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
-* [install packages](atom/install-packages.md)
+
+## Ubuntu
+
+## Atom
+
+* [Packages](atom/packages.md)
 
