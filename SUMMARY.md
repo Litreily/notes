@@ -4,6 +4,8 @@
 
 ## Ubuntu
 
+* [Installer](ubuntu/installer.md)
+
 ## Atom
 
 * [Packages](atom/packages.md)
