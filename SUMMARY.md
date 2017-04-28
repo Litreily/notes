@@ -2,11 +2,8 @@
 
 * [Introduction](README.md)
 
-## Ubuntu
+* [Ubuntu](ubuntu.md)
+  * [Installer](ubuntu/installer.md)
 
-* [Installer](ubuntu/installer.md)
-
-## Atom
-
-* [Packages](atom/packages.md)
-
+* Atom
+ * [Packages](atom/packages.md)
