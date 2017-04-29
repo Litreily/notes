@@ -7,7 +7,7 @@ cd ~/.atom/packages/
 
 ### 安装方法
 ```
-npm install <PACKAGE-NAME>
+npm install {PACKAGE-NAME}
 ```
 
 ### 启用方法
