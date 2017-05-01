@@ -1,17 +1,10 @@
 ### 安装 Hexo
 
-先安装 `node.js`
-
-``` bash
-sudo apt-get install nodejs
-sudo apt-get install -y build-essential
-```
-
 使用 `node.js` 中的包管理工具 `npm` 安装 `hexo`
 
-```
+``` bash
 npm install hexo-cli -g
-hexo init {BLOG-FOLDER-NAME}
+hexo init {BLOG-FOLDER-NAME}  # e.g. Blog
 cd {BLOG-FOLDER-NAME}
 npm install
 ```
