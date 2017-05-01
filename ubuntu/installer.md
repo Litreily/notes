@@ -60,7 +60,6 @@ Categories=Application;Developmen;IDE;
 
 ## 常用软件
 
-<<<<<<< HEAD
 ### 下载工具 uget+aria2
 ``` bash
 sudo add-apt-repository ppa:plushuang-tw/uget-stable
@@ -77,10 +76,6 @@ sudo apt-get install aria2
 打开 `uget` 软件，在设置选项的插件栏中选择 `aria2`.
 
 ### node.js
-=======
-### node.js
-
->>>>>>> 005081257f11e971539759fd0dd9464ee4aae7a7
 ``` bash
 sudo apt-get install nodejs
 sudo apt-get install -y build-essential
