@@ -112,10 +112,10 @@ sudo vim /usr/share/applications/wechat.desktop
 Encoding=UTF-8
 Name=Wechat
 Comment=wechat
-Exec=~/Programs/Wechat/electronic-wechat
-Icon=~/Programs/Wechat/icon.png
-Terminal=false  
-StartupNotify=true  
-Type=Application  
+Exec=/home/litreily/Programs/Wechat/electronic-wechat
+Icon=/home/litreily/Programs/Wechat/icon.png
+Terminal=false
+StartupNotify=true
+Type=Application
 Categories=Application;
 ```
