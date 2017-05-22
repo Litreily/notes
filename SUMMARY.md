@@ -10,3 +10,5 @@
  * [Atom](software/atom.md)
  * [Hexo](software/hexo.md)
  * [Gitbook](software/gitbook.md)
+ * [VSC](software/vsc.md)
+ 
