@@ -75,10 +75,13 @@ sudo apt-get install aria2
 
 打开 `uget` 软件，在设置选项的插件栏中选择 `aria2`.
 
-### node.js
+### node.js && npm
 ``` bash
 sudo apt-get install nodejs
 sudo apt-get install -y build-essential
+sudo apt-get install npm
+sudo npm install n -g   # 安装用于更新管理nodejs的工具，该项可选
+sudo n stable   # 获取最新稳定版的nodejs
 ```
 
 ### 微信
