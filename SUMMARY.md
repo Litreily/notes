@@ -2,11 +2,15 @@
 
 * [Introduction](README.md)
 
-* [Ubuntu](ubuntu/ubuntu.md)
+* [Ubuntu](ubuntu/README.md)
   * [Installer](ubuntu/installer.md)
   * [Shell](ubuntu/shell.md)
 
-* [Software](software/software.md)
+* [Software](software/README.md)
  * [Atom](software/atom.md)
  * [Hexo](software/hexo.md)
- * [Git](software/git.md)
+ * [Gitbook](software/gitbook.md)
+ * [VSC](software/vsc.md)
+
+* [System](system/README.md)
+  * [Install](system/install.md)
