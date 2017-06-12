@@ -11,6 +11,7 @@
  * [Hexo](software/hexo.md)
  * [Gitbook](software/gitbook.md)
  * [VSC](software/vsc.md)
+ * [Nodejs](software/nodejs.md)
 
 * [System](system/README.md)
   * [Install](system/install.md)
