@@ -31,3 +31,19 @@ sudo npm install n -g   # 安装用于更新管理nodejs的工具，该项可选
 sudo n stable   # 获取最新稳定版的nodejs
 ```
 
+### 官网下载安装
+
+* 先到官网下载稳定版的`nodejs`,一般是`tar.xz`格式;
+* 然后解压至本地目录（如：~/Programs/)
+* 执行以下指令，若成功显示版本好，说明已经编译好，可以直接使用
+
+``` bash
+cd node-v6.11.0-linux-x64
+./node -v
+```
+* 接下来配置环境变量，使其变为全局可用
+
+``` bash
+ln -s /home/litreily/Programs/node-v6.11.0-linux-x64/bin/node /usr/local/bin/node
+ln -s /home/litreily/Programs/node-v6.11.0-linux-x64/bin/npm /usr/local/bin/npm
+```

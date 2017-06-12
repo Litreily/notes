@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Atom · GitBook</title>
+        <title>Nodejs · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="hexo.html" />
+    <link rel="next" href="../system/" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="vsc.html" />
     
 
     </head>
@@ -161,7 +161,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.3.1" data-path="atom.html">
+        <li class="chapter " data-level="1.3.1" data-path="atom.html">
             
                 <a href="atom.html">
             
@@ -213,7 +213,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.5" data-path="nodejs.html">
+        <li class="chapter active" data-level="1.3.5" data-path="nodejs.html">
             
                 <a href="nodejs.html">
             
@@ -293,7 +293,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Atom</a>
+        <a href=".." >Nodejs</a>
     </h1>
 </div>
 
@@ -308,24 +308,26 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="install-packages">Install Packages</h2>
-<h3 id="&#x5B89;&#x88C5;&#x8DEF;&#x5F84;">&#x5B89;&#x88C5;&#x8DEF;&#x5F84;</h3>
-<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> ~/.atom/packages/
+                                <h2 id="&#x6E90;&#x7801;&#x5B89;&#x88C5;">&#x6E90;&#x7801;&#x5B89;&#x88C5;</h2>
+<p>&#x4E0B;&#x8F7D;&#x6E90;&#x7801;&#xFF08;300M&#x5DE6;&#x53F3;&#xFF09;</p>
+<pre><code class="lang-bash">sudo git <span class="hljs-built_in">clone</span> https://github.com/nodejs/node.git
 </code></pre>
-<h3 id="&#x5B89;&#x88C5;&#x65B9;&#x6CD5;">&#x5B89;&#x88C5;&#x65B9;&#x6CD5;</h3>
-<pre><code class="lang-bash">git <span class="hljs-built_in">clone</span> https://github.com/{user-name}/{package-name}.git
-npm install {package-name}
+<p>&#x4FEE;&#x6539;&#x76EE;&#x5F55;&#x6743;&#x9650;</p>
+<pre><code class="lang-bash">sudo chmod -R 755 node
 </code></pre>
-<h3 id="&#x542F;&#x7528;&#x65B9;&#x6CD5;">&#x542F;&#x7528;&#x65B9;&#x6CD5;</h3>
-<p>&#x5FEB;&#x6377;&#x952E;<code>Ctrl+Shift+P</code>&#x6253;&#x5F00;&#x6307;&#x4EE4;&#x7A97;&#x53E3;&#xFF0C;&#x8F93;&#x5165;&#xFF1A;</p>
-<pre><code>Window:reload
-</code></pre><p>&#x6216;&#x8005;&#x76F4;&#x63A5;&#x7528;&#x5FEB;&#x6377;&#x952E;<code>Ctrl+Shift+F5</code>&#x91CD;&#x542F;<code>Atom</code>&#x751F;&#x6548;&#x3002;</p>
-<h3 id="&#x5E38;&#x7528;&#x63D2;&#x4EF6;">&#x5E38;&#x7528;&#x63D2;&#x4EF6;</h3>
-<ul>
-<li><a href="https://github.com/JoelBesada/activate-power-mode.git" target="_blank">Active-power-mode</a></li>
-<li><a href="https://github.com/atom-minimap/minimap.git" target="_blank">Minmap</a></li>
-<li><a href="https://github.com/akonwi/git-plus.git" target="_blank">git-plus</a></li>
-</ul>
+<p>&#x521B;&#x5EFA;&#x5E76;&#x7F16;&#x8BD1;&#x6587;&#x4EF6;</p>
+<pre><code class="lang-bash"><span class="hljs-built_in">cd</span> node
+sudo ./configure
+sudo make    <span class="hljs-comment"># &#x8017;&#x65F6;&#x8F83;&#x957F;</span>
+sudo make install
+</code></pre>
+<h3 id="apt-get-&#x5B89;&#x88C5;">apt-get &#x5B89;&#x88C5;</h3>
+<pre><code class="lang-bash">sudo apt-get install nodejs
+sudo apt-get install -y build-essential
+sudo apt-get install npm
+sudo npm install n -g   <span class="hljs-comment"># &#x5B89;&#x88C5;&#x7528;&#x4E8E;&#x66F4;&#x65B0;&#x7BA1;&#x7406;nodejs&#x7684;&#x5DE5;&#x5177;&#xFF0C;&#x8BE5;&#x9879;&#x53EF;&#x9009;</span>
+sudo n stable   <span class="hljs-comment"># &#x83B7;&#x53D6;&#x6700;&#x65B0;&#x7A33;&#x5B9A;&#x7248;&#x7684;nodejs</span>
+</code></pre>
 
                                 
                                 </section>
@@ -353,12 +355,12 @@ npm install {package-name}
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Software">
+                <a href="vsc.html" class="navigation navigation-prev " aria-label="Previous page: VSC">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="hexo.html" class="navigation navigation-next " aria-label="Next page: Hexo">
+                <a href="../system/" class="navigation navigation-next " aria-label="Next page: System">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -369,7 +371,7 @@ npm install {package-name}
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Atom","level":"1.3.1","depth":2,"next":{"title":"Hexo","level":"1.3.2","depth":2,"path":"software/hexo.md","ref":"software/hexo.md","articles":[]},"previous":{"title":"Software","level":"1.3","depth":1,"path":"software/README.md","ref":"software/README.md","articles":[{"title":"Atom","level":"1.3.1","depth":2,"path":"software/atom.md","ref":"software/atom.md","articles":[]},{"title":"Hexo","level":"1.3.2","depth":2,"path":"software/hexo.md","ref":"software/hexo.md","articles":[]},{"title":"Gitbook","level":"1.3.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},{"title":"VSC","level":"1.3.4","depth":2,"path":"software/vsc.md","ref":"software/vsc.md","articles":[]},{"title":"Nodejs","level":"1.3.5","depth":2,"path":"software/nodejs.md","ref":"software/nodejs.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"software/atom.md","mtime":"2017-06-12T02:11:33.843Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-12T03:40:41.440Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Nodejs","level":"1.3.5","depth":2,"next":{"title":"System","level":"1.4","depth":1,"path":"system/README.md","ref":"system/README.md","articles":[{"title":"Install","level":"1.4.1","depth":2,"path":"system/install.md","ref":"system/install.md","articles":[]}]},"previous":{"title":"VSC","level":"1.3.4","depth":2,"path":"software/vsc.md","ref":"software/vsc.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"software/nodejs.md","mtime":"2017-06-12T02:26:10.613Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-12T03:40:41.440Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
