@@ -93,7 +93,7 @@ cd electronic-wechat
 
 安装依赖包，两种方法
 ``` bash
-npm install&& npm install
+npm install && npm start
 ```
 or
 ``` bash
