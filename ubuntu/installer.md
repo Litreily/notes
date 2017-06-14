@@ -34,6 +34,16 @@ make
 make install
 ```
 
+### 安装.run文件
+
+* 首先添加文件的执行权限
+* 然后直接以`./{package-name}`方式安装
+
+``` bash
+chmod +x qt-opensource-linux-x64-5.8.0.run 
+./qt-opensource-linux-x64-5.8.0.run 
+```
+
 ## 添加快捷方式
 
 为手动安装的软件添加快捷方式
