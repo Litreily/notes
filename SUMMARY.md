@@ -9,6 +9,7 @@
 * [Software](software/README.md)
  * [Atom](software/atom.md)
  * [Hexo](software/hexo.md)
+ * [Git](software/git.md)
  * [Gitbook](software/gitbook.md)
  * [VSC](software/vsc.md)
  * [Nodejs](software/nodejs.md)
