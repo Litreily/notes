@@ -1,3 +1,5 @@
+# 指令
+
 ## sudo
 ``` bash
 sudo su  # 进入root模式
