@@ -10,6 +10,7 @@ sudo {cmd} # 以管理员身份执行指令
 ``` bash
 cd  # 回到默认目录 ~ ,即/home/user-name
 cd ..  # 回退到前级目录
+cd -  # 回退到前一次目录
 cd {folder-path}  # 到达指定目录
 ```
 
@@ -38,3 +39,12 @@ mkdir {folder-name}  # 新建文件夹
 rm {file-name}  # 删除文件
 rm -rf {folder-name}  # 删除文件夹
 ```
+
+# 配置
+
+## 配置 bash
+``` bash
+vim ~/.bashrc
+source .bashrc  # 记得使用source指令，否则更新内容无法生效
+```
+
