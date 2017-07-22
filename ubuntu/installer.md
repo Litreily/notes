@@ -25,9 +25,10 @@ sudo apt-get install gdebi
 ```
 然后用该安装工具进行安装。
 
-### 安装 .tar.gz 文件
+### 安装 .tar.gz/.tar.xz 文件
 ``` bash
-tar -xvzf {package-name}.tar.gz
+tar -xvzf {package-name}.tar.gz  # 解压.tar.gz文件
+tar -xvJf {package-name}.tar.xz  # 解压.tar.xz文件
 cd {package-path}  # 可参考包内的安装说明
 ./configure  # 部分压缩包已经编译过，可略过这一步
 make
