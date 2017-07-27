@@ -8,11 +8,12 @@
 
 * [Software](software/README.md)
  * [Atom](software/atom.md)
- * [Hexo](software/hexo.md)
  * [Git](software/git.md)
  * [Gitbook](software/gitbook.md)
- * [VSC](software/vsc.md)
+ * [Hexo](software/hexo.md)
  * [Nodejs](software/nodejs.md)
+ * [VSC](software/vsc.md)
+ * [VIM](software/vim.md)
 
 * [System](system/README.md)
   * [Install](system/install.md)
