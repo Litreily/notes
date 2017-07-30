@@ -21,7 +21,7 @@
     "pluginsConfig": {
         "etoc": {
             "h2lb": 3,
-            "mindepth": 3,
+            "mindepth": 2,
             "maxdepth": 4,
             "notoc": false
         },
