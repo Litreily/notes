@@ -25,11 +25,22 @@ ssh-keygen
 cat .ssh/id_rsa.pub
 ```
 
+添加秘钥至远程仓库，如`github`，`coding`。可以打开远程仓库所在官网，登录个人账户，在**设置**中添加`ssh-key`。
+
 对于没有GUI界面的远程服务器，添加ssh秘钥时可以使用以下指令:
 
 ``` bash
 ssh-copy-id -i ~/.ssh/id_rsa.pub <username>@<servername>
 ```
+
+添加完成后，为检验与远程服务器的连接情况，可使用以下指令：
+
+``` bash
+$ ssh -T git@github.com
+Hi Litreily! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+以`github`为例，以上显示结果表明与`github`能够正常连接。
 
 ## 远程操作
 

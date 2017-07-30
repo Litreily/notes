@@ -4,17 +4,21 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Hexo · GitBook</title>
+        <title>Hexo · Notes</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
-        
+        <meta name="author" content="litreily">
         
         
     
     <link rel="stylesheet" href="../gitbook/style.css">
 
     
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
             
                 
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
@@ -82,7 +86,21 @@
 <ul class="summary">
     
     
+    
+        
+        <li>
+            <a href="http://www.litreily.top" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://www.smslit.top/notebook/" target="_blank" class="custom-link">smslit's notes</a>
+        </li>
+    
+    
 
+    
+    <li class="divider"></li>
     
 
     
@@ -366,14 +384,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h3 id="&#x5B89;&#x88C5;-hexo">&#x5B89;&#x88C5; Hexo</h3>
+                                <h2 id="&#x5B89;&#x88C5;-hexo">&#x5B89;&#x88C5; Hexo</h2>
 <p>&#x4F7F;&#x7528; <code>node.js</code> &#x4E2D;&#x7684;&#x5305;&#x7BA1;&#x7406;&#x5DE5;&#x5177; <code>npm</code> &#x5B89;&#x88C5; <code>hexo</code></p>
 <pre><code class="lang-bash">npm install hexo-cli -g
 hexo init &lt;blog-floder-name&gt;  <span class="hljs-comment"># e.g. Blog</span>
 <span class="hljs-built_in">cd</span> &lt;blog-floder-name&gt;
 npm install
 </code></pre>
-<h3 id="&#x5E38;&#x7528;&#x63D2;&#x4EF6;">&#x5E38;&#x7528;&#x63D2;&#x4EF6;</h3>
+<h2 id="&#x5E38;&#x7528;&#x63D2;&#x4EF6;">&#x5E38;&#x7528;&#x63D2;&#x4EF6;</h2>
 <pre><code class="lang-bash">npm install hexo-server --save
 npm install hexo-deployer-git --save
 
@@ -392,7 +410,7 @@ npm install hexo-renderer-sass --save
 npm install hexo-renderer-stylus --save
 npm insatll hexo-renderer-marked --save
 </code></pre>
-<h3 id="&#x5206;&#x9875;&#x529F;&#x80FD;">&#x5206;&#x9875;&#x529F;&#x80FD;</h3>
+<h2 id="&#x5206;&#x9875;&#x529F;&#x80FD;">&#x5206;&#x9875;&#x529F;&#x80FD;</h2>
 <p>&#x5728;&#x4FDD;&#x8BC1;<code>hexo-generator-index</code>,<code>hexo-generator-tag</code>,<code>hexo-generator-archive</code>&#x5DF2;&#x5B89;&#x88C5;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x7684;<code>_config.yml</code>&#x6587;&#x4EF6;&#x4EE4;&#x4E3B;&#x9875;&#x3001;&#x5F52;&#x6863;&#x9875;&#x4E0E;&#x6807;&#x7B7E;&#x9875;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;<code>per_page</code>&#xFF0C;&#x4FDD;&#x8BC1;&#x4E0D;&#x540C;&#x9875;&#x9762;&#x7684;&#x6BCF;&#x9875;&#x5185;&#x5BB9;&#x5217;&#x8868;&#x6570;&#x4E0D;&#x76F8;&#x540C;&#x3002;</p>
 <pre><code class="lang-yml"><span class="hljs-attr">index_generator:</span>
 <span class="hljs-attr">  per_page:</span> <span class="hljs-number">8</span>
@@ -406,6 +424,22 @@ npm insatll hexo-renderer-marked --save
 <span class="hljs-attr">  per_page:</span> <span class="hljs-number">0</span>
 </code></pre>
 <p>&#x5F53;<code>per_page</code>&#x4E3A;0&#x65F6;&#xFF0C;&#x4EE3;&#x8868;&#x4E0D;&#x5206;&#x9875;&#x3002;</p>
+<h2 id="&#x5E38;&#x89C1;&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;">&#x5E38;&#x89C1;&#x95EE;&#x9898;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</h2>
+<h3 id="1-&#x6267;&#x884C;-hexo-d-&#x5931;&#x8D25;">1. &#x6267;&#x884C; <code>hexo d</code> &#x5931;&#x8D25;</h3>
+<p><strong>&#x95EE;&#x9898;&#x63CF;&#x8FF0;</strong></p>
+<pre><code class="lang-bash">$ hexo d
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+FATAL Something<span class="hljs-string">&apos;s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.html
+Error: EACCES: permission denied, unlink &apos;</span>/home/litreily/Workspace/B<span class="hljs-built_in">log</span>/.deploy_git/about/index.html<span class="hljs-string">&apos;
+    at Error (native)
+</span></code></pre>
+<p><strong>&#x95EE;&#x9898;&#x5206;&#x6790;</strong></p>
+<p>&#x4ECE;&#x9519;&#x8BEF;&#x6D88;&#x606F;&#x53EF;&#x4EE5;&#x770B;&#x9519;&#xFF0C;<code>hexo</code>&#x7684;&#x7F51;&#x7AD9;&#x90E8;&#x7F72;&#x6307;&#x4EE4;&#x65E0;&#x6CD5;&#x94FE;&#x63A5;&#x5230;&#x6307;&#x5B9A;&#x6587;&#x4EF6;&#xFF0C;&#x6709;&#x53EF;&#x80FD;&#x662F;&#x4FEE;&#x6539;&#x535A;&#x5BA2;&#x540E;&#x90E8;&#x5206;&#x94FE;&#x63A5;&#x5931;&#x6548;&#x5BFC;&#x81F4;&#x7684;&#xFF0C;&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x5220;&#x9664;<code>.deploy_git</code>&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x7136;&#x540E;&#x91CD;&#x65B0;&#x6267;&#x884C;<code>hexo d</code>&#x3002;</p>
+<p><strong>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</strong></p>
+<pre><code class="lang-bash">sudo rm -rf .deploy_git
+hexo d
+</code></pre>
 
                                 
                                 </section>
@@ -449,7 +483,7 @@ npm insatll hexo-renderer-marked --save
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Hexo","level":"1.4.4","depth":2,"next":{"title":"Nodejs","level":"1.4.5","depth":2,"path":"software/nodejs.md","ref":"software/nodejs.md","articles":[]},"previous":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"software/hexo.md","mtime":"2017-07-30T02:26:25.996Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T02:30:54.742Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Hexo","level":"1.4.4","depth":2,"next":{"title":"Nodejs","level":"1.4.5","depth":2,"path":"software/nodejs.md","ref":"software/nodejs.md","articles":[]},"previous":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"software/hexo.md","mtime":"2017-07-30T03:02:13.036Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T03:54:19.315Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -457,6 +491,10 @@ npm insatll hexo-renderer-marked --save
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
     
         
         <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>

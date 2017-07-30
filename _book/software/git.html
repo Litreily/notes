@@ -4,17 +4,21 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Git · GitBook</title>
+        <title>Git · Notes</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
-        
+        <meta name="author" content="litreily">
         
         
     
     <link rel="stylesheet" href="../gitbook/style.css">
 
     
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
             
                 
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
@@ -82,7 +86,21 @@
 <ul class="summary">
     
     
+    
+        
+        <li>
+            <a href="http://www.litreily.top" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://www.smslit.top/notebook/" target="_blank" class="custom-link">smslit's notes</a>
+        </li>
+    
+    
 
+    
+    <li class="divider"></li>
     
 
     
@@ -382,9 +400,15 @@ git config --global core.editor vim
 ssh-keygen
 cat .ssh/id_rsa.pub
 </code></pre>
+<p>&#x6DFB;&#x52A0;&#x79D8;&#x94A5;&#x81F3;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#xFF0C;&#x5982;<code>github</code>&#xFF0C;<code>coding</code>&#x3002;&#x53EF;&#x4EE5;&#x6253;&#x5F00;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;&#x6240;&#x5728;&#x5B98;&#x7F51;&#xFF0C;&#x767B;&#x5F55;&#x4E2A;&#x4EBA;&#x8D26;&#x6237;&#xFF0C;&#x5728;<strong>&#x8BBE;&#x7F6E;</strong>&#x4E2D;&#x6DFB;&#x52A0;<code>ssh-key</code>&#x3002;</p>
 <p>&#x5BF9;&#x4E8E;&#x6CA1;&#x6709;GUI&#x754C;&#x9762;&#x7684;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x6DFB;&#x52A0;ssh&#x79D8;&#x94A5;&#x65F6;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x6307;&#x4EE4;:</p>
 <pre><code class="lang-bash">ssh-copy-id -i ~/.ssh/id_rsa.pub &lt;username&gt;@&lt;servername&gt;
 </code></pre>
+<p>&#x6DFB;&#x52A0;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x4E3A;&#x68C0;&#x9A8C;&#x4E0E;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x7684;&#x8FDE;&#x63A5;&#x60C5;&#x51B5;&#xFF0C;&#x53EF;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x6307;&#x4EE4;&#xFF1A;</p>
+<pre><code class="lang-bash">$ ssh -T git@github.com
+Hi Litreily! You<span class="hljs-string">&apos;ve successfully authenticated, but GitHub does not provide shell access.
+</span></code></pre>
+<p>&#x4EE5;<code>github</code>&#x4E3A;&#x4F8B;&#xFF0C;&#x4EE5;&#x4E0A;&#x663E;&#x793A;&#x7ED3;&#x679C;&#x8868;&#x660E;&#x4E0E;<code>github</code>&#x80FD;&#x591F;&#x6B63;&#x5E38;&#x8FDE;&#x63A5;&#x3002;</p>
 <h2 id="&#x8FDC;&#x7A0B;&#x64CD;&#x4F5C;">&#x8FDC;&#x7A0B;&#x64CD;&#x4F5C;</h2>
 <h3 id="git-remote">git remote</h3>
 <pre><code class="lang-bash">git remote add &lt;remote-name&gt; &lt;remote-address&gt;  <span class="hljs-comment"># &#x6DFB;&#x52A0;&#x8FDC;&#x7A0B;&#x8DEF;&#x5F84;&#xFF08;ssh,http,...&#xFF09;</span>
@@ -474,7 +498,7 @@ git format-patch HEAD^^^  <span class="hljs-comment"># &#x8865;&#x4E01;&#x4E2A;&
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.4.2","depth":2,"next":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"previous":{"title":"Atom","level":"1.4.1","depth":2,"path":"software/atom.md","ref":"software/atom.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"software/git.md","mtime":"2017-07-25T03:21:38.838Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T02:30:54.742Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.4.2","depth":2,"next":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"previous":{"title":"Atom","level":"1.4.1","depth":2,"path":"software/atom.md","ref":"software/atom.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toggle-chapters":{},"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"software/git.md","mtime":"2017-07-30T03:07:16.485Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T03:54:19.315Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -482,6 +506,10 @@ git format-patch HEAD^^^  <span class="hljs-comment"># &#x8865;&#x4E01;&#x4E2A;&
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
     
         
         <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
