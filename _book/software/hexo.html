@@ -369,8 +369,8 @@
                                 <h3 id="&#x5B89;&#x88C5;-hexo">&#x5B89;&#x88C5; Hexo</h3>
 <p>&#x4F7F;&#x7528; <code>node.js</code> &#x4E2D;&#x7684;&#x5305;&#x7BA1;&#x7406;&#x5DE5;&#x5177; <code>npm</code> &#x5B89;&#x88C5; <code>hexo</code></p>
 <pre><code class="lang-bash">npm install hexo-cli -g
-hexo init {blog-floder-name}  <span class="hljs-comment"># e.g. Blog</span>
-<span class="hljs-built_in">cd</span> {blog-floder-name}
+hexo init &lt;blog-floder-name&gt;  <span class="hljs-comment"># e.g. Blog</span>
+<span class="hljs-built_in">cd</span> &lt;blog-floder-name&gt;
 npm install
 </code></pre>
 <h3 id="&#x5E38;&#x7528;&#x63D2;&#x4EF6;">&#x5E38;&#x7528;&#x63D2;&#x4EF6;</h3>
@@ -392,6 +392,20 @@ npm install hexo-renderer-sass --save
 npm install hexo-renderer-stylus --save
 npm insatll hexo-renderer-marked --save
 </code></pre>
+<h3 id="&#x5206;&#x9875;&#x529F;&#x80FD;">&#x5206;&#x9875;&#x529F;&#x80FD;</h3>
+<p>&#x5728;&#x4FDD;&#x8BC1;<code>hexo-generator-index</code>,<code>hexo-generator-tag</code>,<code>hexo-generator-archive</code>&#x5DF2;&#x5B89;&#x88C5;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x7684;<code>_config.yml</code>&#x6587;&#x4EF6;&#x4EE4;&#x4E3B;&#x9875;&#x3001;&#x5F52;&#x6863;&#x9875;&#x4E0E;&#x6807;&#x7B7E;&#x9875;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;<code>per_page</code>&#xFF0C;&#x4FDD;&#x8BC1;&#x4E0D;&#x540C;&#x9875;&#x9762;&#x7684;&#x6BCF;&#x9875;&#x5185;&#x5BB9;&#x5217;&#x8868;&#x6570;&#x4E0D;&#x76F8;&#x540C;&#x3002;</p>
+<pre><code class="lang-yml"><span class="hljs-attr">index_generator:</span>
+<span class="hljs-attr">  per_page:</span> <span class="hljs-number">8</span>
+
+<span class="hljs-attr">archive_generator:</span>
+<span class="hljs-attr">  per_page:</span> <span class="hljs-number">0</span>
+<span class="hljs-attr">  yearly:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">  monthly:</span> <span class="hljs-literal">false</span>
+
+<span class="hljs-attr">tag_generator:</span>
+<span class="hljs-attr">  per_page:</span> <span class="hljs-number">0</span>
+</code></pre>
+<p>&#x5F53;<code>per_page</code>&#x4E3A;0&#x65F6;&#xFF0C;&#x4EE3;&#x8868;&#x4E0D;&#x5206;&#x9875;&#x3002;</p>
 
                                 
                                 </section>
@@ -435,7 +449,7 @@ npm insatll hexo-renderer-marked --save
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Hexo","level":"1.4.4","depth":2,"next":{"title":"Nodejs","level":"1.4.5","depth":2,"path":"software/nodejs.md","ref":"software/nodejs.md","articles":[]},"previous":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"software/hexo.md","mtime":"2017-06-12T02:11:33.842Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-28T00:57:47.933Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Hexo","level":"1.4.4","depth":2,"next":{"title":"Nodejs","level":"1.4.5","depth":2,"path":"software/nodejs.md","ref":"software/nodejs.md","articles":[]},"previous":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"software/hexo.md","mtime":"2017-07-30T02:26:25.996Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T02:30:54.742Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

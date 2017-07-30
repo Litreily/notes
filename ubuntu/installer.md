@@ -10,13 +10,13 @@ sudo apt-get update
 
 ### apt-get
 ``` bash
-sudo apt-get install {app-name}  # install
-sudo apt-get remove {app-name}  # remove
+sudo apt-get install <app-name>  # install
+sudo apt-get remove <app-name>  # remove
 ```
 
 ### 安装 .Deb 文件
 ``` bash
-dpkg -i {package-name}.deb
+dpkg -i <package-name>.deb
 ```
 
 或者先安装 GDebi Package Installer
@@ -27,9 +27,9 @@ sudo apt-get install gdebi
 
 ### 安装 .tar.gz/.tar.xz 文件
 ``` bash
-tar -xvzf {package-name}.tar.gz  # 解压.tar.gz文件
-tar -xvJf {package-name}.tar.xz  # 解压.tar.xz文件
-cd {package-path}  # 可参考包内的安装说明
+tar -xvzf <package-name>.tar.gz  # 解压.tar.gz文件
+tar -xvJf <package-name>.tar.xz  # 解压.tar.xz文件
+cd <package-path>  # 可参考包内的安装说明
 ./configure  # 部分压缩包已经编译过，可略过这一步
 make
 make install
@@ -38,7 +38,7 @@ make install
 ### 安装.run文件
 
 * 首先添加文件的执行权限
-* 然后直接以`./{package-name}`方式安装
+* 然后直接以`./<package-name>`方式安装
 
 ``` bash
 chmod +x qt-opensource-linux-x64-5.8.0.run 
@@ -51,17 +51,17 @@ chmod +x qt-opensource-linux-x64-5.8.0.run
 
 ``` bash
 cd /usr/share/applications/
-sudo vim {app-name}.desktop  # e.g. eclipse.desktop
+sudo vim <app-name>.desktop  # e.g. eclipse.desktop
 ```
 
 输入内容
 ``` json
 [Desktop Entry]
 Encoding=UTF-8
-Name={app-name}  /* e.g. eclipse */
-Comment={comment-message} /* e.g. Eclipse IDE */
-Exec={app-path}  /* e.g. /opt/eclipse/eclipse */
-Icon={app-icon}  /* e.g. /opt/eclipse/icon.xpm */
+Name=<app-name>  /* e.g. eclipse */
+Comment=<comment-message> /* e.g. Eclipse IDE */
+Exec=<app-path>  /* e.g. /opt/eclipse/eclipse */
+Icon=<app-icon>  /* e.g. /opt/eclipse/icon.xpm */
 Terminal=false  
 StartupNotify=true  
 Type=Application  

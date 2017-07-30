@@ -3,7 +3,7 @@
 ## sudo
 ``` bash
 sudo su  # 进入root模式
-sudo {cmd} # 以管理员身份执行指令
+sudo <cmd> # 以管理员身份执行指令
 ```
 
 ## cd
@@ -11,7 +11,7 @@ sudo {cmd} # 以管理员身份执行指令
 cd  # 回到默认目录 ~ ,即/home/user-name
 cd ..  # 回退到前级目录
 cd -  # 回退到前一次目录
-cd {folder-path}  # 到达指定目录
+cd <folder-path>  # 到达指定目录
 ```
 
 
@@ -31,13 +31,13 @@ pwd  # 显示当前路径
 
 ## mkdir
 ``` bash
-mkdir {folder-name}  # 新建文件夹
+mkdir <folder-name>  # 新建文件夹
 ```
 
 ## rm
 ``` bash
-rm {file-name}  # 删除文件
-rm -rf {folder-name}  # 删除文件夹
+rm <file-name>  # 删除文件
+rm -rf <folder-name>  # 删除文件夹
 ```
 
 # 配置

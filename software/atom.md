@@ -7,8 +7,8 @@ cd ~/.atom/packages/
 
 ### 安装方法
 ``` bash
-git clone https://github.com/{user-name}/{package-name}.git
-npm install {package-name}
+git clone https://github.com/<user-name>/<package-name>.git
+npm install <package-name>
 ```
 
 ### 启用方法

@@ -373,19 +373,19 @@
 sudo apt-get update
 </code></pre>
 <h3 id="apt-get">apt-get</h3>
-<pre><code class="lang-bash">sudo apt-get install {app-name}  <span class="hljs-comment"># install</span>
-sudo apt-get remove {app-name}  <span class="hljs-comment"># remove</span>
+<pre><code class="lang-bash">sudo apt-get install &lt;app-name&gt;  <span class="hljs-comment"># install</span>
+sudo apt-get remove &lt;app-name&gt;  <span class="hljs-comment"># remove</span>
 </code></pre>
 <h3 id="&#x5B89;&#x88C5;-deb-&#x6587;&#x4EF6;">&#x5B89;&#x88C5; .Deb &#x6587;&#x4EF6;</h3>
-<pre><code class="lang-bash">dpkg -i {package-name}.deb
+<pre><code class="lang-bash">dpkg -i &lt;package-name&gt;.deb
 </code></pre>
 <p>&#x6216;&#x8005;&#x5148;&#x5B89;&#x88C5; GDebi Package Installer</p>
 <pre><code>sudo apt-get install gdebi
 </code></pre><p>&#x7136;&#x540E;&#x7528;&#x8BE5;&#x5B89;&#x88C5;&#x5DE5;&#x5177;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</p>
 <h3 id="&#x5B89;&#x88C5;-targztarxz-&#x6587;&#x4EF6;">&#x5B89;&#x88C5; .tar.gz/.tar.xz &#x6587;&#x4EF6;</h3>
-<pre><code class="lang-bash">tar -xvzf {package-name}.tar.gz  <span class="hljs-comment"># &#x89E3;&#x538B;.tar.gz&#x6587;&#x4EF6;</span>
-tar -xvJf {package-name}.tar.xz  <span class="hljs-comment"># &#x89E3;&#x538B;.tar.xz&#x6587;&#x4EF6;</span>
-<span class="hljs-built_in">cd</span> {package-path}  <span class="hljs-comment"># &#x53EF;&#x53C2;&#x8003;&#x5305;&#x5185;&#x7684;&#x5B89;&#x88C5;&#x8BF4;&#x660E;</span>
+<pre><code class="lang-bash">tar -xvzf &lt;package-name&gt;.tar.gz  <span class="hljs-comment"># &#x89E3;&#x538B;.tar.gz&#x6587;&#x4EF6;</span>
+tar -xvJf &lt;package-name&gt;.tar.xz  <span class="hljs-comment"># &#x89E3;&#x538B;.tar.xz&#x6587;&#x4EF6;</span>
+<span class="hljs-built_in">cd</span> &lt;package-path&gt;  <span class="hljs-comment"># &#x53EF;&#x53C2;&#x8003;&#x5305;&#x5185;&#x7684;&#x5B89;&#x88C5;&#x8BF4;&#x660E;</span>
 ./configure  <span class="hljs-comment"># &#x90E8;&#x5206;&#x538B;&#x7F29;&#x5305;&#x5DF2;&#x7ECF;&#x7F16;&#x8BD1;&#x8FC7;&#xFF0C;&#x53EF;&#x7565;&#x8FC7;&#x8FD9;&#x4E00;&#x6B65;</span>
 make
 make install
@@ -393,7 +393,7 @@ make install
 <h3 id="&#x5B89;&#x88C5;run&#x6587;&#x4EF6;">&#x5B89;&#x88C5;.run&#x6587;&#x4EF6;</h3>
 <ul>
 <li>&#x9996;&#x5148;&#x6DFB;&#x52A0;&#x6587;&#x4EF6;&#x7684;&#x6267;&#x884C;&#x6743;&#x9650;</li>
-<li>&#x7136;&#x540E;&#x76F4;&#x63A5;&#x4EE5;<code>./{package-name}</code>&#x65B9;&#x5F0F;&#x5B89;&#x88C5;</li>
+<li>&#x7136;&#x540E;&#x76F4;&#x63A5;&#x4EE5;<code>./&lt;package-name&gt;</code>&#x65B9;&#x5F0F;&#x5B89;&#x88C5;</li>
 </ul>
 <pre><code class="lang-bash">chmod +x qt-opensource-linux-x64-5.8.0.run 
 ./qt-opensource-linux-x64-5.8.0.run
@@ -401,17 +401,17 @@ make install
 <h2 id="&#x6DFB;&#x52A0;&#x5FEB;&#x6377;&#x65B9;&#x5F0F;">&#x6DFB;&#x52A0;&#x5FEB;&#x6377;&#x65B9;&#x5F0F;</h2>
 <p>&#x4E3A;&#x624B;&#x52A8;&#x5B89;&#x88C5;&#x7684;&#x8F6F;&#x4EF6;&#x6DFB;&#x52A0;&#x5FEB;&#x6377;&#x65B9;&#x5F0F;</p>
 <pre><code class="lang-bash"><span class="hljs-built_in">cd</span> /usr/share/applications/
-sudo vim {app-name}.desktop  <span class="hljs-comment"># e.g. eclipse.desktop</span>
+sudo vim &lt;app-name&gt;.desktop  <span class="hljs-comment"># e.g. eclipse.desktop</span>
 </code></pre>
 <p>&#x8F93;&#x5165;&#x5185;&#x5BB9;</p>
 <pre><code class="lang-json">[Desktop Entry]
 Encoding=UTF<span class="hljs-number">-8</span>
-Name={app-name}  <span class="hljs-comment">/* e.g. eclipse */</span>
-Comment={comment-message} <span class="hljs-comment">/* e.g. Eclipse IDE */</span>
-Exec={app-path}  <span class="hljs-comment">/* e.g. /opt/eclipse/eclipse */</span>
-Icon={app-icon}  <span class="hljs-comment">/* e.g. /opt/eclipse/icon.xpm */</span>
-Terminal=<span class="hljs-literal">false</span>  
-StartupNotify=<span class="hljs-literal">true</span>  
+Name=&lt;app-name&gt;  /* e.g. eclipse */
+Comment=&lt;comment-message&gt; /* e.g. Eclipse IDE */
+Exec=&lt;app-path&gt;  /* e.g. /opt/eclipse/eclipse */
+Icon=&lt;app-icon&gt;  /* e.g. /opt/eclipse/icon.xpm */
+Terminal=false  
+StartupNotify=true  
 Type=Application  
 Categories=Application;Developmen;IDE;
 </code></pre>
@@ -496,7 +496,7 @@ Categories=Application;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Installer","level":"1.3.1","depth":2,"next":{"title":"Shell","level":"1.3.2","depth":2,"path":"ubuntu/shell.md","ref":"ubuntu/shell.md","articles":[]},"previous":{"title":"Ubuntu","level":"1.3","depth":1,"path":"ubuntu/README.md","ref":"ubuntu/README.md","articles":[{"title":"Installer","level":"1.3.1","depth":2,"path":"ubuntu/installer.md","ref":"ubuntu/installer.md","articles":[]},{"title":"Shell","level":"1.3.2","depth":2,"path":"ubuntu/shell.md","ref":"ubuntu/shell.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ubuntu/installer.md","mtime":"2017-07-22T00:46:48.782Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-28T00:57:47.933Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Installer","level":"1.3.1","depth":2,"next":{"title":"Shell","level":"1.3.2","depth":2,"path":"ubuntu/shell.md","ref":"ubuntu/shell.md","articles":[]},"previous":{"title":"Ubuntu","level":"1.3","depth":1,"path":"ubuntu/README.md","ref":"ubuntu/README.md","articles":[{"title":"Installer","level":"1.3.1","depth":2,"path":"ubuntu/installer.md","ref":"ubuntu/installer.md","articles":[]},{"title":"Shell","level":"1.3.2","depth":2,"path":"ubuntu/shell.md","ref":"ubuntu/shell.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ubuntu/installer.md","mtime":"2017-07-30T02:30:18.443Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T02:30:54.742Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
