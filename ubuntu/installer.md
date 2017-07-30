@@ -1,5 +1,7 @@
 ## Ubuntu下的软件安装
 
+<!-- toc -->
+
 ### 添加PPA源
 PPA 软件源的一般形式：`ppa:user/ppa-name`，添加方式如下
 

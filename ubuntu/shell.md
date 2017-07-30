@@ -1,12 +1,16 @@
-# 指令
+# Shell
 
-## sudo
+<!-- toc -->
+
+## 指令
+
+### sudo
 ``` bash
 sudo su  # 进入root模式
 sudo <cmd> # 以管理员身份执行指令
 ```
 
-## cd
+### cd
 ``` bash
 cd  # 回到默认目录 ~ ,即/home/user-name
 cd ..  # 回退到前级目录
@@ -15,7 +19,7 @@ cd <folder-path>  # 到达指定目录
 ```
 
 
-## ls
+### ls
 ``` bash
 ls  # 显示当前路径下的文件及文件夹
 ls -a  # 显示所有文件（包含隐藏文件及文件夹）
@@ -24,25 +28,25 @@ ls -l  # 以长列表形式显示文件的详细信息
 ls -R  # 递归显示文件和文件夹，以及子目录的文件及文件夹
 ```
 
-## pwd
+### pwd
 ``` bash
 pwd  # 显示当前路径
 ```
 
-## mkdir
+### mkdir
 ``` bash
 mkdir <folder-name>  # 新建文件夹
 ```
 
-## rm
+### rm
 ``` bash
 rm <file-name>  # 删除文件
 rm -rf <folder-name>  # 删除文件夹
 ```
 
-# 配置
+## 配置
 
-## 配置 bash
+### 配置 bash
 ``` bash
 vim ~/.bashrc
 source .bashrc  # 记得使用source指令，否则更新内容无法生效
