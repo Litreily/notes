@@ -1,3 +1,7 @@
+# Hexo
+
+<!-- toc -->
+
 ## 安装 Hexo
 使用 `node.js` 中的包管理工具 `npm` 安装 `hexo`
 
@@ -50,7 +54,7 @@ tag_generator:
 
 ## 常见问题解决方法
 
-### 1. 执行 `hexo d` 失败
+### 执行 `hexo d` 失败
 
 **问题描述**
 

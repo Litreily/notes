@@ -21,6 +21,10 @@
                 
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-etoc/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -384,7 +388,38 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="&#x5168;&#x5C40;&#x914D;&#x7F6E;">&#x5168;&#x5C40;&#x914D;&#x7F6E;</h2>
+                                <h1 id="git">Git</h1>
+<!-- toc --><div id="toc" class="toc">
+
+<ul>
+<li><a href="#&#x5168;&#x5C40;&#x914D;&#x7F6E;">&#x5168;&#x5C40;&#x914D;&#x7F6E;</a></li>
+<li><a href="#&#x751F;&#x6210;&#x79D8;&#x94A5;">&#x751F;&#x6210;&#x79D8;&#x94A5;</a></li>
+<li><a href="#&#x8FDC;&#x7A0B;&#x64CD;&#x4F5C;">&#x8FDC;&#x7A0B;&#x64CD;&#x4F5C;</a><ul>
+<li><a href="#git-remote">git remote</a></li>
+<li><a href="#git-clone">git clone</a></li>
+</ul>
+</li>
+<li><a href="#&#x5E38;&#x7528;&#x6307;&#x4EE4;">&#x5E38;&#x7528;&#x6307;&#x4EE4;</a><ul>
+<li><a href="#git-add">git add</a></li>
+<li><a href="#git-commit">git commit</a></li>
+<li><a href="#git-pushpullfetch">git push/pull/fetch</a></li>
+<li><a href="#git-log">git log</a></li>
+<li><a href="#git-status">git status</a></li>
+<li><a href="#git-tag">git tag</a></li>
+</ul>
+</li>
+<li><a href="#&#x6253;&#x8865;&#x4E01;&#x5E76;&#x53D1;&#x9001;&#x90AE;&#x4EF6;">&#x6253;&#x8865;&#x4E01;&#x5E76;&#x53D1;&#x9001;&#x90AE;&#x4EF6;</a><ul>
+<li><a href="#git-format-patchsend-email">git format-patch/send-email</a></li>
+</ul>
+</li>
+<li><a href="#&#x5176;&#x5B83;&#x6307;&#x4EE4;">&#x5176;&#x5B83;&#x6307;&#x4EE4;</a><ul>
+<li><a href="#gitk">gitk</a></li>
+</ul>
+</li>
+</ul>
+
+</div><!-- tocstop -->
+<h2 id="&#x5168;&#x5C40;&#x914D;&#x7F6E;">&#x5168;&#x5C40;&#x914D;&#x7F6E;</h2>
 <p>&#x914D;&#x7F6E;&#x5168;&#x5C40;&#x53C2;&#x6570;&#x7684;&#x6307;&#x4EE4;&#x5982;&#x4E0B;&#xFF1A;</p>
 <pre><code class="lang-bash">git config --global &lt;global-name&gt; &lt;global-value&gt;
 git config <span class="hljs-_">-l</span>  <span class="hljs-comment"># &#x67E5;&#x770B;git&#x7684;&#x5168;&#x5C40;&#x914D;&#x7F6E;&#x4FE1;&#x606F;</span>
@@ -498,7 +533,7 @@ git format-patch HEAD^^^  <span class="hljs-comment"># &#x8865;&#x4E01;&#x4E2A;&
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.4.2","depth":2,"next":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"previous":{"title":"Atom","level":"1.4.1","depth":2,"path":"software/atom.md","ref":"software/atom.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","simple-page-toc","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"software/git.md","mtime":"2017-07-30T03:07:16.485Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T08:53:49.017Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.4.2","depth":2,"next":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"software/gitbook.md","ref":"software/gitbook.md","articles":[]},"previous":{"title":"Atom","level":"1.4.1","depth":2,"path":"software/atom.md","ref":"software/atom.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","etoc","github","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":3,"notoc":false},"github":{"url":"https://github.com/Litreily/Notes"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"software/git.md","mtime":"2017-07-30T09:50:11.566Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-30T10:07:11.211Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -509,6 +544,14 @@ git format-patch HEAD^^^  <span class="hljs-comment"># &#x8865;&#x4E01;&#x4E2A;&
     
         
         <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-etoc/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
         
     
         

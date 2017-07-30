@@ -11,12 +11,18 @@
 
     "plugins": [
         "toggle-chapters",
-        "simple-page-toc"
+        "etoc",
+        "github"
     ],
     "pluginsConfig": {
-        "simple-page-toc": {
-            "maxDepth": 3,
-            "skipFirstH1": true
-           }
+        "etoc": {
+            "h2lb": 3,
+            "mindepth": 3,
+            "maxdepth": 4,
+            "notoc": false
+        },
+        "github": {
+            "url": "https://github.com/Litreily/Notes"
+        }
     }
 }
