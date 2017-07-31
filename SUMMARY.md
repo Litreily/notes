@@ -26,6 +26,7 @@
   * [FAQ](ubuntu/faq.md)
   * [Installer](ubuntu/installer.md)
   * [Shell](ubuntu/shell.md)
+  * [Shell scripts](ubuntu/shell scripts.md)
 
 * [Windows](windows/README.md)
   * [FAQ](windows/faq.md)

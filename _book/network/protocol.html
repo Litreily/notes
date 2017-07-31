@@ -421,6 +421,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.4.4" data-path="../ubuntu/shell scripts.html">
+            
+                <a href="../ubuntu/shell scripts.html">
+            
+                    
+                    Shell scripts
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -527,42 +540,104 @@
 </div><!-- tocstop -->
 <h2 id="&#x94FE;&#x8DEF;&#x5C42;">&#x94FE;&#x8DEF;&#x5C42;</h2>
 <h3 id="&#x4EE5;&#x592A;&#x7F51;">&#x4EE5;&#x592A;&#x7F51;</h3>
+<table widtd="100%" style="text-align:center">
+    <tr>
+        <td>&#x76EE;&#x7684;&#x5730;&#x5740;<br>6</td>
+        <td>&#x6E90;&#x5730;&#x5740;<br>6</td>
+        <td>&#x7C7B;&#x578B;<br>2</td>
+        <td colspan="4">&#x6570;&#x636E;<br>46~1500</td>
+        <td>CRC<br>4</td></tr>
+    <tr>
+        <td colspan="2"></td>
+        <td>0x0800<br>2</td>
+        <td colspan="4">IP&#x6570;&#x636E;&#x62A5;<br>46~1500</td>
+        <td></td></tr>
+    <tr>
+        <td colspan="2"></td>
+        <td>0x0806<br>2</td>
+        <td colspan="3">ARP&#x8BF7;&#x6C42;/&#x5E94;&#x7B54;<br>28</td>
+        <td colspan="1">PAD<br>18</td>
+        <td></td></tr>
+    <tr>
+        <td colspan="2"></td>
+        <td>0x0835<br>2</td>
+        <td colspan="3">RARP&#x8BF7;&#x6C42;/&#x5E94;&#x7B54;<br>28</td>
+        <td colspan="1">PAD<br>18</td>
+        <td></td></tr>
+</table>
+
 <h3 id="ieee-8023">IEEE 802.3</h3>
+<table widtd="100%" style="text-align:center">
+    <tr>
+        <th colspan="3">802.3 MAC</th>
+        <th colspan="3">802.2 LLC</th>
+        <th colspan="2">802.2 SNAP</th>
+        <th colspan="4"></th></tr>
+    <tr>
+        <td>&#x76EE;&#x7684;&#x5730;&#x5740;<br>6</td>
+        <td>&#x6E90;&#x5730;&#x5740;<br>6</td>
+        <td>&#x957F;&#x5EA6;<br>1</td>
+        <td>DASP<br>1</td>
+        <td>SSAP<br>1</td>
+        <td>cntl<br>1</td>
+        <td>org code<br>3</td>
+        <td>&#x7C7B;&#x578B;<br>2</td>
+        <td colspan="3">&#x6570;&#x636E;<br>38~1492</td>
+        <td>CRC<br>4</td></tr>
+    <tr>
+        <td colspan="7"></td>
+        <td>0x0800<br>2</td>
+        <td colspan="3">IP&#x6570;&#x636E;&#x62A5;<br>38~1492</td>
+        <td></td></tr>
+    <tr>
+        <td colspan="7"></td>
+        <td>0x0806<br>2</td>
+        <td colspan="2">ARP&#x8BF7;&#x6C42;/&#x5E94;&#x7B54;<br>28</td>
+        <td>PAD<br>10</td>
+        <td></td></tr>
+    <tr>
+        <td colspan="7"></td>
+        <td>0x0835<br>2</td>
+        <td colspan="2">RARP&#x8BF7;&#x6C42;/&#x5E94;&#x7B54;<br>28</td>
+        <td>PAD<br>10</td>
+        <td></td></tr>
+</table>
+
 <h2 id="&#x7F51;&#x7EDC;&#x5C42;">&#x7F51;&#x7EDC;&#x5C42;</h2>
 <h3 id="ip">IP</h3>
-<table width="100%" style="text-align:center">
+<table widtd="100%" style="text-align:center">
     <tr>
-        <th colspan="4" width="50%">0~15</th>
-        <th colspan="4" width="50%">16~31</th></tr>
+        <td colspan="4" widtd="50%">0~15</td>
+        <td colspan="4" widtd="50%">16~31</td></tr>
     <tr>
-        <td colspan="1" width="12.5%">4&#x4F4D;&#x7248;&#x672C;</td>
-        <td colspan="1" width="12.5%">4&#x4F4D;&#x9996;&#x90E8;&#x957F;&#x5EA6;</td>
-        <td colspan="2" width="25%">8&#x4F4D;&#x670D;&#x52A1;&#x7C7B;&#x578B;</td>
-        <td colspan="4" width="50%">16&#x4F4D;&#x603B;&#x957F;&#x5EA6;&#xFF08;&#x5B57;&#x8282;&#xFF09;</td></tr>
+        <td colspan="1" widtd="12.5%">4&#x4F4D;&#x7248;&#x672C;</td>
+        <td colspan="1" widtd="12.5%">4&#x4F4D;&#x9996;&#x90E8;&#x957F;&#x5EA6;</td>
+        <td colspan="2" widtd="25%">8&#x4F4D;&#x670D;&#x52A1;&#x7C7B;&#x578B;</td>
+        <td colspan="4" widtd="50%">16&#x4F4D;&#x603B;&#x957F;&#x5EA6;&#xFF08;&#x5B57;&#x8282;&#xFF09;</td></tr>
     <tr>
-        <td colspan="4" width="50%">16&#x4F4D;&#x6807;&#x8BC6;</td>
-        <td colspan="1" width="15%">3&#x4F4D;&#x6807;&#x5FD7;</td>
-        <td colspan="3" width="35%">13&#x4F4D;&#x7247;&#x504F;&#x79FB;</td></tr>
+        <td colspan="4" widtd="50%">16&#x4F4D;&#x6807;&#x8BC6;</td>
+        <td colspan="1" widtd="15%">3&#x4F4D;&#x6807;&#x5FD7;</td>
+        <td colspan="3" widtd="35%">13&#x4F4D;&#x7247;&#x504F;&#x79FB;</td></tr>
     <tr>
-        <td colspan="2" width="25%">8&#x4F4D;&#x751F;&#x6210;&#x65F6;&#x95F4;&#xFF08;TTL&#xFF09;</td>
-        <td colspan="2" width="25%">8&#x4F4D;&#x534F;&#x8BAE;</td>
-        <td colspan="4" width="50%">16&#x4F4D;&#x9996;&#x90E8;&#x6821;&#x9A8C;&#x548C;</td></tr>
+        <td colspan="2" widtd="25%">8&#x4F4D;&#x751F;&#x6210;&#x65F6;&#x95F4;&#xFF08;TTL&#xFF09;</td>
+        <td colspan="2" widtd="25%">8&#x4F4D;&#x534F;&#x8BAE;</td>
+        <td colspan="4" widtd="50%">16&#x4F4D;&#x9996;&#x90E8;&#x6821;&#x9A8C;&#x548C;</td></tr>
     <tr>
-        <td colspan="8" width="100%">32&#x4F4D;&#x6E90;IP&#x5730;&#x5740;</td></tr>
+        <td colspan="8" widtd="100%">32&#x4F4D;&#x6E90;IP&#x5730;&#x5740;</td></tr>
     <tr>
-        <td colspan="8" width="100%">32&#x4F4D;&#x76EE;&#x7684;IP&#x5730;&#x5740;</td></tr>
+        <td colspan="8" widtd="100%">32&#x4F4D;&#x76EE;&#x7684;IP&#x5730;&#x5740;</td></tr>
     <tr>
-        <td colspan="8" width="100%">32&#x4F4D;&#x9009;&#x9879;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
+        <td colspan="8" widtd="100%">32&#x4F4D;&#x9009;&#x9879;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
     <tr>
-        <td colspan="8" width="100%">&#x6570;&#x636E;</td></tr>
+        <td colspan="8" widtd="100%">&#x6570;&#x636E;</td></tr>
 </table>
 
 <h2 id="&#x4F20;&#x8F93;&#x5C42;">&#x4F20;&#x8F93;&#x5C42;</h2>
 <h3 id="udp">UDP</h3>
-<table width="100%" style="text-align:center">
+<table widtd="100%" style="text-align:center">
     <tr>
-        <th>0~15</th>
-        <th>16~31</th></tr>
+        <td>0~15</td>
+        <td>16~31</td></tr>
     <tr>
         <td>16&#x4F4D;&#x6E90;&#x7AEF;&#x53E3;&#x53F7;</td>
         <td>16&#x4F4D;&#x76EE;&#x7684;&#x7AEF;&#x53E3;&#x53F7;</td></tr>
@@ -570,39 +645,39 @@
         <td>16&#x4F4D;UDP&#x957F;&#x5EA6;</td>
         <td>16&#x4F4D;UDP&#x6821;&#x9A8C;&#x548C;</td></tr>
     <tr>
-        <td colspan="2" width="100%">&#x6570;&#x636E;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
+        <td colspan="2" widtd="100%">&#x6570;&#x636E;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
 </table>
 
 
 <h3 id="tcp">TCP</h3>
-<table width="100%" style="text-align:center">
+<table widtd="100%" style="text-align:center">
     <tr>
-        <th colspan="16" width="50%">0~15</th>
-        <th colspan="16" width="50%">16~31</th></tr>
+        <td colspan="16" widtd="50%">0~15</td>
+        <td colspan="16" widtd="50%">16~31</td></tr>
     <tr>
-        <td colspan="16" width="50%">16&#x4F4D;&#x6E90;&#x7AEF;&#x53E3;&#x53F7;</td>
-        <td colspan="16" width="50%">16&#x4F4D;&#x76EE;&#x7684;&#x7AEF;&#x53E3;&#x53F7;</td></tr>
+        <td colspan="16" widtd="50%">16&#x4F4D;&#x6E90;&#x7AEF;&#x53E3;&#x53F7;</td>
+        <td colspan="16" widtd="50%">16&#x4F4D;&#x76EE;&#x7684;&#x7AEF;&#x53E3;&#x53F7;</td></tr>
     <tr>
-        <td colspan="32" width="100%">32&#x4F4D;&#x5E8F;&#x5217;&#x53F7;</td></tr>
+        <td colspan="32" widtd="100%">32&#x4F4D;&#x5E8F;&#x5217;&#x53F7;</td></tr>
     <tr>
-        <td colspan="32" width="100%">32&#x4F4D;&#x786E;&#x8BA4;&#x53F7;</td></tr>
+        <td colspan="32" widtd="100%">32&#x4F4D;&#x786E;&#x8BA4;&#x53F7;</td></tr>
     <tr>
-        <td colspan="4" width="16%">4&#x4F4D;&#x9996;&#x90E8;&#x957F;&#x5EA6;</td>
-        <td colspan="6" width="24%">6&#x4F4D;&#x4FDD;&#x7559;</td>
+        <td colspan="4" widtd="16%">4&#x4F4D;&#x9996;&#x90E8;&#x957F;&#x5EA6;</td>
+        <td colspan="6" widtd="24%">6&#x4F4D;&#x4FDD;&#x7559;</td>
         <td>URG</td>
         <td>ACK</td>
         <td>PSH</td>
         <td>PST</td>
         <td>SYN</td>
         <td>FIN</td>
-        <td colspan="16" width="40%">16&#x4F4D;&#x7A97;&#x53E3;&#x5927;&#x5C0F;</td></tr>
+        <td colspan="16" widtd="40%">16&#x4F4D;&#x7A97;&#x53E3;&#x5927;&#x5C0F;</td></tr>
     <tr>
-        <td colspan="16" width="50%">16&#x4F4D;TCP&#x6821;&#x9A8C;&#x548C;</td>
-        <td colspan="16" width="50%">16&#x4F4D;&#x7D27;&#x6025;&#x6307;&#x9488;</td></tr>
+        <td colspan="16" widtd="50%">16&#x4F4D;TCP&#x6821;&#x9A8C;&#x548C;</td>
+        <td colspan="16" widtd="50%">16&#x4F4D;&#x7D27;&#x6025;&#x6307;&#x9488;</td></tr>
     <tr>
-        <td colspan="32" width="100%">&#x9009;&#x9879;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
+        <td colspan="32" widtd="100%">&#x9009;&#x9879;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
     <tr>
-        <td colspan="32" width="100%">&#x6570;&#x636E;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
+        <td colspan="32" widtd="100%">&#x6570;&#x636E;&#xFF08;&#x82E5;&#x6709;&#xFF09;</td></tr>
 </table>
 
 <h2 id="&#x5E94;&#x7528;&#x5C42;">&#x5E94;&#x7528;&#x5C42;</h2>
@@ -649,7 +724,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Protocol","level":"1.2.1","depth":2,"next":{"title":"TCP/IP","level":"1.2.2","depth":2,"path":"network/tcp_ip.md","ref":"network/tcp_ip.md","articles":[{"title":"Link layer","level":"1.2.2.1","depth":3,"path":"network/linkLayer.md","ref":"network/linkLayer.md","articles":[]},{"title":"IP","level":"1.2.2.2","depth":3,"path":"network/ip.md","ref":"network/ip.md","articles":[]},{"title":"ARP","level":"1.2.2.3","depth":3,"path":"network/arp.md","ref":"network/arp.md","articles":[]},{"title":"RARP","level":"1.2.2.4","depth":3,"path":"network/rarp.md","ref":"network/rarp.md","articles":[]},{"title":"Ping","level":"1.2.2.5","depth":3,"path":"network/ping.md","ref":"network/ping.md","articles":[]},{"title":"Traceroute","level":"1.2.2.6","depth":3,"path":"network/traceroute.md","ref":"network/traceroute.md","articles":[]}]},"previous":{"title":"Network","level":"1.2","depth":1,"path":"network/README.md","ref":"network/README.md","articles":[{"title":"Protocol","level":"1.2.1","depth":2,"path":"network/protocol.md","ref":"network/protocol.md","articles":[]},{"title":"TCP/IP","level":"1.2.2","depth":2,"path":"network/tcp_ip.md","ref":"network/tcp_ip.md","articles":[{"title":"Link layer","level":"1.2.2.1","depth":3,"path":"network/linkLayer.md","ref":"network/linkLayer.md","articles":[]},{"title":"IP","level":"1.2.2.2","depth":3,"path":"network/ip.md","ref":"network/ip.md","articles":[]},{"title":"ARP","level":"1.2.2.3","depth":3,"path":"network/arp.md","ref":"network/arp.md","articles":[]},{"title":"RARP","level":"1.2.2.4","depth":3,"path":"network/rarp.md","ref":"network/rarp.md","articles":[]},{"title":"Ping","level":"1.2.2.5","depth":3,"path":"network/ping.md","ref":"network/ping.md","articles":[]},{"title":"Traceroute","level":"1.2.2.6","depth":3,"path":"network/traceroute.md","ref":"network/traceroute.md","articles":[]}]},{"title":"IEEE802.11","level":"1.2.3","depth":2,"path":"network/IEEE802.11.md","ref":"network/IEEE802.11.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","etoc","github","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":2,"notoc":false},"github":{"url":"https://github.com/Litreily/Notes"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"network/protocol.md","mtime":"2017-07-31T02:06:49.361Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-31T02:07:23.087Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Protocol","level":"1.2.1","depth":2,"next":{"title":"TCP/IP","level":"1.2.2","depth":2,"path":"network/tcp_ip.md","ref":"network/tcp_ip.md","articles":[{"title":"Link layer","level":"1.2.2.1","depth":3,"path":"network/linkLayer.md","ref":"network/linkLayer.md","articles":[]},{"title":"IP","level":"1.2.2.2","depth":3,"path":"network/ip.md","ref":"network/ip.md","articles":[]},{"title":"ARP","level":"1.2.2.3","depth":3,"path":"network/arp.md","ref":"network/arp.md","articles":[]},{"title":"RARP","level":"1.2.2.4","depth":3,"path":"network/rarp.md","ref":"network/rarp.md","articles":[]},{"title":"Ping","level":"1.2.2.5","depth":3,"path":"network/ping.md","ref":"network/ping.md","articles":[]},{"title":"Traceroute","level":"1.2.2.6","depth":3,"path":"network/traceroute.md","ref":"network/traceroute.md","articles":[]}]},"previous":{"title":"Network","level":"1.2","depth":1,"path":"network/README.md","ref":"network/README.md","articles":[{"title":"Protocol","level":"1.2.1","depth":2,"path":"network/protocol.md","ref":"network/protocol.md","articles":[]},{"title":"TCP/IP","level":"1.2.2","depth":2,"path":"network/tcp_ip.md","ref":"network/tcp_ip.md","articles":[{"title":"Link layer","level":"1.2.2.1","depth":3,"path":"network/linkLayer.md","ref":"network/linkLayer.md","articles":[]},{"title":"IP","level":"1.2.2.2","depth":3,"path":"network/ip.md","ref":"network/ip.md","articles":[]},{"title":"ARP","level":"1.2.2.3","depth":3,"path":"network/arp.md","ref":"network/arp.md","articles":[]},{"title":"RARP","level":"1.2.2.4","depth":3,"path":"network/rarp.md","ref":"network/rarp.md","articles":[]},{"title":"Ping","level":"1.2.2.5","depth":3,"path":"network/ping.md","ref":"network/ping.md","articles":[]},{"title":"Traceroute","level":"1.2.2.6","depth":3,"path":"network/traceroute.md","ref":"network/traceroute.md","articles":[]}]},{"title":"IEEE802.11","level":"1.2.3","depth":2,"path":"network/IEEE802.11.md","ref":"network/IEEE802.11.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","etoc","github","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":2,"notoc":false},"github":{"url":"https://github.com/Litreily/Notes"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"network/protocol.md","mtime":"2017-07-31T10:32:18.352Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-31T10:49:21.338Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
