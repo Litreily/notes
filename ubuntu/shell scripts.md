@@ -32,7 +32,6 @@ git commit -m "update blog files"
 git push
 
 # generate website files and deploy it to www.litreily.top
-
 hexo clean
 hexo g -d
 ```
