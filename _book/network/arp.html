@@ -516,7 +516,35 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h1 id="arp">ARP</h1>
+<!-- toc --><div id="toc" class="toc">
+
+<ul>
+<li><a href="#&#x529F;&#x80FD;">&#x529F;&#x80FD;</a></li>
+<li><a href="#&#x7279;&#x6027;">&#x7279;&#x6027;</a></li>
+<li><a href="#&#x5E38;&#x7528;&#x6307;&#x4EE4;">&#x5E38;&#x7528;&#x6307;&#x4EE4;</a></li>
+</ul>
+
+</div><!-- tocstop -->
+<h2 id="&#x529F;&#x80FD;">&#x529F;&#x80FD;</h2>
+<p><code>ARP</code>(Address Resolution Protocol)&#x5DE5;&#x4F5C;&#x4E8E;<strong>&#x6570;&#x636E;&#x94FE;&#x8DEF;&#x5C42;</strong>&#xFF0C;&#x4E3A;<code>IP</code>&#x5730;&#x5740;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x786C;&#x4EF6;<code>MAC</code>&#x5730;&#x5740;&#x4E4B;&#x95F4;&#x63D0;&#x4F9B;&#x52A8;&#x6001;&#x6620;&#x5C04;&#x3002;</p>
+<pre><code>32&#x4F4D;Internet&#x5730;&#x5740;    
+    |    ^
+ARP |    | RARP
+    v    |
+48&#x4F4D;&#x4EE5;&#x592A;&#x7F51;MAC&#x5730;&#x5740;
+</code></pre><h2 id="&#x7279;&#x6027;">&#x7279;&#x6027;</h2>
+<ul>
+<li>&#x6BCF;&#x4E2A;&#x4E3B;&#x673A;&#x4E0A;&#x90FD;&#x6709;&#x4E00;&#x4E2A;<code>ARP</code>&#x9AD8;&#x901F;&#x7F13;&#x5B58;&#xFF0C;&#x5B58;&#x653E;&#x4E86;&#x6700;&#x8FD1;Internet&#x5730;&#x5740;&#x5230;&#x786C;&#x4EF6;&#x5730;&#x5740;&#x4E4B;&#x95F4;&#x7684;&#x6620;&#x5C04;&#x8BB0;&#x5F55;&#xFF1B;</li>
+<li>&#x6BCF;&#x4E00;&#x9879;&#x7F13;&#x5B58;&#x7684;&#x751F;&#x5B58;&#x65F6;&#x95F4;&#x4E00;&#x822C;&#x4E3A;20&#x5206;&#x949F;;</li>
+<li>&#x5206;&#x7EC4;&#x683C;&#x5F0F;&#x89C1;<a href="protocol.html#arp">protocol</a></li>
+</ul>
+<h2 id="&#x5E38;&#x7528;&#x6307;&#x4EE4;">&#x5E38;&#x7528;&#x6307;&#x4EE4;</h2>
+<pre><code class="lang-bash">arp <span class="hljs-_">-a</span>  <span class="hljs-comment"># &#x663E;&#x793A;ARP&#x9AD8;&#x901F;&#x7F13;&#x5B58;</span>
+arp <span class="hljs-_">-d</span> &lt;IP-address&gt;  <span class="hljs-comment"># &#x5220;&#x9664;&#x67D0;&#x9879;&#x9AD8;&#x901F;&#x7F13;&#x5B58;</span>
+arp <span class="hljs-_">-s</span> &lt;IP-address&gt; &lt;MAC-address&gt; [temp]  <span class="hljs-comment">#&#x6DFB;&#x52A0;&#x4E00;&#x9879;&#x9AD8;&#x901F;&#x7F13;&#x5B58;</span>
+</code></pre>
+
                                 
                                 </section>
                             
@@ -559,7 +587,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"ARP","level":"1.2.2.3","depth":3,"next":{"title":"RARP","level":"1.2.2.4","depth":3,"path":"network/rarp.md","ref":"network/rarp.md","articles":[]},"previous":{"title":"IP","level":"1.2.2.2","depth":3,"path":"network/ip.md","ref":"network/ip.md","articles":[]},"dir":"neutral"},"config":{"plugins":["toggle-chapters","etoc","github","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":2,"notoc":false},"github":{"url":"https://github.com/Litreily/Notes"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"network/arp.md","mtime":"2017-07-31T00:58:46.894Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-31T10:49:21.338Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"ARP","level":"1.2.2.3","depth":3,"next":{"title":"RARP","level":"1.2.2.4","depth":3,"path":"network/rarp.md","ref":"network/rarp.md","articles":[]},"previous":{"title":"IP","level":"1.2.2.2","depth":3,"path":"network/ip.md","ref":"network/ip.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","etoc","github","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":2,"notoc":false},"github":{"url":"https://github.com/Litreily/Notes"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"network/arp.md","mtime":"2017-08-01T08:54:37.255Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-01T08:53:23.486Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

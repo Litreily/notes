@@ -70,6 +70,16 @@
         <td></td></tr>
 </table>
 
+### ARP
+
+| HW type | Protocol type | HW size | Protocol size | Opcode | Sender MAC | Sender IP | Target MAC | Target IP |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|2|2|1|1|2|6|4|6|4|
+
+**说明：**
+* `HW`代表硬件（Hardware）
+* `Opcode`: 1 → `ARP`请求，2 → `ARP`应答，3 → `RARP`请求，4 → `RARP`应答
+
 ## 网络层
 
 ### IP
@@ -100,6 +110,10 @@
     <tr>
         <td colspan=8 widtd="100%">数据</td></tr>
 </table>
+
+**说明：**
+* 8位协议: 1 → `ICMP` ，2 → `IGMP` ，6 → `TCP` ，17 → `UDP`
+* 首部校验和：先将校验和置零，然后以`16bit`为一个单元，对首部所有单元进行反码求和，结果存入校验和；接收端进行校验时同样对首部进行反码求和，求和结果应当为全1。
 
 ## 传输层
 
