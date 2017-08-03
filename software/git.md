@@ -70,6 +70,15 @@ git add .  # 添加所有修改后的文件和新创建的文件至暂存区（s
 git add <file-name1> <file-name2> ...  # 添加指定文件至暂存区（staging area）
 ```
 
+### git rm
+
+``` bash
+git rm <file-name1> <file-name2> ...  # 从暂存区或本地仓库中删除文件，工作区也将其删除
+git rm -r --cached <dir-name>/<file-name>  # 将文件或文件夹从暂存区或本地仓库中删除
+```
+
+**说明:**如果先通过`add`或`commit`对某些文件或文件夹进行了追踪，当我们在`.gitignore`文件中添加这些文件或文件夹时将不生效，因为忽略文件仅对未跟踪的文件或文件夹生效，为解决这个问题，可以先用`git rm -r --cached`指令移除这些文件或文件夹，以解开对它们的追踪，然后再修改`.gitignore`.
+
 ### git commit
 
 ``` bash
