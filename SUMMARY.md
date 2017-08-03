@@ -8,7 +8,7 @@
     * [Link layer](network/linkLayer.md)
     * [IP](network/ip.md)
     * [ARP](network/arp.md)
-    * [RARP](network/rarp.md)
+    * [ICMP](network/icmp.md)
     * [Ping](network/ping.md)
     * [Traceroute](network/traceroute.md)
   * [IEEE802.11](network/IEEE802.11.md)
@@ -30,3 +30,5 @@
 
 * [Windows](windows/README.md)
   * [FAQ](windows/faq.md)
+
+* [Book List](books.md)

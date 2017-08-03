@@ -28,3 +28,39 @@ vim book.json
 
 然后执行`gitbook install`指令安装插件。
 
+## book.json
+
+``` json
+{
+    "title" : "Notes",
+    "author": "litreily",
+    "description": "Log importants things of my work and my life",
+    "links" : {
+        "sidebar" : {
+            "Home"  : "http://www.litreily.top",
+            "smslit's notes": "https://www.smslit.top/notebook/"
+        }
+    },
+
+    "styles": {
+        "website": "styles/website.css"
+    },
+
+    "plugins": [
+        "toggle-chapters",
+        "etoc",
+        "github"
+    ],
+    "pluginsConfig": {
+        "etoc": {
+            "h2lb": 3,
+            "mindepth": 2,
+            "maxdepth": 4,
+            "notoc": false
+        },
+        "github": {
+            "url": "https://github.com/Litreily/Notes"
+        }
+    }
+}
+```

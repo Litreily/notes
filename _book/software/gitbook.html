@@ -196,12 +196,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2.4" data-path="../network/rarp.html">
+        <li class="chapter " data-level="1.2.2.4" data-path="../network/icmp.html">
             
-                <a href="../network/rarp.html">
+                <a href="../network/icmp.html">
             
                     
-                    RARP
+                    ICMP
             
                 </a>
             
@@ -471,6 +471,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.6" data-path="../books.html">
+            
+                <a href="../books.html">
+            
+                    
+                    Book List
+            
+                </a>
+            
+
+            
+        </li>
+    
 
     
 
@@ -523,6 +536,7 @@
 <li><a href="#&#x5B89;&#x88C5;gitbook">&#x5B89;&#x88C5;Gitbook</a></li>
 <li><a href="#&#x6DFB;&#x52A0;&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x6DFB;&#x52A0;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</a></li>
 <li><a href="#&#x5B89;&#x88C5;&#x63D2;&#x4EF6;">&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</a></li>
+<li><a href="#bookjson">book.json</a></li>
 </ul>
 
 </div><!-- tocstop -->
@@ -541,6 +555,40 @@ gitbook -V
 }
 </code></pre>
 <p>&#x7136;&#x540E;&#x6267;&#x884C;<code>gitbook install</code>&#x6307;&#x4EE4;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;&#x3002;</p>
+<h2 id="bookjson">book.json</h2>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;title&quot;</span> : <span class="hljs-string">&quot;Notes&quot;</span>,
+    <span class="hljs-string">&quot;author&quot;</span>: <span class="hljs-string">&quot;litreily&quot;</span>,
+    <span class="hljs-string">&quot;description&quot;</span>: <span class="hljs-string">&quot;Log importants things of my work and my life&quot;</span>,
+    <span class="hljs-string">&quot;links&quot;</span> : {
+        <span class="hljs-string">&quot;sidebar&quot;</span> : {
+            <span class="hljs-string">&quot;Home&quot;</span>  : <span class="hljs-string">&quot;http://www.litreily.top&quot;</span>,
+            <span class="hljs-string">&quot;smslit&apos;s notes&quot;</span>: <span class="hljs-string">&quot;https://www.smslit.top/notebook/&quot;</span>
+        }
+    },
+
+    <span class="hljs-string">&quot;styles&quot;</span>: {
+        <span class="hljs-string">&quot;website&quot;</span>: <span class="hljs-string">&quot;styles/website.css&quot;</span>
+    },
+
+    <span class="hljs-string">&quot;plugins&quot;</span>: [
+        <span class="hljs-string">&quot;toggle-chapters&quot;</span>,
+        <span class="hljs-string">&quot;etoc&quot;</span>,
+        <span class="hljs-string">&quot;github&quot;</span>
+    ],
+    <span class="hljs-string">&quot;pluginsConfig&quot;</span>: {
+        <span class="hljs-string">&quot;etoc&quot;</span>: {
+            <span class="hljs-string">&quot;h2lb&quot;</span>: <span class="hljs-number">3</span>,
+            <span class="hljs-string">&quot;mindepth&quot;</span>: <span class="hljs-number">2</span>,
+            <span class="hljs-string">&quot;maxdepth&quot;</span>: <span class="hljs-number">4</span>,
+            <span class="hljs-string">&quot;notoc&quot;</span>: <span class="hljs-literal">false</span>
+        },
+        <span class="hljs-string">&quot;github&quot;</span>: {
+            <span class="hljs-string">&quot;url&quot;</span>: <span class="hljs-string">&quot;https://github.com/Litreily/Notes&quot;</span>
+        }
+    }
+}
+</code></pre>
 
                                 
                                 </section>
@@ -584,7 +632,7 @@ gitbook -V
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Gitbook","level":"1.3.3","depth":2,"next":{"title":"Hexo","level":"1.3.4","depth":2,"path":"software/hexo.md","ref":"software/hexo.md","articles":[]},"previous":{"title":"Git","level":"1.3.2","depth":2,"path":"software/git.md","ref":"software/git.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","etoc","github","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":2,"notoc":false},"github":{"url":"https://github.com/Litreily/Notes"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"software/gitbook.md","mtime":"2017-07-30T09:52:15.217Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-01T08:53:23.486Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Gitbook","level":"1.3.3","depth":2,"next":{"title":"Hexo","level":"1.3.4","depth":2,"path":"software/hexo.md","ref":"software/hexo.md","articles":[]},"previous":{"title":"Git","level":"1.3.2","depth":2,"path":"software/git.md","ref":"software/git.md","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","etoc","github","livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"etoc":{"h2lb":3,"header":1,"maxdepth":4,"mindepth":2,"notoc":false},"github":{"url":"https://github.com/Litreily/Notes"},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"litreily","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Notes","links":{"sidebar":{"Home":"http://www.litreily.top","smslit's notes":"https://www.smslit.top/notebook/"}},"gitbook":"*","description":"Log importants things of my work and my life"},"file":{"path":"software/gitbook.md","mtime":"2017-08-02T01:29:11.796Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-02T03:12:02.846Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
