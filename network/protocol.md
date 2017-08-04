@@ -2,6 +2,15 @@
 
 <!-- toc -->
 
+## 分层协议
+
+| 网络模型分层 | 常用协议 |
+|:---:|:---|
+| 应用层 | `DHCP`，`DNS`，`FTP`，`HTTP`，`SMTP`，`SNMP`，`Telnet` |
+| 传输层 | `TCP`，`UDP` |
+| 网络层 | `IPv4`，`IPv6`，`ICMP`，`IGMP` |
+| 链路层 | 以太网，`IEEE 802`，`ARP`，`RARP`，`PPP`，`SLIP` |
+
 ## 链路层
 
 ### 以太网
@@ -82,7 +91,7 @@
 
 ## 网络层
 
-### IP
+### IPv4
 
 <table widtd="100%" style="text-align:center">
     <tr>
