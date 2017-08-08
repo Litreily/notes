@@ -53,3 +53,18 @@ cd node-v6.11.0-linux-x64
 ln -s /home/litreily/Programs/node-v6.11.0-linux-x64/bin/node /usr/local/bin/node
 ln -s /home/litreily/Programs/node-v6.11.0-linux-x64/bin/npm /usr/local/bin/npm
 ```
+
+## npm换源
+
+**临时使用**
+
+``` bash
+npm --registry https://registry.npm.taobao.org install express
+```
+
+**永久使用**
+
+``` bash
+npm config set registry https://registry.npm.taobao.org
+npm config get registry  # 验证源
+```
