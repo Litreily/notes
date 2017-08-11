@@ -29,6 +29,7 @@
   * [Shell scripts](ubuntu/shell scripts.md)
 
 * [Windows](windows/README.md)
+  * [PowerShell](windows/powershell.md)
   * [FAQ](windows/faq.md)
 
 * [Book List](books.md)
