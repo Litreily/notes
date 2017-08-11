@@ -1,6 +1,6 @@
-# powershell
+# PowerShell
 
-## 添加配置文件`PROFILE`
+## 添加配置文件 PROFILE
 
 打开`Powershell`，输入指令：
 
@@ -9,9 +9,9 @@ mkdir C:\<username>\Documents\WindowPowerShell\Microsoft.PowerShell_profile.ps1
 $PROFILE="C:\<username>\Documents\WindowPowerShell\Microsoft.PowerShell_profile.ps1"
 ```
 
-`PowerShell`每次启动都会读取配置文件`$PROFILE`中的内容，类似于`Linux`中的`.profile`和`.bashrc`.
+`PowerShell`每次启动都会读取配置文件`$PROFILE`中的内容，类似于`Linux`中的 `.profile` 和 `.bashrc`.
 
-## 添加`alias`
+## 添加 alias
 
 和`bash`一样，`PowerShell`同样可以配置别名
 
