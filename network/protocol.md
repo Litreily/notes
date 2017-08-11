@@ -177,3 +177,18 @@
 </table>
 
 ## 应用层
+
+### 端口号
+
+| Process | PORT |
+|:---:|:---:|
+| FTP Server | 21 |
+| SSH, SCP | 22 |
+| Telnet | 23 |
+| SMTP Server | 25 |
+| DNS Server | 53 |
+| DHCP Server | 67, 68 |
+| TFTP | 69 |
+| HTTP Server | 80 |
+| POP3 (Email) | 110 |
+| HTPPS Server | 443 |
