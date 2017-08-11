@@ -5,8 +5,8 @@
 打开`Powershell`，输入指令：
 
 ``` bash
-mkdir C:\<username>\Documents\WindowPowerShell\Microsoft.PowerShell_profile.ps1
-$PROFILE="C:\<username>\Documents\WindowPowerShell\Microsoft.PowerShell_profile.ps1"
+mkdir C:\Users\<username>\Documents\WindowPowerShell\Microsoft.PowerShell_profile.ps1
+$PROFILE="C:\Users\<username>\Documents\WindowPowerShell\Microsoft.PowerShell_profile.ps1"
 ```
 
 `PowerShell`每次启动都会读取配置文件`$PROFILE`中的内容，类似于`Linux`中的 `.profile` 和 `.bashrc`.
