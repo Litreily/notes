@@ -44,6 +44,27 @@ rm <file-name>  # 删除文件
 rm -rf <folder-name>  # 删除文件夹
 ```
 
+### df
+``` bash
+df -h  # 查看磁盘存储信息
+```
+
+### du
+``` bash
+du -sh  # 查看当前目录占用空间
+du -h  # 查看当前目录及子目录下所有文件大小
+```
+
+### lsb_release
+``` bash
+$ lsb_release -a  # 查看当前系统版本信息
+NO LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 16.04.3 LTS
+Release:        16.04
+Codename:       xenial
+```
+
 ## 配置
 
 ### 配置 bash

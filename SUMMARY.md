@@ -9,8 +9,7 @@
     * [IP](network/ip.md)
     * [ARP](network/arp.md)
     * [ICMP](network/icmp.md)
-    * [Ping](network/ping.md)
-    * [Traceroute](network/traceroute.md)
+    * [Iperf](network/iperf.md)
   * [IEEE802.11](network/IEEE802.11.md)
   
 * [Software](software/README.md)
