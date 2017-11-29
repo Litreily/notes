@@ -129,3 +129,17 @@ StartupNotify=true
 Type=Application
 Categories=Application;
 ```
+
+### powerline-fonts
+
+``` bash
+git clone git@github.com:powerline/fonts.git fonts
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+fc-cache -fv
+
+# select powerline-font(Ubuntu Mono derivative Powerline Regular) 
+# in terminal/preferences
+```
