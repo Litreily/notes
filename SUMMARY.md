@@ -17,7 +17,9 @@
   * [Git](software/git.md)
   * [Gitbook](software/gitbook.md)
   * [Hexo](software/hexo.md)
+  * [LNMP](software/LNMP.md)
   * [Nodejs](software/nodejs.md)
+  * [Python](software/python.md)
   * [VIM](software/vim.md)
   * [VSC](software/vsc.md)
 
@@ -26,6 +28,8 @@
   * [Installer](ubuntu/installer.md)
   * [Shell](ubuntu/shell.md)
   * [Shell scripts](ubuntu/shell scripts.md)
+  * [Add user](ubuntu/userAdd.md)
+  * [VPS](ubuntu/vps.md)
 
 * [Windows](windows/README.md)
   * [PowerShell](windows/powershell.md)
