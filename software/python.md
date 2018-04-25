@@ -35,3 +35,17 @@ sudo pip3 install requests
 # how to use
 >>> import requests
 ```
+
+## install phantomjs
+
+- installl nodejs first
+
+``` js
+npm -g install phantomjs-prebuilt
+```
+
+## install xpath
+
+``` bash
+sudo pip3 install lxml
+```
