@@ -113,6 +113,12 @@ git log --pretty=oneline  # 每行显示完整commit ID
 git status  # 查看当前本地工作区、暂存区文件的状态
 ```
 
+### git blame
+
+```
+git blame <path/of/file>  # 查看某个文件每行的最新提交记录
+```
+
 ### git tag
 
 ``` bash
