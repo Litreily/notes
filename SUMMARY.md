@@ -33,6 +33,7 @@
 
 * [Windows](windows/README.md)
   * [PowerShell](windows/powershell.md)
+  * [CMD](windows/cmd.md)
   * [FAQ](windows/faq.md)
 
 * [Book List](books.md)
