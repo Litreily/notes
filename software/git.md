@@ -85,6 +85,8 @@ git rm -r --cached <dir-name>/<file-name>  # 将文件或文件夹从暂存区�
 git commit -m <message>  # 提交暂存区的文件至本地仓库
 git commit -a  # 添加修改后文件及新创建的文件，并将这些文件提交至本地仓库
 git commit -e  # 提交前编辑提交信息，第一行作为提交主题，空一行后的信息将显示在补丁邮件中
+git commit -s  # 提交时使用提交者的签名(Signed-of-by)
+git commit --amend  # 修改最新一次提交信息，并重新提交
 ```
 
 ### git push/pull/fetch
@@ -93,6 +95,8 @@ git commit -e  # 提交前编辑提交信息，第一行作为提交主题，空
 git push <remote-name> <branch-name>  # 将本地当前分支提交到远程仓库指定分支
 git pull <remote-name> <branch-name>  # 从远程仓库指定分支拉取文件至本地，更新本地，可能引起冲突
 git fetch <remote-name> <branch-name>  # 从远程仓库指定分支拉取文件至本地缓存文件中
+
+git push -f  # 当某次错误提交至远程仓库时，先在本地撤销(git reset)，之后用改指令强制修改回退远程提交
 ```
 
 ### git log
@@ -109,22 +113,74 @@ git log --pretty=oneline  # 每行显示完整commit ID
 git status  # 查看当前本地工作区、暂存区文件的状态
 ```
 
+### git blame
+
+```
+git blame <path/of/file>  # 查看某个文件每行的最新提交记录
+```
+
 ### git tag
 
 ``` bash
 git tag <tag-name> <commit-id>  # 为某次提交添加标签
 ```
 
-## 打补丁并发送邮件
+## 撤销操作
 
-### git format-patch/send-email
+### git reset
+
+``` bash
+git reset <commit-id> # 撤销最新提交至commit-id间所有内容
+git reset HEAD~n  # 撤销前n次提交
+
+# 撤销方式
+git reset --soft  # 仅删除本地仓库修改，保留修改值暂存区
+git reset --mixed # 默认方式，删除暂存区及本地仓库修改，将撤销包含的修改移至工作区
+git reset --hard  # 删除工作区，暂存区及本地仓库所有修改
+
+# before reset：
+# ----0----1----2----3----4(HEAD)
+# git reset commit 2
+# after reset：
+# ----0----1----2(HEAD)
+```
+
+### git revert
+
+``` bash
+git revert <commit-id>  # 撤销指定的某次提交，被撤销的提交记录保留在历史记录中，同时生成一个新的提交记录
+
+# before revert：
+# ----0----1----2----3----4(HEAD)
+# git revert commit 2
+# after revert：
+# ----0----1----2----3----4---<revert-commit-of-2>(HEAD)
+```
+
+## 补丁操作
+
+### git format-patch
 
 将修改的代码写入补丁文件中
 
 ``` bash
-git format-patch -n <numer>  # 将前n次提交的commit内容写入补丁
+git format-patch -n <commit-id>  # 将前n次提交的commit内容写入补丁
 git format-patch HEAD^^^  # 补丁个数与'^'个数相同，从最近一次往前计数
+git format-patch HEAD~n  # 补丁个数等于n，从最近一次往前计数
 ```
+
+### git am
+
+将补丁文件应用到某仓库中
+
+``` bash
+git am -s <patches-name>  # 打单个或多个补丁到某个仓库，-s用于签名
+git am -i <patches-name>  # 交互式应用patch，可以手动修改patch的提交信息
+git am -s --reject <patches-name>  # 打补丁时显示冲突，方面定位到有冲突的地方
+git am --abort  # 终止当前am操作，通常在打补丁失败时执行
+```
+
+### git send-email
 
 将补丁以邮件形式发送出去
 
@@ -138,6 +194,21 @@ git send-email --to <username@email> --smtp-server <server-address> <patchs-name
 
 打开git的图形化界面
 
+### tig
 
+Linux服务器端的利器，`git`的文本模式接口
 
+``` bash
+tig
+tig show  # 查看最新一次的提交
+tig status  # 与git status类似
 
+tig </path/of/file/or/dir>  # 查看某文件或目录的提交记录
+tig blame </path/of/file>  # 查看某文件最新一次修改记录
+
+tig <commit-id>  # 指定某次commit-id
+tig <branch-name>  # 指定某个分支
+tig <tag-name>  # 指定某个标签
+
+# 说明：可以在指定分支时同时指定文件或目录
+```
