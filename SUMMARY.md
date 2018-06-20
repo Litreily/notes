@@ -11,7 +11,7 @@
     * [ICMP](network/icmp.md)
     * [Iperf](network/iperf.md)
   * [IEEE802.11](network/IEEE802.11.md)
-  
+
 * [Software](software/README.md)
   * [Atom](software/atom.md)
   * [Git](software/git.md)
@@ -28,6 +28,7 @@
   * [Installer](ubuntu/installer.md)
   * [Shell](ubuntu/shell.md)
   * [Shell scripts](ubuntu/shell scripts.md)
+  * [Themes](ubuntu/themes.md)
   * [Add user](ubuntu/userAdd.md)
   * [VPS](ubuntu/vps.md)
 
