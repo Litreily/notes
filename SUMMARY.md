@@ -20,6 +20,7 @@
   * [LNMP](software/LNMP.md)
   * [Nodejs](software/nodejs.md)
   * [Python](software/python.md)
+  * [ShadowSocks](software/shadowsocks.md)
   * [VIM](software/vim.md)
   * [VSC](software/vsc.md)
 
@@ -27,7 +28,7 @@
   * [FAQ](ubuntu/faq.md)
   * [Installer](ubuntu/installer.md)
   * [Shell](ubuntu/shell.md)
-  * [Shell scripts](ubuntu/shell scripts.md)
+  * [Shell scripts](ubuntu/shellScripts.md)
   * [Themes](ubuntu/themes.md)
   * [Add user](ubuntu/userAdd.md)
   * [VPS](ubuntu/vps.md)
