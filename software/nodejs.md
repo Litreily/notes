@@ -23,7 +23,7 @@ sudo chmod -R 755 node
 ``` bash
 cd node
 sudo ./configure
-sudo make	# 耗时较长
+sudo make   # 耗时较长
 sudo make install
 ```
 
@@ -47,6 +47,7 @@ sudo n stable   # 获取最新稳定版的nodejs
 cd node-v6.11.0-linux-x64
 ./node -v
 ```
+
 * 接下来配置环境变量，使其变为全局可用
 
 ``` bash
@@ -56,13 +57,13 @@ ln -s /home/litreily/Programs/node-v6.11.0-linux-x64/bin/npm /usr/local/bin/npm
 
 ## npm换源
 
-**临时使用**
+### 临时使用
 
 ``` bash
 npm --registry https://registry.npm.taobao.org install express
 ```
 
-**永久使用**
+### 永久使用
 
 ``` bash
 npm config set registry https://registry.npm.taobao.org

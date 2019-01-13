@@ -1,3 +1,5 @@
+# LNMP
+
 ## change root dir of nginx on centos-6.9
 
 ``` bash
@@ -53,4 +55,3 @@ $ sudo service nginx restart
 ```
 
 ref: https://serverfault.com/questions/517190/nginx-1-fastcgi-sent-in-stderr-primary-script-unknown?newreg=be2687ea0ed343f6a32439c7b749a0f4
-

@@ -3,6 +3,7 @@
 <!-- toc -->
 
 ## 安装 Hexo
+
 使用 `node.js` 中的包管理工具 `npm` 安装 `hexo`
 
 ``` bash
@@ -13,6 +14,7 @@ npm install
 ```
 
 ## 常用插件
+
 ``` bash
 npm install hexo-server --save
 npm install hexo-deployer-git --save
@@ -56,7 +58,7 @@ tag_generator:
 
 ### 执行 `hexo d` 失败
 
-**问题描述**
+#### 问题描述
 
 ``` bash
 $ hexo d
@@ -67,11 +69,11 @@ Error: EACCES: permission denied, unlink '/home/litreily/Workspace/Blog/.deploy_
     at Error (native)
 ```
 
-**问题分析**
+#### 问题分析
 
 从错误消息可以看错，`hexo`的网站部署指令无法链接到指定文件，有可能是修改博客后部分链接失效导致的，此时可以删除`.deploy_git`文件夹，然后重新执行`hexo d`。
 
-**解决方法**
+#### 解决方法
 
 ``` bash
 sudo rm -rf .deploy_git
