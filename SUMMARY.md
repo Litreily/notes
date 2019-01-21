@@ -18,6 +18,7 @@
   * [Gitbook](software/gitbook.md)
   * [Hexo](software/hexo.md)
   * [LNMP](software/LNMP.md)
+  * [MongoDB](software/mongodb.md)
   * [Nodejs](software/nodejs.md)
   * [Python](software/python.md)
   * [ShadowSocks](software/shadowsocks.md)
