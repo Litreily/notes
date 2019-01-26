@@ -125,6 +125,36 @@ git blame <path/of/file>  # 查看某个文件每行的最新提交记录
 git tag <tag-name> <commit-id>  # 为某次提交添加标签
 ```
 
+## 添加子模块
+
+### git submodule add
+
+``` sh
+git submodule add <repo.git>
+```
+
+``` sh
+➜  Python-demos git:(master) ✗ git submodule add git@github.com:Litreily/Gitbook2HexoDoc.git
+Cloning into '/home/litreily/workspace/Python-demos/Gitbook2HexoDoc'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (15/15), 5.87 KiB | 5.87 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+➜  Python-demos git:(master) ✗ gst
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+          new file:   .gitmodules
+          new file:   Gitbook2HexoDoc
+```
+
+首次添加子项目会多出一个`.gitmodules`文件,用于存储子项目的基本信息. 默认情况下新添加的子项目及`.gitmodules`都会存入暂存区, 此时通常需要`commit`一次.
+
 ## 撤销操作
 
 ### git reset
