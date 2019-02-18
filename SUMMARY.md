@@ -26,12 +26,13 @@
   * [VSC](software/vsc.md)
 
 * [Ubuntu](ubuntu/README.md)
+  * [Add user](ubuntu/userAdd.md)
   * [FAQ](ubuntu/faq.md)
   * [Installer](ubuntu/installer.md)
+  * [Proxychains4](ubuntu/proxychains4.md)
   * [Shell](ubuntu/shell.md)
   * [Shell scripts](ubuntu/shellScripts.md)
   * [Themes](ubuntu/themes.md)
-  * [Add user](ubuntu/userAdd.md)
   * [VPS](ubuntu/vps.md)
 
 * [Windows](windows/README.md)
