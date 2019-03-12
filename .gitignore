@@ -1,3 +1,5 @@
 .vs/*
 _book/
 node_modules/
+.gitignore
+package.json

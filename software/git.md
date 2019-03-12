@@ -125,6 +125,23 @@ git blame <path/of/file>  # 查看某个文件每行的最新提交记录
 git tag <tag-name> <commit-id>  # 为某次提交添加标签
 ```
 
+## 暂存
+
+### git stash
+
+``` sh
+➜  Notes git:(master) git stash
+apply         -- apply the changes recorded in the stash
+branch        -- branch off at the commit at which the stash was originally created
+clear         -- remove all the stashed states
+create        -- create a stash without storing it in the ref namespace
+drop          -- remove a single stashed state from the stash list
+list          -- list the stashes that you currently have
+pop           -- remove and apply a single stashed state from the stash list
+save    push  -- save your local modifications to a new stash
+show          -- show the changes recorded in the stash as a diff
+```
+
 ## 添加子模块
 
 ### git submodule add
