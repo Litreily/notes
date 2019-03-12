@@ -10,7 +10,6 @@
     * [ARP](network/arp.md)
     * [ICMP](network/icmp.md)
     * [Iperf](network/iperf.md)
-  * [IEEE802.11](network/IEEE802.11.md)
 
 * [Software](software/README.md)
   * [Atom](software/atom.md)
