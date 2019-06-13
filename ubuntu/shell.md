@@ -86,6 +86,15 @@ sudo mkfontdir
 sudo fc-cache -fv
 ```
 
+### mount
+
+挂载Samba共享服务
+
+``` bash
+sudo mkdir -p /mnt/smb
+sudo mount -t cifs -o username=dnishare,password=sharedni -l //172.17.144.2/public /mnt/smb
+```
+
 ## 配置
 
 ### 配置 bash
