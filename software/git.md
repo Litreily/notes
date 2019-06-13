@@ -17,6 +17,8 @@ git config -l  # 查看git的全局配置信息
 git config --global user.name litreily
 git config --global user.email litreily@outlook.com
 git config --global core.editor vim
+git config --global http.proxy http://127.0.0.1:3128
+git config --global https.proxy http://127.0.0.1:3128
 ```
 
 ## 生成秘钥
