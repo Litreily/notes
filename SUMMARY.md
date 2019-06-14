@@ -26,8 +26,10 @@
 
 * [Ubuntu](ubuntu/README.md)
   * [Add user](ubuntu/userAdd.md)
+  * [Cntlm](ubuntu/cntlm.md)
   * [FAQ](ubuntu/faq.md)
   * [Installer](ubuntu/installer.md)
+  * [Proxy](ubuntu/proxy.md)
   * [Proxychains4](ubuntu/proxychains4.md)
   * [Shell](ubuntu/shell.md)
   * [Shell scripts](ubuntu/shellScripts.md)
