@@ -49,3 +49,19 @@ npm -g install phantomjs-prebuilt
 ``` bash
 sudo pip3 install lxml
 ```
+
+## install pymouse & pykeyboard
+
+``` bash
+sudo apt-get install python-xlib
+# pip3 install pymouse
+sudo pip3 install PyUserInput
+
+# how to use
+>>> from pymouse import PyMouse
+>>> from pykeyboard import PyKeyboard
+>>> 
+>>> m = PyMouse()
+>>> k = PyKeyboard()
+```
+
