@@ -103,3 +103,19 @@ sudo mount -t cifs -o username=dnishare,password=sharedni -l //172.17.144.2/publ
 vim ~/.bashrc
 source .bashrc  # 记得使用source指令，否则更新内容无法生效
 ```
+
+### tc
+
+设置网络默认回包的延迟时间
+
+``` bash
+tc qdisc add dev eth0 root netem delay 6000ms
+```
+
+### ip
+
+添加默认网关
+
+``` bash
+ip route add default via Gateway.addr
+```
