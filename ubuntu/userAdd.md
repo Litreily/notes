@@ -41,6 +41,7 @@ $ sudo chgrp USERNAME DIRECTORY_OR_FILENAME
 ```
 
 ## userdel
+
 ``` bash
 # with user in root
 $ userdel USERNAME

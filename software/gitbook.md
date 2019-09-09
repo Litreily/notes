@@ -14,7 +14,7 @@ gitbook -V
 ## 常用指令
 
 ``` bash
-gitbook init  # 初始化文件目录	
+gitbook init  # 初始化文件目录
 gitbook serve  # 生成静态网页，并打开本地服务器localhost:4000
 gitbook build  # 生成静态网页，并存入_book文件夹
 gitbook --help  # 显示与gitbook相关的指令

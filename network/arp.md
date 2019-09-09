@@ -6,9 +6,8 @@
 
 `ARP`(Address Resolution Protocol)工作于**数据链路层**，为`IP`地址到对应的硬件`MAC`地址之间提供动态映射。
 
-
-```
-32位Internet地址    
+``` txt
+32位Internet地址
     |    ^
 ARP |    | RARP
     v    |

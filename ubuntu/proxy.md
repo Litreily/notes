@@ -55,12 +55,12 @@ $ sudo apt update
 
 ### https
 
-```
+``` bash
 # for http and https
 git config --global http.proxy 'http://127.0.0.1:3128'
 git config --global https.proxy 'http://127.0.0.1:3128'
 # for git
-git config --global core.gitProxy 'http://127.0.0.1:3128' 
+git config --global core.gitProxy 'http://127.0.0.1:3128'
 ```
 
 ### ssh
@@ -69,7 +69,7 @@ git config --global core.gitProxy 'http://127.0.0.1:3128'
 
 1.配置一个`proxy-wrapper`脚本
 
-```
+``` bash
 $ cat > $HOME/bin/proxy-wrapper
 #!/bin/zsh
 nc -x 127.0.0.1:3128 -X connect $*

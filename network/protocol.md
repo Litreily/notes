@@ -4,13 +4,13 @@
 
 ## 分层协议
 
-| `TCP/IP`模型 | 常用协议 |
-|:---:|:---|
-| 应用层 | `DHCP`，`DNS`，`FTP`，`HTTP`，`IMAP`，`POP3`，`SMTP`，`SNMP`，`Telnet` |
-| 传输层 | `TCP`，`UDP` |
-| 网络层 | `IPv4`，`IPv6`，`ICMP`，`IGMP` |
-| 链路层 | 以太网，`IEEE 802`，`ARP`，`RARP`，`PPP`，`SLIP` |
-| 硬件层 | --- |
+| `TCP/IP`模型 | 常用协议                                                               |
+| :----------: | :--------------------------------------------------------------------- |
+|    应用层    | `DHCP`，`DNS`，`FTP`，`HTTP`，`IMAP`，`POP3`，`SMTP`，`SNMP`，`Telnet` |
+|    传输层    | `TCP`，`UDP`                                                           |
+|    网络层    | `IPv4`，`IPv6`，`ICMP`，`IGMP`                                         |
+|    链路层    | 以太网，`IEEE 802`，`ARP`，`RARP`，`PPP`，`SLIP`                       |
+|    硬件层    | ---                                                                    |
 
 ## 链路层
 
@@ -83,11 +83,12 @@
 ### ARP
 
 | HW type | Protocol type | HW size | Protocol size | Opcode | Sender MAC | Sender IP | Target MAC | Target IP |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|2|2|1|1|2|6|4|6|4|
+| :-----: | :-----------: | :-----: | :-----------: | :----: | :--------: | :-------: | :--------: | :-------: |
+|    2    |       2       |    1    |       1       |   2    |     6      |     4     |     6      |     4     |
 
 **说明：**
-* `HW`代表硬件（Hardware）
+
+* `HW`代表硬件(Hardware)
 * `Opcode`: 1 → `ARP`请求，2 → `ARP`应答，3 → `RARP`请求，4 → `RARP`应答
 
 ## 网络层
@@ -122,6 +123,7 @@
 </table>
 
 **说明：**
+
 * 8位协议: 1 → `ICMP` ，2 → `IGMP` ，6 → `TCP` ，17 → `UDP`
 * 首部校验和：先将校验和置零，然后以`16bit`为一个单元，对首部所有单元进行反码求和，结果存入校验和；接收端进行校验时同样对首部进行反码求和，求和结果应当为全1。
 
@@ -142,7 +144,6 @@
     <tr>
         <td colspan=2 widtd="100%">数据（若有）</td></tr>
 </table>
-
 
 ### TCP
 
@@ -180,15 +181,15 @@
 
 ### 端口号
 
-| Process | PORT |
-|:---:|:---:|
-| FTP Server | 21 |
-| SSH, SCP | 22 |
-| Telnet | 23 |
-| SMTP Server | 25 |
-| DNS Server | 53 |
-| DHCP Server | 67, 68 |
-| TFTP | 69 |
-| HTTP Server | 80 |
-| POP3 (Email) | 110 |
-| HTPPS Server | 443 |
+|   Process    |  PORT  |
+| :----------: | :----: |
+|  FTP Server  |   21   |
+|   SSH, SCP   |   22   |
+|    Telnet    |   23   |
+| SMTP Server  |   25   |
+|  DNS Server  |   53   |
+| DHCP Server  | 67, 68 |
+|     TFTP     |   69   |
+| HTTP Server  |   80   |
+| POP3 (Email) |  110   |
+| HTPPS Server |  443   |

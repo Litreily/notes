@@ -5,7 +5,7 @@
 
 ## 自动更新gitbook电子书
 
-**push.sh**
+push.sh
 
 ``` bash
 #!/bin/zsh
@@ -21,7 +21,7 @@ git push
 
 ## 自动更新个人博客
 
-**push.sh**
+push.sh
 
 ``` bash
 #!/bin/zsh

@@ -7,7 +7,7 @@ sudo apt-get install -y python3-dev build-essential libssl-dev libff i-dev libxm
 sudo apt-get install -y python3
 ```
 
-ref: http://blog.csdn.net/HHTide/article/details/78192314
+ref: <http://blog.csdn.net/HHTide/article/details/78192314>
 
 ## install bs4
 
@@ -26,7 +26,7 @@ sudo pip3 install beautifulsoup4
 >>> from bs4 import BeautifulSoup
 ```
 
-ref: https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html
+ref: <https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html>
 
 ## install requests
 
@@ -60,8 +60,7 @@ sudo pip3 install PyUserInput
 # how to use
 >>> from pymouse import PyMouse
 >>> from pykeyboard import PyKeyboard
->>> 
+>>>
 >>> m = PyMouse()
 >>> k = PyKeyboard()
 ```
-

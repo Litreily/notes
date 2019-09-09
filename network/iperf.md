@@ -12,7 +12,7 @@ iperf3 -s
 
 # [client -> server] client upload test
 iperf3 -c <server-ip> -t <time> -P <process-num>
-# [server -> client] client download test	
+# [server -> client] client download test
 iperf3 -c <server-ip> -t <time> -P <process-num> -R
 ```
 

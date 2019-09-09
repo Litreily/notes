@@ -3,8 +3,8 @@
 ## tools
 
 ``` bash
-$ sudo apt install gnome-tweak-tool
-$ sudo apt install chrome-gnome-shell # none of bussiness of chrome
+sudo apt install gnome-tweak-tool
+sudo apt install chrome-gnome-shell # none of bussiness of chrome
 ```
 
 ## directions
@@ -16,8 +16,8 @@ $ sudo apt install chrome-gnome-shell # none of bussiness of chrome
 
 ## websites
 
-- gnome themes web: https://www.gnome-look.org/
-- chrome extension: https://extensions.gnome.org/
+- gnome themes web: <https://www.gnome-look.org/>
+- chrome extension: <https://extensions.gnome.org/>
 
 ## icons
 
@@ -29,6 +29,6 @@ sudo apt-get install paper-icon-theme
 
 ## references
 
-- https://blog.csdn.net/zyqblog/article/details/80152016
-- https://linux.cn/article-9447-1.html
-- https://blog.csdn.net/ice__snow/article/details/80152068
+- <https://blog.csdn.net/zyqblog/article/details/80152016>
+- <https://linux.cn/article-9447-1.html>
+- <https://blog.csdn.net/ice__snow/article/details/80152068>

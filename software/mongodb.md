@@ -26,16 +26,16 @@ Process: 850 ExecStart=/etc/init.d/mongodb start (code=exited, status=0/SUCCESS)
 1月 21 07:55:49 litreily-pc systemd[1]: Started LSB: An object/document-oriented database.
 ```
 
-## mongoexport 
+## mongoexport
 
 ``` sh
-$ mongoexport -h localhost:27017 -d databaseName -c collectionName -f data.json
+mongoexport -h localhost:27017 -d databaseName -c collectionName -f data.json
 ```
 
 ## mongoimport
 
 ``` sh
-$ mongoimport -h localhost:27017 -d databaseName -c collectionName -f data.json 
+$ mongoimport -h localhost:27017 -d databaseName -c collectionName -f data.json
 $ mongo
 > use databaseName
 > databaseName.collectionName.find().pretty()

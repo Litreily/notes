@@ -7,7 +7,7 @@
 * 选择所有与当前所在单词相同的单词：`Ctrl+F2`
 * 选择所有与当前所选内容相同的字符串：`Ctrl+Shift+L`
 
-* 快捷键列表：https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
+* 快捷键列表：<https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf>
 
 ## plugs
 
@@ -15,7 +15,6 @@
   * Dark(Visual Studio)
   * Solarized Dark
   * One Dark Pro
-
 
 * File Icon Theme
   * VSCode Great Icons
