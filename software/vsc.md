@@ -15,14 +15,11 @@
   * Dark(Visual Studio)
   * Solarized Dark
   * One Dark Pro
-
 * File Icon Theme
   * VSCode Great Icons
   * Material Icon Theme
-
 * Remote - WSL
 * Python
-
 * Git
   * GitLens
   * Git History

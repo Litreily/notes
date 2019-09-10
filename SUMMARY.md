@@ -22,7 +22,7 @@
   * [Python](software/python.md)
   * [ShadowSocks](software/shadowsocks.md)
   * [VIM](software/vim.md)
-  * [VSC](software/vsc.md)
+  * [VSCode](software/vsc.md)
 
 * [Ubuntu](ubuntu/README.md)
   * [Add user](ubuntu/userAdd.md)
