@@ -55,4 +55,6 @@ references:
 * [(Ctrl + ) F5 opening new terminal everytime #56341](https://github.com/Microsoft/vscode/issues/56341)
 * [Debug Launch Configuration: Add a setting to for integrated.terminal path on each configuration or for all python debugging. #2391](https://github.com/microsoft/vscode-python/issues/2391)
 
-PS：我的多台PC的多个系统都装有VSCode和python插件，但并不是所有系统都有这个问题。
+~~PS：我的多台PC的多个系统都装有`VSCode`和`python`插件，但并不是所有系统都有这个问题。~~
+
+PS again: 后经观察，发现在使用`git bash`时才有这个问题，如果使用`CMD`作为默认终端则没有这个问题。
