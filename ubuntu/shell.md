@@ -119,3 +119,26 @@ tc qdisc add dev eth0 root netem delay 6000ms
 ``` bash
 ip route add default via Gateway.addr
 ```
+
+### 配置 zsh
+
+使用[oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+via curl
+
+``` zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+via wget
+
+``` zsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+upgrade
+
+``` zsh
+upgrade_oh_my_zsh
+```
+
