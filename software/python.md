@@ -64,3 +64,16 @@ sudo pip3 install PyUserInput
 >>> m = PyMouse()
 >>> k = PyKeyboard()
 ```
+
+## install pyinstaller
+
+``` bash
+pip3 install pyinstaller
+```
+
+``` bash
+pyinstall  **.py  # 直接打包
+pyinstall -F **.py # 打包成单文件
+pyinstall -W **.py # 去掉控制台窗口，黑窗口
+pyinstall -i ***.ico **.py # 添加图标 ***
+```
