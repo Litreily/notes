@@ -2,9 +2,18 @@
 
 * [Introduction](README.md)
 
-* [LinuxC](linux/README.md)
+* [Linux C](linux/README.md)
   * [Preprocessor](linux/preprocessor.md)
   * [Keywords](linux/keywords.md)
+
+* [Python](python/README.md)
+  * [Install](python/install.md)
+  * [Decorator](python/decorator.md)
+  * [Generator](python/generator.md)
+  * [Iterator](python/iterator.md)
+  * [Lambda](python/lambda.md)
+
+* [Front end](Front-end/README.md)
 
 * [Network](network/README.md)
   * [Protocol](network/protocol.md)
@@ -23,7 +32,6 @@
   * [LNMP](software/LNMP.md)
   * [MongoDB](software/mongodb.md)
   * [Nodejs](software/nodejs.md)
-  * [Python](software/python.md)
   * [ShadowSocks](software/shadowsocks.md)
   * [Tftp](software/tftp.md)
   * [Teraterm](software/teraterm.md)
