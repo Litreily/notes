@@ -25,6 +25,9 @@
   * [Nodejs](software/nodejs.md)
   * [Python](software/python.md)
   * [ShadowSocks](software/shadowsocks.md)
+  * [Tftp](software/tftp.md)
+  * [Teraterm](software/teraterm.md)
+  * [Tex](software/tex.md)
   * [VIM](software/vim.md)
   * [VSCode](software/vsc.md)
 
