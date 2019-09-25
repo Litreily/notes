@@ -16,7 +16,10 @@
     "plugins": [
         "toggle-chapters",
         "etoc",
-        "github"
+        "github",
+        "anchors",
+        "anchor-navigation-ex",
+        "splitter"
     ],
     "pluginsConfig": {
         "etoc": {
@@ -26,7 +29,14 @@
             "notoc": false
         },
         "github": {
-            "url": "https://github.com/Litreily/Notes"
+            "url": "https://github.com/Litreily"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
         }
     }
 }
