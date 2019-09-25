@@ -26,6 +26,7 @@
 
 * [Software](software/README.md)
   * [Atom](software/atom.md)
+  * [Chrome](software/chrome.md)
   * [Git](software/git.md)
   * [Gitbook](software/gitbook.md)
   * [Hexo](software/hexo.md)
