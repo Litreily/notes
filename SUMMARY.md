@@ -42,6 +42,7 @@
 
 * [Ubuntu](ubuntu/README.md)
   * [Add user](ubuntu/userAdd.md)
+  * [AWS EC2](ubuntu/aws_ec2.md)
   * [Cntlm](ubuntu/cntlm.md)
   * [FAQ](ubuntu/faq.md)
   * [Installer](ubuntu/installer.md)
@@ -56,5 +57,7 @@
   * [PowerShell](windows/powershell.md)
   * [CMD](windows/cmd.md)
   * [FAQ](windows/faq.md)
+
+* [Aphorisms](aphorisms.md)
 
 * [Book List](books.md)
