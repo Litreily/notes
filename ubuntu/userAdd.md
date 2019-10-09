@@ -6,7 +6,7 @@
 # add user with root user
 $ useradd USERNAME
 # or add like that
-$ useradd -m /home/USERNAME -s /bin/zsh USERNAME
+$ useradd -m USERNAME -s /bin/zsh
 
 # add password for new user
 $ passwd USERNAME
