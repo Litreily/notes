@@ -48,6 +48,7 @@
   * [Installer](ubuntu/installer.md)
   * [Proxy](ubuntu/proxy.md)
   * [Proxychains4](ubuntu/proxychains4.md)
+  * [Samba](ubuntu/samba.md)
   * [Shell](ubuntu/shell.md)
   * [Shell scripts](ubuntu/shellScripts.md)
   * [Themes](ubuntu/themes.md)
