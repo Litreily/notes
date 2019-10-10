@@ -12,6 +12,10 @@
 * 《Linux/UNIX 系统编程手册》上册(已读)
 * 《Linux/UNIX 系统编程手册》下册(在读)
 * 《UNIX网络编程 卷1：套接字联网API（第3版）》
+* 《Linux Kernel Development, 3rd》
+* 《Understanding the Linux Kernel》
+* 《Linux Device Drivers, 3rd》
+* 《Linux内核源代码情景分析》
 
 ## 编程
 
