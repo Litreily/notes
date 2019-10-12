@@ -22,6 +22,9 @@
         "splitter"
     ],
     "pluginsConfig": {
+        "search": {
+            "maxIndexSize": 100000
+        },
         "etoc": {
             "h2lb": 3,
             "mindepth": 2,
