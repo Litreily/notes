@@ -2,6 +2,10 @@
 
 ## 知识图谱
 
+<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:770px; height:800px;" src="https://www.processon.com/embed/mind/5d9fda1ae4b0ece757c45fae"></iframe>
+
+思维导图使用在线导图软件[ProcessOn](https://www.processon.com/)制作
+
 ## 内核一瞥
 
 ![kernel view 1](/assets/linux/kernel_view_1.png)
