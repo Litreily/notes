@@ -5,6 +5,9 @@
 * [Linux C](linux/README.md)
   * [Preprocessor](linux/preprocessor.md)
   * [Keywords](linux/keywords.md)
+  * [Kernel](linux/kernel/README.md)
+    * [Ftrace](linux/kernel/ftrace.md)
+    * [Watchdog](linux/kernel/watchdog.md)
 
 * [Python](python/README.md)
   * [Install](python/install.md)
