@@ -118,3 +118,10 @@ npm config set registry http://registry.npm.taobao.org
 ![Chrome proxy](/assets/proxys/chrome-proxy.png)
 
 如果使用的是其它代理工具，比如`Shadowsocks`，由于`SS`客户端通常将代理端口映射到本地的1080端口，所以这种情况只需要在`SwitchyOmega`中选择`sock5`协议，ip设为`127.0.0.1`,端口设为`1080`即可。关于这部分的详细内容参考我的另一篇文章[VPS+SS翻越GFW](https://www.litreily.top/2017/09/07/ss-config/)
+
+## putty
+
+打开`putty`配置选项，选择"Connection->Proxy"
+
+在`Proxy hostname`中填入代理IP，如`127.0.0.1`,在`Port`中填入代理端口，如1080
+
