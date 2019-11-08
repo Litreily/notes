@@ -49,3 +49,10 @@ $ userdel USERNAME
 $ rm -rf /home/USERNAME
 # remove USER from /etc/sudoers
 ```
+
+## Add user to sudo group
+
+``` bash
+usermod -aG newuser
+# may need relogin newuser to make is access
+```
