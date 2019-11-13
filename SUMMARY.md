@@ -40,6 +40,7 @@
   * [Tftp](software/tftp.md)
   * [Teraterm](software/teraterm.md)
   * [Tex](software/tex.md)
+  * [Tmux](software/tmux.md)
   * [VIM](software/vim.md)
   * [VSCode](software/vsc.md)
 
