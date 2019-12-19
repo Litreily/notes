@@ -70,6 +70,7 @@ git clone <remote-address>  # 从远程仓库克隆项目文件至本地
 ``` bash
 git add .  # 添加所有修改后的文件和新创建的文件至暂存区（staging area)
 git add <file-name1> <file-name2> ...  # 添加指定文件至暂存区（staging area）
+git add -i # 交互式添加，可以添加某个文件的局部修改
 ```
 
 ### git rm
@@ -81,6 +82,12 @@ git rm -r --cached <dir-name>/<file-name>  # 将文件或文件夹从暂存区�
 
 **说明:**如果先通过`add`或`commit`对某些文件或文件夹进行了追踪，当我们在`.gitignore`文件中添加这些文件或文件夹时将不生效，因为忽略文件仅对未跟踪的文件或文件夹生效，为解决这个问题，可以先用`git rm -r --cached`指令移除这些文件或文件夹，以解开对它们的追踪，然后再修改`.gitignore`.
 
+### git mv
+
+``` bash
+git mv # 重命名某文件
+```
+
 ### git commit
 
 ``` bash
@@ -88,6 +95,7 @@ git commit -m <message>  # 提交暂存区的文件至本地仓库
 git commit -a  # 添加修改后文件及新创建的文件，并将这些文件提交至本地仓库
 git commit -e  # 提交前编辑提交信息，第一行作为提交主题，空一行后的信息将显示在补丁邮件中
 git commit -s  # 提交时使用提交者的签名(Signed-of-by)
+git commit -v  # 提交时显示详细的修改信息
 git commit --amend  # 修改最新一次提交信息，并重新提交
 ```
 
@@ -99,6 +107,7 @@ git pull <remote-name> <branch-name>  # 从远程仓库指定分支拉取文件�
 git fetch <remote-name> <branch-name>  # 从远程仓库指定分支拉取文件至本地缓存文件中
 
 git push -f  # 当某次错误提交至远程仓库时，先在本地撤销(git reset)，之后用改指令强制修改回退远程提交
+git push --tags # 提交时将tag一并提交
 ```
 
 ### git log
@@ -107,6 +116,13 @@ git push -f  # 当某次错误提交至远程仓库时，先在本地撤销(git 
 git log  # 显示简略的提交记录
 git log --stat  # 显示每次提交记录的详细信息
 git log --pretty=oneline  # 每行显示完整commit ID
+```
+
+### git reflog
+
+``` bash
+git reflog  # reference logs, 在不小心git reset --hard情况下可以保命
+git reflog --oneline
 ```
 
 ### git status
@@ -125,6 +141,57 @@ git blame <path/of/file>  # 查看某个文件每行的最新提交记录
 
 ``` bash
 git tag <tag-name> <commit-id>  # 为某次提交添加标签
+```
+
+## 合并
+
+### git merge
+
+Join two or more development histories together
+
+``` bash
+current branch: master
+
+      A---B---C topic
+     /
+D---E---F---G master
+
+$ git merge topic
+
+      A---B---C topic
+     /         \
+D---E---F---G---H master
+```
+
+### git rebase
+
+Reapply commits on top of another base tip
+
+``` bash
+git rebase -i # interactive
+```
+
+``` bash
+current branch: topic
+
+      A---B---C topic
+     /
+D---E---F---G master
+
+$ git rebase master
+$ git rebase master topic
+
+              A'--B'--C' topic
+             / 
+D---E---F---G master
+```
+
+### git cherry-pick
+
+Apply the changes introduced by some existing commits
+
+``` bash
+git cherry-pick <commit>
 ```
 
 ## 暂存
