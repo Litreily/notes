@@ -49,3 +49,7 @@
 ## 阅读
 
 * 《小王子》(已读)
+
+## 收藏
+
+* [阮一峰 free-books](https://github.com/ruanyf/free-books/blob/master/README.md)

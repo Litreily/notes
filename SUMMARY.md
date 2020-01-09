@@ -43,6 +43,7 @@
   * [Tmux](software/tmux.md)
   * [VIM](software/vim.md)
   * [VSCode](software/vsc.md)
+  * [Wireshark](software/wireshark.md)
 
 * [Ubuntu](ubuntu/README.md)
   * [Add user](ubuntu/userAdd.md)
