@@ -21,6 +21,12 @@ git config --global http.proxy http://127.0.0.1:3128
 git config --global https.proxy http://127.0.0.1:3128
 ```
 
+某些特殊情况下，电脑如何通过ssh访问远程仓库，此时需要使用https，但是默认每次都要重新输入用户名和密码，此时可以配置`credential.helper`为`store`,这样只需要需要一次，本地就会保存相应的证书信息，下次就无需输入了。
+
+``` bash
+git config --global credential.helper store
+```
+
 ## 生成秘钥
 
 为了在远程仓库托管本地代码，首先需要通过keygen生成一组秘钥，并添加至远程代码托管平台。
