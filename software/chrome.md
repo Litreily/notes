@@ -104,6 +104,12 @@
 
 `cVim` 将网页当成一个vim编辑器，通过它可以使用`vim`的操作方式操作网页，从此告别鼠标，简直爽到爆！用了就停不下来那种！
 
+最近更新Chrome后，`cVim`无法使用`f/F`键进行提示了，最后搜索发现该插件使用了被deprecated的API，根据下面的方法可以临时解决：
+
+> <https://github.com/1995eaton/chromium-vim/issues/716>  
+> To get `hints` working again: in `hints.js:727`, replace call to `main.createShadowRoot()` with `main.attachShadow({mode: 'open'})`
+
+
 - KeyBindings
 
 | Movement |  | Mapping name |
