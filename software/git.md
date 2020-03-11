@@ -310,6 +310,14 @@ git am --abort  # 终止当前am操作，通常在打补丁失败时执行
 git send-email --to <username@email> --smtp-server <server-address> <patchs-name> # 通过邮件发送补丁
 ```
 
+如果需要取消CC patch中signed-off-by的相关人员，可以将sendemail.suppresscc配置为all. 与`send-email`相关的常用配置如下：
+
+``` bash
+git config --global sendemail.suppresscc all
+git config --global sendemail.smtpserver <smtpserver>
+git config --global sendemail.confirm always
+```
+
 ## 其它指令
 
 ### gitk
