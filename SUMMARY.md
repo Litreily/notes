@@ -45,6 +45,8 @@
   * [VSCode](software/vsc.md)
   * [Wireshark](software/wireshark.md)
 
+* [Tools](tools/README.md)
+
 * [Ubuntu](ubuntu/README.md)
   * [Add user](ubuntu/userAdd.md)
   * [AWS EC2](ubuntu/aws_ec2.md)
