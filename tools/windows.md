@@ -21,3 +21,21 @@
 - [XMind](https://www.xmind.cn/)
 - [iMindmap](https://www.ayoa.com/mind-mapping/software/)
 
+## 共享
+
+### 共享键鼠
+
+- [synergy](https://symless.com/synergy): 多台电脑共享键盘鼠标，支持Windows, Mac，Linux. 收费
+- [sharemouse](https://www.sharemouse.com/download/): 免费，支持Windows, Mac
+
+### 共享桌面
+
+- Teamviewer
+- VNC
+- AnyDesk
+- VMware Horizon Client
+
+## 远程
+
+- ssh
+- putty
