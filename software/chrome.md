@@ -109,7 +109,6 @@
 > <https://github.com/1995eaton/chromium-vim/issues/716>  
 > To get `hints` working again: in `hints.js:727`, replace call to `main.createShadowRoot()` with `main.attachShadow({mode: 'open'})`
 
-
 - KeyBindings
 
 | Movement |  | Mapping name |
@@ -142,7 +141,7 @@
 | `Q` | trigger a unhover event (mouseout + mouseleave) | createUnhoverHint |
 | `mf` | open multiple links | createMultiHint |
 | `unmapped` | edit text with external editor | createEditHint |
-| `unmapped` | call a code block with the link as the first argument | createScriptHint(<FUNCTION_NAME>) |
+| `unmapped` | call a code block with the link as the first argument | createScriptHint(&lt;FUNCTION_NAME&gt;) |
 | `unmapped` | opens images in a new tab | fullImageHint |
 | `mr` | reverse image search multiple links | multiReverseImage |
 | `my` | yank multiple links (open the list of links with P) | multiYankUrl |
@@ -162,7 +161,7 @@
 | `?` | open search bar (reverse search) | openSearchBarReverse |
 | `unmapped` | open link search bar (same as pressing`/?`) | openLinkSearchBar |
 | `I` | search through browser history | :history |
-| `<N>g%` | scroll <N> percent down the page | percentScroll |
+| `<N>g%` | scroll &lt;N&gt; percent down the page | percentScroll |
 | `<N>unmapped` | pass`<N>`keys through to the current page | passKeys |
 | `i` | enter insert mode (escape to exit) | insertMode |
 | `r` | reload the current tab | reloadTab |
@@ -179,8 +178,8 @@
 | `zo` | zoom page out | zoomPageOut |
 | `z0` | zoom page to original size | zoomOrig |
 | `z<Enter>` | toggle image zoom (same as clicking the image on image-only pages) | toggleImageZoom |
-| `gd` | alias to :chrome://downloads<CR> | :chrome://downloads<CR> |
-| `ge` | alias to :chrome://extensions<CR> | :chrome://extensions<CR> |
+| `gd` | alias to :chrome://downloads | :chrome://downloads |
+| `ge` | alias to :chrome://extensions | :chrome://extensions |
 | `yy` | copy the URL of the current page to the clipboard | yankDocumentUrl |
 | `yY` | copy the URL of the current frame to the clipboard | yankRootUrl |
 | `ya` | copy the URLs in the current window | yankWindowUrls |
@@ -213,9 +212,9 @@
 | `gx$` | close all tabs to the right of the current tab | closeTabsToRight |
 | `X` | open the last closed tab | lastClosedTab |
 | `t` | :tabnew | :tabnew |
-| `T` | :tabnew <CURRENT URL> | :tabnew @% |
-| `O` | :open <CURRENT URL> | :open @% |
-| `<N>%` | switch to tab <N> | goToTab |
+| `T` | :tabnew &lt;CURRENT URL&gt; | :tabnew @% |
+| `O` | :open &lt;CURRENT URL&gt; | :open @% |
+| `<N>%` | switch to tab &lt;N&gt; | goToTab |
 | `H,S` | go back | goBack |
 | `L,D` | go forward | goForward |
 | `B` | search for another active tab | :buffer |
@@ -267,11 +266,11 @@
 | :open (autocomplete) | open the typed/completed URL/google search |
 | :history (autocomplete) | search through browser history |
 | :bookmarks (autocomplete) | search through bookmarks |
-| :bookmarks /<folder> (autocomplete) | browse bookmarks by folder/open all bookmarks from folder |
+| :bookmarks /&lt;folder&gt; (autocomplete) | browse bookmarks by folder/open all bookmarks from folder |
 | :set (autocomplete) | temporarily change a cVim setting |
 | :chrome:// (autocomplete) | open a chrome:// URL |
 | :tabhistory (autocomplete) | browse the different history states of the current tab |
-| :command <NAME> <ACTION> | aliases :<NAME> to :<ACTION> |
+| :command &lt;NAME&gt; &lt;ACTION&gt; | aliases :&lt;NAME&gt; to :&lt;ACTION&gt; |
 | :quit | close the current tab |
 | :qall | close the current window |
 | :restore (autocomplete) | restore a previously closed tab (newer versions of Chrome only) |
@@ -282,7 +281,7 @@
 | :duplicate | duplicate the current tab |
 | :settings | open the settings page |
 | :nohlsearch | clear the highlighted text from the last search |
-| :execute | execute a sequence of keys (Useful for mappings. For example, "map j :execute 2j<CR>") |
+| :execute | execute a sequence of keys (Useful for mappings. For example, "map j :execute 2j") |
 | :buffer (autocomplete) | change to a different tab |
 | :mksession | create a new session from the current tabs in the active window |
 | :delsession (autocomplete) | delete a saved session |
@@ -341,6 +340,12 @@ let blacklists = ["https://www.shiyanlou.com/*"]
 3. 在Chrome浏览器的扩展程序管理页面打开“开发者模式”
 4. 选择“加载已解压的扩展程序”，然后选择对应的解压文件夹
 
+在新版Chrome中，添加离线安装的插件后，每次都会弹框提示“请停用以开发者模式运行的扩展程序”，为了防止弹框，可以尝试以下方法:
+
+ref: [彻底禁用Chrome的“请停用以开发者模式运行的扩展程序”提示](https://www.cnblogs.com/liuxianan/p/disable-chrome-extension-warning.html)
+
+简言之，就是在Chrome的安装目录添加文件[version.dll](http://file.haoji.me/detail/27)
+
 ## 应用
 
 ### Wunderlist
@@ -371,4 +376,3 @@ let blacklists = ["https://www.shiyanlou.com/*"]
 - 扩展程序 chrome://extensions/
 - 下载内容 chrome://downloads/
 - 历史记录 chrome://history/
-
