@@ -1,4 +1,4 @@
-# Windows Tools
+# Common Tools
 
 ## 截图
 
@@ -67,6 +67,33 @@
 
 - [ABBYY](https://www.abbyy.cn/): 非常强大，收费
 - [天若OCR](https://tianruoocr.cn/): 支持在线、下载
+- [白描](https://uzero.cn/baimiao/): 移动端APP
+
+## 时间管理
+
+> 时间管理类应用绝大部分支持跨平台使用：Windows, Mac, Android, IOS, ...
+
+### 待办清单
+
+- [微软待办 Microsoft To Do](https://to-do.microsoft.com/tasks/login?redirectUrl=/en-us?source=product_page): 强推
+- [奇妙清单 Wunderlist](https://www.wunderlist.com/zh/download/): 被微软收购，将于2020年5月6日停止服务，替代为**微软待办**
+- [todolist](https://todoist.com/zh-CN): 免费功能受限，收费功能强大
+- [滴答清单](https://www.dida365.com/): 可以从奇妙清单导入
+
+### 笔记
+
+- [印象笔记 Evernote](https://www.yinxiang.com/new/download/): 一个账号两个版本，支持浏览器剪藏
+- [有道云笔记](http://note.youdao.com/): 网易出品
+- [OneNote](https://www.onenote.com/): 工作中常用
+- [为知笔记](https://www.wiz.cn/zh-cn): 有一定门槛，支持Docker部署
+
+### 定时提醒
+
+> 番茄类应用大同小异，择其一即可
+
+- [番茄土豆](https://pomotodo.com/intl/zh-CN/): 支持数据分析
+- [番茄盒子](http://tomatobox.cn/): 功能多, 支持数据分析，略显臃肿
+- [小番茄](https://www.focustodo.cn/): 简约
 
 ## 媒体
 
