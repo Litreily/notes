@@ -36,14 +36,6 @@
 
 ## 文件管理
 
-### 编辑
-
-- [VSCode](https://code.visualstudio.com/)
-- [ATOM](https://atom.io/)
-- [Brackets](http://brackets.io/)
-- [Notepad++](https://notepad-plus-plus.org/downloads/)
-- [Typora](https://typora.io/): markdown editor
-
 ### 搜索
 
 - [Everything](https://www.voidtools.com/): awesome!!!
@@ -117,3 +109,8 @@
 ### 会议
 
 - [Zoom](https://zoom.us/support/download): 视频会议
+
+### 社交
+
+- [skype](http://skype.gmw.cn/)
+- [telegram](https://telegram.org/)

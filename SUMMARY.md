@@ -47,7 +47,9 @@
 
 * [Tools](tools/README.md)
   * [common](tools/common.md)
+  * [favorites](tools/favorites.md)
   * [network](tools/network.md)
+  * [programming](tools/programming.md)
 
 * [Ubuntu](ubuntu/README.md)
   * [Add user](ubuntu/userAdd.md)

@@ -83,4 +83,3 @@ set -g @continuum-restore 'on'
 run-shell ~/.tmux/tmux-resurrect/resurrect.tmux
 run-shell ~/.tmux/tmux-continuum/continuum.tmux
 ```
-
