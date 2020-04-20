@@ -89,6 +89,7 @@
 
 ### 教程(Course)
 
+- [Qt](https://www.qt.io/)
 - [Runoob](http://www.runoob.com/)
 - [udacity](https://cn.udacity.com/nanodegree)
 - [Coursera](https://www.coursera.org/browse)
@@ -97,12 +98,10 @@
 - [Slack](https://nd013.slack.com/messages/random/)
 - [w3school 在线教程](http://www.w3school.com.cn/index.html)
 - [HTML 系列教程](http://www.w3school.com.cn/h.asp)
-- [Qt](https://www.qt.io/)
 - [DesignSpark设计大赛-在线教程-电子发烧友网](http://www.elecfans.com/company/RS/video/pcb_list.html)
 - [IOTEKTXCJ707922098_会员中心—海同网校](http://www.iotekclass.com/myschool/index)
 - [谷歌Google Android Material Design设计语言视频教程-极客学院](http://www.jikexueyuan.com/course/124_1.html?ss=1)
 - [Win系统下制作U盘CLOVER引导+安装原版Mavericks10.9+安装问题总汇(已更新地址) - 威锋网](http://bbs.feng.com/read-htm-tid-7534160.html)
-- [MFC 桌面应用程序](https://msdn.microsoft.com/zh-cn/library/d06h2x6e(v=vs.120).aspx)
 - [FreeRTOS基础篇 - 朱工的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/zhzht19861011/article/category/5950097)
 - [Windows can not start after update, here is SrtTrail.txt Solved - Windows 10 Forums](https://www.tenforums.com/windows-updates-activation/101940-windows-can-not-start-after-update-here-srttrail-txt.html)
 - [一份其实很短的 LaTeX 入门文档 | 始终](http://liam0205.me/2014/09/08/latex-introduction/)
@@ -191,9 +190,8 @@
 ### 图标(icons)
 
 - [Font awesome](http://fontawesome.io/icons/)
-- Emoji
-  - [Emoji copy](https://www.emojicopy.com/)
-  - [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Emoji copy](https://www.emojicopy.com/)
+- [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ## 博客(Blog)
 
