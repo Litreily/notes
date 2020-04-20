@@ -47,7 +47,6 @@
 
 * [Tools](tools/README.md)
   * [common](tools/common.md)
-  * [favorites](tools/favorites.md)
   * [network](tools/network.md)
   * [programming](tools/programming.md)
 
@@ -73,3 +72,5 @@
 * [Aphorisms](aphorisms.md)
 
 * [Book List](books.md)
+
+* [Favorites](favorites.md)

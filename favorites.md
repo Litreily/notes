@@ -65,7 +65,7 @@
 
 - [linux - Elixir - Free Electrons](http://elixir.free-electrons.com/linux/latest/source)
 - [Linux新手大礼包：学习Linux你必须知道的那些事儿 | CODE](http://code.csdn.net/news/2821271)
-- [.Labs&gt;](http://tjwallas.weebly.com/tech/how-to-install-keil-arm-development-kit-on-ubuntu)How to Install Keil ARM Development Kit on Ubuntu - TjWallas.DevOps()
+- [How to Install Keil ARM Development Kit on Ubuntu](http://tjwallas.weebly.com/tech/how-to-install-keil-arm-development-kit-on-ubuntu))
 - [Ubuntu下装QQ2014 - control my mind - 开源中国社区](http://my.oschina.net/oscfox/blog/315951)
 - [安装Ubuntu分区的推荐方案及方法 第3页_Linux教程_Linux公社-Linux系统门户网站](http://www.linuxidc.com/Linux/2008-03/11662p3.htm)
 - [Linux文件系统标准_ubuntu吧_百度贴吧](http://tieba.baidu.com/p/2852106711)
