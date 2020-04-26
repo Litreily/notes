@@ -1,4 +1,4 @@
-# 收藏夹(Favorites)
+# 收藏夹
 
 ## 常用
 
@@ -26,7 +26,7 @@
 - [kiwivm](https://kiwivm.64clouds.com/main.php)
 - [极客公园](http://www.geekpark.net/)
 
-## 在线工具(online tools)
+## 在线工具
 
 - [tool](http://tool.lu/)
 - [在线工具](http://tool.oschina.net/)
@@ -42,7 +42,7 @@
 - [获取OneDrive直链](https://mapaler.github.io/GetOneDriveDirectLink/)
 - [深蓝系统站 | 绿色软件_纯净系统下载站](http://www.shenlanxitong.com/)
 
-## 论坛(forum)
+## 论坛
 
 - [Coding 博客](https://blog.coding.net/)
 - [图灵社区](http://www.ituring.com.cn/)
@@ -51,9 +51,9 @@
 - [极客公园](http://www.geekpark.net/)
 - [FreeSSL首页 - FreeSSL.cn 一个申请免费HTTPS证书的网站](https://freessl.cn/)
 
-## 编程(Programming)
+## 编程
 
-### 算法(Algorithm)
+### 算法
 
 - [Acm之家](http://www.acmerblog.com/)
 - [各大OJ题目分类](http://www.pythontip.com/acm/problemCategory)
@@ -87,7 +87,7 @@
 - [linux底层驱动 - 随笔分类 - NQian - 博客园](https://www.cnblogs.com/lifexy/category/1076894.html)
 - [用户脚本](https://greasyfork.org/zh-CN/scripts)
 
-### 教程(Course)
+### 教程
 
 - [Qt](https://www.qt.io/)
 - [Runoob](http://www.runoob.com/)
@@ -120,7 +120,7 @@
 - [Scrapy爬取并保存GIF图片 | FlamePeak](http://flamepeak.com/2017/09/18/Scrapy-save-gif-file-20170918/)
 - [Python Graphing Library, Plotly](https://plot.ly/python/)
 
-### 网络(Network)
+### 网络
 
 - [应用列表 - LeanCloud](https://leancloud.cn/dashboard/applist.html#/apps)
 - [SOAP](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/#_Toc478383507)
@@ -166,7 +166,7 @@
 - [VC串口上位机编程学习笔记 (amoBBS 阿莫电子论坛)](http://www.amobbs.com/thread-4698293-1-1.html)
 - [Waveshare Wiki](http://www.waveshare.net/wiki/Main_Page#STM32)
 
-## 设计(Design)
+## 设计
 
 - [UI中国](http://www.ui.cn/)
 - [Dribble](https://dribbble.com/)
@@ -187,15 +187,15 @@
 - [海报设计素材-海报模板图片-在线海报制作-图怪兽](https://818ps.com/search?user_source=r1495&route_id=15817705156229&route=3,&after_route=3)
 - [让微信排版变 Nice](https://mdnice.com/)
 
-### 图标(icons)
+### 图标
 
 - [Font awesome](http://fontawesome.io/icons/)
 - [Emoji copy](https://www.emojicopy.com/)
 - [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
-## 博客(Blog)
+## 博客
 
-### 博客框架(Blog framework)
+### 博客框架
 
 - [Hexo](https://hexo.io/)
 - [Hexo - 主题](https://hexo.io/themes/)
@@ -205,7 +205,7 @@
 - [Jekyll - 中文](http://jekyllcn.com/)
 - [Jekyll - 主题](http://jekyllthemes.org/)
 
-### 博客站点(Blogs)
+### 博客站点
 
 - ️[litreily](http://www.litreily.top/) `myself`
 - [smslit](https://www.smslit.top/) `my friend`
@@ -229,7 +229,7 @@
 - [数据结构与算法教程，数据结构C语言版教程！](http://data.biancheng.net/)
 - [C Programming Language - GeeksforGeeks](https://www.geeksforgeeks.org/c-programming-language/)
 
-### 其它(Others)
+### 其它
 
 - [Linux coredump解决流程-Ubuntu1604安装golang-51CTO博客](http://blog.51cto.com/terrytong914/1905041)
 - [【C】解析命令行参数--getopt和getopt_long | jk&#39;s Blog](http://blog.zhangjikai.com/2016/03/05/%E3%80%90C%E3%80%91%E8%A7%A3%E6%9E%90%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0--getopt%E5%92%8Cgetopt_long/)
@@ -265,14 +265,14 @@
 - [Creative Mints | Design Agency](https://www.creativemints.com/)
 - [SASS用法指南 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 
-## 学术(Science)
+## 学术
 
 - [学术](http://xueshu.baidu.com/)
 - [USPTO](http://www.uspto.gov/index.jsp)
 - [FPO](http://www.freepatentsonline.com/)
 - [学术搜索 - 站在巨人的肩膀上 - 谷歌学术](http://xs.chongbuluo.com/)
 
-## 图片(Pictures)
+## 图片
 
 - [Lofter](http://www.lofter.com/)
 - [图虫](https://tuchong.com/)
@@ -288,7 +288,7 @@
 - [Hippopx](https://www.hippopx.com/zh)
 - [佳库网](https://599ku.com/tupian/touminggufeng.html)
 
-## 视频(Videos)
+## 视频
 
 - [91美剧网](http://91mjw.com/)
 - [爱奇艺](http://www.iqiyi.com/)
