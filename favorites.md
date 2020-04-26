@@ -290,7 +290,6 @@
 
 ## 视频
 
-- [91美剧网](http://91mjw.com/)
 - [爱奇艺](http://www.iqiyi.com/)
 - [腾讯视频](https://v.qq.com/)
 - [bilibili](https://www.bilibili.com/)
@@ -310,12 +309,12 @@
 - [Telegram MTProto Proies](https://t.me/MTProtoProxies)
 - [52破解信息](https://t.me/wuaipojie)
 - [少数派爱好群](https://t.me/sspai_group)
-- [OP编译官方大群](https://t.me/opbypd) `OpenWrt`
+- [OpenWrt编译官方大群](https://t.me/opbypd)
 - [搬瓦工](https://t.me/BandwagonHostGroup)
 - [geekchats](https://t.me/geeksChat)
 
 ### search
 
-- [Telegram 群组、频道、机器人 - 汇总分享](https://congcong0806.github.io/2018/04/24/Telegram/) `[Recommend]`
+- [Telegram 群组、频道、机器人 - 汇总分享](https://congcong0806.github.io/2018/04/24/Telegram/)
 - [Telegram Channels](https://telegramchannels.me/)
 - [TelegramGroup](https://www.telegram-group.com/en/)
