@@ -14,7 +14,7 @@ sudo apt remove docker docker-engine docker.io containerd runc
 
 ### set up the repository
 
-1. Update apt package and install packages
+- Update apt package and install packages
 
 ``` zsh
 $ sudo apt-get update
@@ -27,7 +27,7 @@ $ sudo apt-get install \
     software-properties-common
 ```
 
-2. Add Docker's offical GPG key and verify
+- Add Docker's offical GPG key and verify
 
 ``` zsh
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -39,7 +39,7 @@ uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
 sub   rsa4096 2017-02-22 [S]
 ```
 
-3. Set up the stable repository
+- Set up the stable repository
 
 ``` zsh
 $ sudo add-apt-repository \
