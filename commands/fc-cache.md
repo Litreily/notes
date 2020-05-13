@@ -1,5 +1,7 @@
 # fc-cache
 
+> build font information cache files
+
 ``` bash
 sudo mkdir /usr/share/fonts/custom
 sudo cp /path/to/fontfile  /usr/share/fonts/custom
@@ -10,4 +12,3 @@ sudo mkfontscale
 sudo mkfontdir
 sudo fc-cache -fv
 ```
-

@@ -9,4 +9,3 @@ sudo mount -t cifs -o username=dnishare,password=sharedni -l //172.17.144.2/publ
 # bash on windows
 sudo mount -t drvfs '\\172.17.144.2\public' /mnt/smb
 ```
-
