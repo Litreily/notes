@@ -33,13 +33,6 @@
   * [Iterator](python/iterator.md)
   * [Lambda](python/lambda.md)
 
-* [Database](db/README.md)
-  * [MongoDB](db/mongodb.md)
-
-* [Web](web/README.md)
-  * [CSS](web/css.md)
-  * [LNMP](web/LNMP.md)
-
 * [Network](network/README.md)
   * [Protocol](network/protocol.md)
     * [Link layer](network/linkLayer.md)
@@ -71,6 +64,13 @@
   * [Tmux](software/tmux.md)
   * [VIM](software/vim.md)
   * [VSCode](software/vsc.md)
+
+* [Database](db/README.md)
+  * [MongoDB](db/mongodb.md)
+
+* [Web](web/README.md)
+  * [CSS](web/css.md)
+  * [LNMP](web/LNMP.md)
 
 * [Tools](tools/README.md)
   * [common](tools/common.md)
