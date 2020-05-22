@@ -37,3 +37,11 @@ article:before {
   height: 0;
 }
 ```
+
+## 添加主题颜色
+
+在网页中添加元标签`theme-color`，设置主题颜色后，手机浏览器可以依据主题颜色修改浏览器外观颜色。
+
+```html
+<meta name="theme-color" content="#2d4356">
+```
