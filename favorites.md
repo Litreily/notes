@@ -8,6 +8,7 @@
 - [smslit](http://www.smslit.top/)
 - [github](https://github.com/)
 - [coding](https://coding.net/user)
+- [leetcode](https://leetcode-cn.com/)
 - [wechat](https://wx2.qq.com/)
 - [知乎](https://www.zhihu.com/)
 - [掘金](https://www.juejin.im/)
@@ -24,7 +25,6 @@
 - [阿里云空间](https://my.yunos.com/#/apps)
 - [wikipedia](https://en.wikipedia.org/wiki/Main_Page)
 - [kiwivm](https://kiwivm.64clouds.com/main.php)
-- [极客公园](http://www.geekpark.net/)
 
 ## 在线工具
 
@@ -99,7 +99,6 @@
 - [w3school 在线教程](http://www.w3school.com.cn/index.html)
 - [HTML 系列教程](http://www.w3school.com.cn/h.asp)
 - [DesignSpark设计大赛-在线教程-电子发烧友网](http://www.elecfans.com/company/RS/video/pcb_list.html)
-- [IOTEKTXCJ707922098_会员中心—海同网校](http://www.iotekclass.com/myschool/index)
 - [谷歌Google Android Material Design设计语言视频教程-极客学院](http://www.jikexueyuan.com/course/124_1.html?ss=1)
 - [Win系统下制作U盘CLOVER引导+安装原版Mavericks10.9+安装问题总汇(已更新地址) - 威锋网](http://bbs.feng.com/read-htm-tid-7534160.html)
 - [FreeRTOS基础篇 - 朱工的专栏 - 博客频道 - CSDN.NET](http://blog.csdn.net/zhzht19861011/article/category/5950097)
@@ -228,42 +227,6 @@
 - [Material Design中文版_Material Design中文教程_Material Design开发中文手册[PDF]下载-极客学院Wiki](http://wiki.jikexueyuan.com/project/material-design/)
 - [数据结构与算法教程，数据结构C语言版教程！](http://data.biancheng.net/)
 - [C Programming Language - GeeksforGeeks](https://www.geeksforgeeks.org/c-programming-language/)
-
-### 其它
-
-- [Linux coredump解决流程-Ubuntu1604安装golang-51CTO博客](http://blog.51cto.com/terrytong914/1905041)
-- [【C】解析命令行参数--getopt和getopt_long | jk&#39;s Blog](http://blog.zhangjikai.com/2016/03/05/%E3%80%90C%E3%80%91%E8%A7%A3%E6%9E%90%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0--getopt%E5%92%8Cgetopt_long/)
-- [VPS+LNMP+WordPress搭建个人网站/博客 – jwcyber](http://www.jwcyber.com/build-site/)
-- [Debian 或 Ubuntu 在命令行下配置无线网络连接 WiFi 的方法 | 聞其詳](https://wenqixiang.com/linux-wireless-configuration-in-terminal-command-line/)
-- [码农10年，我常去的一些技术社区 - 简书](https://www.jianshu.com/p/c922cab0ee71)
-- [VPS+LNMP+WordPress搭建个人网站/博客 jwcyber](http://jwcyber.com/build-site/)
-- [【Gitbook】实用配置及插件介绍 - 星夜雨年 - CSDN博客](http://blog.csdn.net/zhangjk1993/article/details/50380403)
-- [这些好用的搜索工具和技巧，大部分人可能都不知道 | 极客公园](http://www.geekpark.net/topics/217173)
-- [fast.ai · Making neural nets uncool again](http://www.fast.ai/)
-- [ZIP压缩算法详细分析及解压实例解释 - esingchan - 博客园](https://www.cnblogs.com/esingchan/p/3958962.html)
-- [贝塞尔曲线原理(简单阐述) - hnfxs - 博客园](http://www.cnblogs.com/hnfxs/p/3148483.html)
-- [嵌入式系统 Boot Loader 技术内幕](https://www.ibm.com/developerworks/cn/linux/l-btloader/index.html)
-- [Linux的内存分页管理 - Vamei - 博客园](https://www.cnblogs.com/vamei/p/9329278.html)
-- [linux shell光标的恢复与隐藏 - happywran的专栏 - CSDN博客](https://blog.csdn.net/happywran/article/details/8204200)
-- [Python实例浅谈之三Python与C/C++相互调用 - CalvinChu - 博客园](https://www.cnblogs.com/apexchu/p/5015961.html)
-- [POSIX Threads Programming](https://computing.llnl.gov/tutorials/pthreads/#Abstract)
-- [windows vc2017 环境安装pycrypto 出错解决 - 迷途小乌鸦 - 开源中国](https://my.oschina.net/flywuya/blog/1811354)
-- [sudo保持前用用户的env环境变量 - dabao1989的专栏 - CSDN博客](https://blog.csdn.net/dabao1989/article/details/51955559)(1条消息)
-- [微信数据库导出并破解 – IFU](https://www.sy2k.com/2018/%E5%BE%AE%E4%BF%A1%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AF%BC%E5%87%BA%E5%B9%B6%E7%A0%B4%E8%A7%A3/)
-- [Yihui Xie | 谢益辉](https://yihui.name/)
-- [Gallery - PixiJS](https://www.pixijs.com/gallery)
-- [木朵爱_情侣博客|爱情博客|夫妻博客|木木与朵朵的爱情网站](http://www.muduoai.cn/)
-- [AWS 更换 EC2 密钥 - SleepyBear - CSDN博客](https://blog.csdn.net/gejian1208/article/details/88394691)
-- [LOVE109❤️纪实小屋](https://www.love109.cn/loveyou/)
-- [iptables详解：图文并茂理解iptables](https://www.zsythink.net/archives/1199)
-- [3个方法解决百度网盘限速 （2019-12-01 更新） - 奔跑中的奶酪](https://www.runningcheese.com/baiduyun)
-- [ubuntu使用shadowsocks](http://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/)
-- [简单四步，在ubuntu下硬盘安装windows 7 - 查看主题 • Ubuntu中文论坛](http://forum.ubuntu.org.cn/viewtopic.php?t=381226)
-- [机器学习速成课程  |  Google Developers](https://developers.google.cn/machine-learning/crash-course/)
-- [Data structures reference, for coding interviews and computer science classes | Interview Cake](https://www.interviewcake.com/data-structures-reference)
-- [常用邮件收发地址及端口设置 - 上海雷暴网络科技有限公司](https://www.leidiandian.com/FAQ/Detail/43.html)
-- [Creative Mints | Design Agency](https://www.creativemints.com/)
-- [SASS用法指南 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 
 ## 学术
 
