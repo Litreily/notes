@@ -18,11 +18,30 @@
 * File Icon Theme
   * VSCode Great Icons
   * Material Icon Theme
+  * vscode-icons
 * Remote - WSL
-* Python
+* Vim
+* Language
+  * Python
+  * C/C++
 * Git
   * GitLens
   * Git History
+  * Github
+* Visual
+  * Drawio Integration
+  * Debug Visualizer
+  * HTML Preview
+  * hexdump for VSCode
+* Markdown
+  * Markdown All in One
+  * Markdown PDF
+  * Markdown Preview Github Styling
+  * markdownlint
+* Debugger for Chrome
+* Apps
+  * Zhihu On VSCode
+  * LeetCode
 
 ## 常用配置
 
