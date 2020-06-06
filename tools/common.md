@@ -49,6 +49,11 @@
 - [BandiZip](https://www.bandizip.com/): 优秀，首选
 - [2345好压](http://haozip.2345.cc/): 2345家族，选择去广告版
 
+#### 图片压缩
+
+- [caesium](https://saerasoft.com/caesium/): 图片批量压缩
+- [tinypng](https://tinypng.com/): 在线，最多同时20张图片，最大5M，支持`.png`, `.jpg`
+
 ### PDF
 
 - [福昕](https://www.foxitsoftware.cn/downloads/): 支持阅读、编辑
