@@ -150,3 +150,30 @@ PS again: 后经观察，发现在使用`git bash`时才有这个问题，如果
     "version": "2.0.0"
 }
 ```
+
+## Code server
+
+在浏览器访问VPS上部署的VSCode server, 简直不要太棒！
+
+- [code server](https://github.com/cdr/code-server)
+
+### install on ubuntu
+
+```zsh
+curl -fsSL https://code-server.dev/install.sh |sh
+```
+
+### run
+
+```zsh
+systemctl --user enable --now code-server
+```
+
+### config
+
+更改配置文件中的密码、端口（默认8080），如果是用vps，需要将配置文件中的`127.0.0.1`替换为`0.0.0.0`，否则打开端口映射也没法访问。
+
+```zsh
+vi ~/.config/code-server/config.yaml
+systemctl --user restart code-server
+```
