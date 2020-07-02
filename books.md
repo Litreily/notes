@@ -25,6 +25,7 @@
 
 ### 编程语言
 
+* 《C和指针》
 * 《Python3 网络爬虫开发实战》
 
 ### 编程思想
@@ -49,7 +50,4 @@
 ## 阅读
 
 * 《小王子》(已读)
-
-## 收藏
-
-* [阮一峰 free-books](https://github.com/ruanyf/free-books/blob/master/README.md)
+* 《活着》(在读)
