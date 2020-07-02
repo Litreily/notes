@@ -30,6 +30,12 @@
 - [cscope](http://cscope.sourceforge.net/): a developer's tool for browsing source code
 - [mutt](http://www.mutt.org/): a small but very powerful text-based mail client for Unix operating systems
 
+## Transfer
+
+- [lftp](https://lftp.yar.ru/lftp-man.html): Sophisticated file transfer program
+- [FileZilla](https://filezilla-project.org/): Free FTP solution, support FTP, FTPS, SFTP for all platforms
+- [Open TFTP Server](https://sourceforge.net/projects/tftp-server/): MultiThreaed TFTP Server Open Source Freeware for Windows/Unix
+
 ## Extensions
 
 ### tmux
