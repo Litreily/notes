@@ -95,3 +95,6 @@
 
 * [Book List](books.md)
 * [Favorites](favorites.md)
+
+* [Appendix](appendix/README.md)
+  * [ASCII](appendix/ascii.md)
