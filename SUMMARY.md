@@ -98,3 +98,4 @@
 
 * [Appendix](appendix/README.md)
   * [ASCII](appendix/ascii.md)
+  * [GSM](appendix/gsm.md)
