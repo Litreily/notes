@@ -32,6 +32,7 @@
   * [Generator](python/generator.md)
   * [Iterator](python/iterator.md)
   * [Lambda](python/lambda.md)
+  * [Download](python/download.md)
 
 * [Network](network/README.md)
   * [Protocol](network/protocol.md)
