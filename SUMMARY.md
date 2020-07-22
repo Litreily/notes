@@ -17,6 +17,7 @@
   * [ping](commands/ping.md)
   * [pwd](commands/pwd.md)
   * [rm](commands/rm.md)
+  * [sar](commands/sar.md)
   * [sudo](commands/sudo.md)
 
 * [Linux C](linux/README.md)
