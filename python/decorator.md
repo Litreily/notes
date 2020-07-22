@@ -10,14 +10,14 @@
 
 ``` python
 def test():
-    print('just for test')   
+    print('just for test')
 ```
 
 现在有个新的需求，要在执行函数后打印log，显示当前执行的函数是哪个，那可以这样：
 
 ``` python
 def test():
-    print('just for test')   
+    print('just for test')
     logging.info('test is running')
 ```
 

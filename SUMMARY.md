@@ -28,12 +28,13 @@
     * [Watchdog](linux/kernel/watchdog.md)
 
 * [Python](python/README.md)
-  * [Install](python/install.md)
-  * [Decorator](python/decorator.md)
-  * [Generator](python/generator.md)
-  * [Iterator](python/iterator.md)
-  * [Lambda](python/lambda.md)
+  * [general](python/install.md)
+    * [Decorator](python/decorator.md)
+    * [Generator](python/generator.md)
+    * [Iterator](python/iterator.md)
+    * [Lambda](python/lambda.md)
   * [Download](python/download.md)
+  * [NIC](python/nic.md)
 
 * [Network](network/README.md)
   * [Protocol](network/protocol.md)
