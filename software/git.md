@@ -113,7 +113,9 @@ git pull <remote-name> <branch-name>  # 从远程仓库指定分支拉取文件�
 git fetch <remote-name> <branch-name>  # 从远程仓库指定分支拉取文件至本地缓存文件中
 
 git push -f  # 当某次错误提交至远程仓库时，先在本地撤销(git reset)，之后用改指令强制修改回退远程提交
-git push --tags # 提交时将tag一并提交
+git push --tags # 提交时将tag一并提交, 注意这将提交所有不在remote的tags
+git push <remote-name> <tag-name> # 提交某一个指定tag
+git push <remote-name> :refs/tags/<tag-name> # 删除指定的远程tag
 ```
 
 ### git log
@@ -146,7 +148,9 @@ git blame <path/of/file>  # 查看某个文件每行的最新提交记录
 ### git tag
 
 ``` bash
+git tag  # 列出本地tag
 git tag <tag-name> <commit-id>  # 为某次提交添加标签
+git tag -d <tag-name>  # 删除本地tag
 ```
 
 ## 合并
