@@ -24,7 +24,3 @@ ubus call system watchdog '{"stop": false}'
 ubus call system watchdog '{"timeout": 20}'
 ```
 
-## 参考文档
-
-- [Watchdog on IPQ40xx](/assets/watchdog/Watchdog_on_IPQ40xx.pdf)
-
