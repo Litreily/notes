@@ -1,0 +1,161 @@
+site_name: Notes
+site_author: Litreily
+site_description: Note Everything
+site_url: http://www.litreily.top/notes/
+repo_url: https://github.com/Litreily/Notes
+edit_uri: tree/master/docs/
+
+copyright: Copyright &copy; 2020 LITREILY
+
+theme:
+  name: material
+  # favicon: 
+  icon:
+    logo: material/book-open-page-variant
+  features:
+    - tabs
+  palette:
+    primary: 'red'
+    accent: 'red'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  # - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  # - pymdownx.caret
+  # - pymdownx.critic
+  # - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  # - pymdownx.inlinehilite
+  # - pymdownx.keys
+  # - pymdownx.magiclink
+  - pymdownx.mark
+  # - pymdownx.smartsymbols
+  # - pymdownx.snippets:
+  #     check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/litreily
+extra_css:
+extra_javascript:
+
+nav:
+  - Introduction: index.md
+  - Commands:
+    - cd: commands/cd.md
+    - df: commands/df.md
+    - du: commands/du.md
+    - fc-cahe: commands/fc-cache.md
+    - ifconfig: commands/ifconfig.md
+    - ip: commands/ip.md
+    - ls: commands/ls.md
+    - lsb_release: commands/lsb_release.md
+    - mkdir: commands/mkdir.md
+    - mksquashfs: commands/mksquashfs.md
+    - mount: commands/mount.md
+    - ping: commands/ping.md
+    - pwd: commands/pwd.md
+    - rm: commands/rm.md
+    - sar: commands/sar.md
+    - sed: commands/sed.md
+    - sudo: commands/sudo.md
+  - Linux C: 
+    - Linux: linux/README.md
+    - Preprocessor: linux/preprocessor.md
+    - Keywords: linux/keywords.md
+    - Kernel: 
+      - Ftrace: linux/kernel/ftrace.md
+      - Watchdog: linux/kernel/watchdog.md
+  - Python: 
+    - general: 
+      - General: python/install.md
+      - Decorator: python/decorator.md
+      - Generator: python/generator.md
+      - Iterator: python/iterator.md
+      - Lambda: python/lambda.md
+    - Download: python/download.md
+    - NIC: python/nic.md
+  - Network: 
+    - Network: network/README.md
+    - Protocol: 
+      - Protocol: network/protocol.md
+      - Link layer: network/linkLayer.md
+      - IP: network/ip.md
+      - ARP: network/arp.md
+      - ICMP: network/icmp.md
+    - Proxy: 
+      - Proxy: network/proxy.md
+      - Cntlm: network/cntlm.md
+      - Proxychains4: network/proxychains4.md
+      - ShadowSocks: network/shadowsocks.md
+    - Tools:
+      - Tools: network/tools.md
+      - iperf: network/iperf.md
+      - tc: network/tc.md
+      - Wireshark: network/wireshark.md
+    - Apps: 
+      - samba: network/samba.md
+      - tftp: network/tftp.md
+  - Software:
+    - Software: software/README.md
+    - Atom: software/atom.md
+    - Chrome: software/chrome.md
+    - Docker: software/docker.md
+    - Git: software/git.md
+    - Gitbook: software/gitbook.md
+    - Hexo: software/hexo.md
+    - Nodejs: software/nodejs.md
+    - Teraterm: software/teraterm.md
+    - Tex: software/tex.md
+    - Tmux: software/tmux.md
+    - VIM: software/vim.md
+    - VSCode: software/vsc.md
+  - Database: 
+    - MongoDB: db/mongodb.md
+  - Web: 
+    - CSS: web/css.md
+    - LNMP: web/LNMP.md
+  - Tools:
+    - common: tools/common.md
+    - programming: tools/programming.md
+  - Ubuntu:
+    - Add user: ubuntu/userAdd.md
+    - AWS EC2: ubuntu/aws_ec2.md
+    - FAQ: ubuntu/faq.md
+    - Installer: ubuntu/installer.md
+    - Shell: ubuntu/shell.md
+    - Shell scripts: ubuntu/shellScripts.md
+    - Themes: ubuntu/themes.md
+    - VPS: ubuntu/vps.md
+  - Windows:
+    - PowerShell: windows/powershell.md
+    - CMD: windows/cmd.md
+    - FAQ: windows/faq.md
+  - Aphorisms: aphorisms.md
+  - Book List: books.md
+  - Favorites: favorites.md
+  - Appendix:
+    - ASCII: appendix/ascii.md
+    - GSM: appendix/gsm.md

@@ -1,3 +1,0 @@
-# DataBase
-
-> something about database
