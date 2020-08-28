@@ -63,6 +63,9 @@ extra_javascript:
 
 nav:
   - Introduction: index.md
+  - Aphorisms: aphorisms.md
+  - Book List: books.md
+  - Favorites: favorites.md
   - Commands:
     - cd: commands/cd.md
     - df: commands/df.md
@@ -88,17 +91,7 @@ nav:
     - Kernel: 
       - Ftrace: linux/kernel/ftrace.md
       - Watchdog: linux/kernel/watchdog.md
-  - Python: 
-    - general: 
-      - General: python/install.md
-      - Decorator: python/decorator.md
-      - Generator: python/generator.md
-      - Iterator: python/iterator.md
-      - Lambda: python/lambda.md
-    - Download: python/download.md
-    - NIC: python/nic.md
   - Network: 
-    - Network: network/README.md
     - Protocol: 
       - Protocol: network/protocol.md
       - Link layer: network/linkLayer.md
@@ -111,15 +104,36 @@ nav:
       - Proxychains4: network/proxychains4.md
       - ShadowSocks: network/shadowsocks.md
     - Tools:
-      - Tools: network/tools.md
       - iperf: network/iperf.md
       - tc: network/tc.md
       - Wireshark: network/wireshark.md
     - Apps: 
       - samba: network/samba.md
       - tftp: network/tftp.md
+  - OS:
+    - Ubuntu:
+      - Add user: os/ubuntu/userAdd.md
+      - AWS EC2: os/ubuntu/aws_ec2.md
+      - FAQ: os/ubuntu/faq.md
+      - Installer: os/ubuntu/installer.md
+      - Shell: os/ubuntu/shell.md
+      - Shell scripts: os/ubuntu/shellScripts.md
+      - Themes: os/ubuntu/themes.md
+      - VPS: os/ubuntu/vps.md
+    - Windows:
+      - PowerShell: os/windows/powershell.md
+      - CMD: os/windows/cmd.md
+      - FAQ: os/windows/faq.md
+  - Python: 
+    - general: 
+      - General: python/install.md
+      - Decorator: python/decorator.md
+      - Generator: python/generator.md
+      - Iterator: python/iterator.md
+      - Lambda: python/lambda.md
+    - Download: python/download.md
+    - NIC: python/nic.md
   - Software:
-    - Software: software/README.md
     - Atom: software/atom.md
     - Chrome: software/chrome.md
     - Docker: software/docker.md
@@ -132,30 +146,15 @@ nav:
     - Tmux: software/tmux.md
     - VIM: software/vim.md
     - VSCode: software/vsc.md
-  - Database: 
-    - MongoDB: db/mongodb.md
+    - Database: 
+      - MongoDB: db/mongodb.md
   - Web: 
     - CSS: web/css.md
     - LNMP: web/LNMP.md
-  - Tools:
-    - common: tools/common.md
-    - programming: tools/programming.md
-  - Ubuntu:
-    - Add user: ubuntu/userAdd.md
-    - AWS EC2: ubuntu/aws_ec2.md
-    - FAQ: ubuntu/faq.md
-    - Installer: ubuntu/installer.md
-    - Shell: ubuntu/shell.md
-    - Shell scripts: ubuntu/shellScripts.md
-    - Themes: ubuntu/themes.md
-    - VPS: ubuntu/vps.md
-  - Windows:
-    - PowerShell: windows/powershell.md
-    - CMD: windows/cmd.md
-    - FAQ: windows/faq.md
-  - Aphorisms: aphorisms.md
-  - Book List: books.md
-  - Favorites: favorites.md
   - Appendix:
     - ASCII: appendix/ascii.md
     - GSM: appendix/gsm.md
+    - Tools:
+      - common: appendix/tools/common.md
+      - network: appendix/tools/network.md
+      - programming: appendix/tools/programming.md
