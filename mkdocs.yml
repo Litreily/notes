@@ -20,9 +20,6 @@ theme:
     primary: 'blue grey'
     accent: 'indigo'
 
-extra_css: 
-  - css/extra.css
-
 markdown_extensions:
   - admonition
   - codehilite
@@ -64,6 +61,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/litreily
 extra_css:
+  - css/extra.css
 extra_javascript:
 
 nav:
