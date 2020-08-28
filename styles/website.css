@@ -1,0 +1,19 @@
+h1, h2{
+    border-bottom: 1px solid #EFEAEA;
+}
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
