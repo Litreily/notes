@@ -6,11 +6,11 @@
 
 ## 内核一瞥
 
-![kernel view 1](/assets/linux/kernel_view_1.png)
+![kernel view 1](../assets/linux/kernel_view_1.png)
 
 图片来自《Linux Kernel Development (3rd+Edition)》 CHAPTER 1 - Introduction to the Linux Kernel
 
-![kernel view 2](/assets/linux/kernel_view_2.png)
+![kernel view 2](../assets/linux/kernel_view_2.png)
 
 图片来自《Linux Device Drivers, Third Edition》 CHAPTER 1 - An Introduction to Device Drivers 
 

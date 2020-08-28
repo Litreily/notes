@@ -40,4 +40,4 @@ wireshark  自动重组IP的分片报文，如果想要查看单独的分片信�
 
 进入对话框，选择指定Interface，在下面输入滤波器，比如设置“port 137”仅仅捕获NBNS数据包
 
-![wireshark filter](/assets/wireshark/wireshark_filter.png)
+![wireshark filter](../assets/wireshark/wireshark_filter.png)

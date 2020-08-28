@@ -18,7 +18,7 @@
 
 打开系统（假定 ubuntu）设置，选择`Settings -> Network -> Network Proxy`, 选择手动代理
 
-![manual proxy](/assets/shadowsocks/manualProxy.png)
+![manual proxy](../assets/shadowsocks/manualProxy.png)
 
 设置`Socks`代理为`127.0.0.1:1080`，此时浏览器便可以访问 Google 了，然后登录谷歌账号同步插件即可，如果之前账户并未安装该插件，则先打开`Chrome`的应用商店安装即可.
 

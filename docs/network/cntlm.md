@@ -10,11 +10,11 @@
 
 打开`Virtual Box`的配置界面，在网络选项中选择网卡1，设置连接方式为**网络地址转换（NAT）**。
 
-![config-net1](/assets/cntlm/config_net1.png)
+![config-net1](../assets/cntlm/config_net1.png)
 
 在网卡2中设置连接方式为**仅主机(host-only)网络**，并选择界面名称为虚拟机默认安装的虚拟网卡。
 
-![config-net2](/assets/cntlm/config_net2.png)
+![config-net2](../assets/cntlm/config_net2.png)
 
 ### Install cntlm
 
@@ -22,7 +22,7 @@
 
 然后通过公司的共享服务器`172.17.144.252`可以将文件传入虚拟机中的`Ubuntu`，打开共享服务器时，在连接界面选择匿名即可；
 
-![connect_server](/assets/cntlm/connect_server.png)
+![connect_server](../assets/cntlm/connect_server.png)
 
 最后将安装包复制粘贴到虚拟机桌面，执行`dpkg -i`完成`cntlm`的安装;
 
@@ -49,7 +49,7 @@ Usage: /etc/init.d/cntlm {start|stop|restart|reload|force-reload|status}
 
 启动后查看服务器状态如下：
 
-![server-status](/assets/cntlm/server_status.png)
+![server-status](../assets/cntlm/server_status.png)
 
 ### Config bash & apt
 
@@ -78,14 +78,14 @@ $ sudo apt update    # test
 
 打开默认的`firefox`浏览器，在【首选项】->【高级】->【网络】->【设置】中，添加`cntlm`的代理:
 
-![config-firefox](/assets/cntlm/config_firefox.png)
+![config-firefox](../assets/cntlm/config_firefox.png)
 
 ## Test Network
 
-![baidu](/assets/cntlm/baidu.png)
+![baidu](../assets/cntlm/baidu.png)
 
 到此就能在虚拟机中通过公司代理上网了。
 
-![bash](/assets/cntlm/config_bash.png)
+![bash](../assets/cntlm/config_bash.png)
 
 `bash`中也能正常访问网络.
