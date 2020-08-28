@@ -3,7 +3,7 @@ site_author: Litreily
 site_description: Note Everything
 site_url: http://www.litreily.top/notes/
 repo_url: https://github.com/Litreily/Notes
-edit_uri: tree/master/docs/
+edit_uri: tree/mkdocs/docs/
 
 copyright: Copyright &copy; 2020 LITREILY
 
