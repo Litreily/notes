@@ -9,14 +9,19 @@ copyright: Copyright &copy; 2020 LITREILY
 
 theme:
   name: material
+  # custom_dir:
   # favicon: 
   icon:
     logo: material/book-open-page-variant
   features:
     - tabs
   palette:
-    primary: 'red'
-    accent: 'red'
+    scheme: 'default'
+    primary: 'blue grey'
+    accent: 'indigo'
+
+extra_css: 
+  - css/extra.css
 
 markdown_extensions:
   - admonition
