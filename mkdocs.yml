@@ -146,6 +146,7 @@ nav:
     - Gitbook: software/gitbook.md
     - Hexo: software/hexo.md
     - Nodejs: software/nodejs.md
+    - Cscope: software/cscope.md
     - Teraterm: software/teraterm.md
     - Tex: software/tex.md
     - Tmux: software/tmux.md
