@@ -1,315 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>http://www.litreily.top/Notes/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/aphorisms/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/books/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/favorites/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/cd/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/df/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/du/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/fc-cache/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/ifconfig/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/ip/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/ls/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/lsb_release/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://www.litreily.top/Notes/commands/man/</loc>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/mkdir/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/mksquashfs/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/mount/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/ping/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/pwd/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/rm/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/sar/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/sed/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/commands/sudo/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://www.litreily.top/Notes/commands/xargs/</loc>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/linux/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/linux/preprocessor/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/linux/keywords/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/linux/kernel/ftrace/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/linux/kernel/watchdog/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/protocol/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/linkLayer/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/ip/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/arp/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/icmp/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/proxy/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/cntlm/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/proxychains4/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/shadowsocks/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/iperf/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/tc/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/wireshark/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/samba/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/network/tftp/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/userAdd/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/aws_ec2/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/faq/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/installer/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/shell/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/shellScripts/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/themes/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/ubuntu/vps/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/windows/powershell/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/windows/cmd/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/os/windows/faq/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/python/install/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/python/decorator/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/python/generator/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/python/iterator/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/python/lambda/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/python/download/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/python/nic/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/atom/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/chrome/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/docker/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/git/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/gitbook/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/hexo/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/nodejs/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/teraterm/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/tex/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/tmux/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/vim/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/software/vsc/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/db/mongodb/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/web/css/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/web/LNMP/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/appendix/ascii/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/appendix/gsm/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/appendix/tools/common/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/appendix/tools/network/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>http://www.litreily.top/Notes/appendix/tools/programming/</loc>
-     <lastmod>2020-08-28</lastmod>
+     <lastmod>2020-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
