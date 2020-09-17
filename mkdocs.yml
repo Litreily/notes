@@ -11,6 +11,7 @@ theme:
   name: material
   # custom_dir:
   # favicon: 
+  font: false
   icon:
     logo: material/book-open-page-variant
   features:
