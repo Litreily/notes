@@ -84,6 +84,7 @@ nav:
     - mount: commands/mount.md
     - ping: commands/ping.md
     - pwd: commands/pwd.md
+    - openssl: commands/openssl.md
     - rm: commands/rm.md
     - sar: commands/sar.md
     - sed: commands/sed.md
