@@ -86,6 +86,7 @@ nav:
     - pwd: commands/pwd.md
     - openssl: commands/openssl.md
     - rm: commands/rm.md
+    - rsync: commands/rsync.md
     - sar: commands/sar.md
     - sed: commands/sed.md
     - sudo: commands/sudo.md
