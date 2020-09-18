@@ -61,6 +61,11 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/litreily
+    - icon: material/home
+      link: https://www.litreily.top
+    - icon: fontawesome/brands/codepen
+      link: https://www.litreily.top/leetcode
+      name: Leetcode Solutions
 extra_css:
   - css/extra.css
 extra_javascript:
