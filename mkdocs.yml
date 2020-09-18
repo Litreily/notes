@@ -96,6 +96,8 @@ nav:
     - Linux: linux/README.md
     - Preprocessor: linux/preprocessor.md
     - Keywords: linux/keywords.md
+    - 内核开发:
+      - 进程管理: linux/kernel-development/ch3-process-management.md
     - Kernel: 
       - Ftrace: linux/kernel/ftrace.md
       - Watchdog: linux/kernel/watchdog.md
