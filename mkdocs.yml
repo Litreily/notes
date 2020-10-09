@@ -1,8 +1,8 @@
 site_name: Notes
 site_author: Litreily
 site_description: Note Everything
-site_url: http://www.litreily.top/Notes/
-repo_url: https://github.com/Litreily/Notes
+site_url: http://www.litreily.top/notes/
+repo_url: https://github.com/Litreily/notes
 edit_uri: tree/mkdocs/docs/
 
 copyright: Copyright &copy; 2020 LITREILY
