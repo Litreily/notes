@@ -108,6 +108,7 @@ nav:
       - Keywords: linux/basic/keywords.md
     - 内核开发:
       - 进程管理: linux/kernel-development/ch3-process-management.md
+      - 进程调度: linux/kernel-development/ch4-process-scheduling.md
     - 内核调试: 
       - Ftrace: linux/kernel-debug/ftrace.md
       - Watchdog: linux/kernel-debug/watchdog.md
