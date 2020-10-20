@@ -135,3 +135,113 @@ $20*(3/(3+1))=20*(3/4)=15ms$
 的处理时间，nice为5的则是5ms. 同理，如果是nice值为10和15的两个进程，权重比也约为3倍，同样分别获得15ms和5ms的处理时间。可见绝对的nice值不再影响调度决策，只有相对值才会影响处理器时间的分配比例。
 
 总结下，任何进程的处理器时间都是有其和其它所有可运行进程的nice值的相对差值决定，nice值对时间片不再是算数加权，而是几何加权。nice值对应的不是绝对时间，而是处理器的使用比。CFS的公平调度是因为它确保每个进程公平的处理器使用比。CFS不是完美的公平，只是近乎完美。但在绝大多数多进程环境下，降低了调度延迟带来的不公平性。
+
+## Linux 调度的实现
+
+CFS的调度算法相关代码位于 `kernel/sched_fair.c` 文件，主要关注其中4个部分。
+
+- 时间记账
+- 进程选择
+- 调度器入口
+- 睡眠与唤醒
+
+### 时间记账
+
+所有的调度器都需要对进程的运行时间记账，也就是说，需要记录当前调度周期内，进程还剩下多少时间片可以用。
+
+**调度器实体结构** `sched_entity` 定义于 `<linux/sched.h>`, 被CFS调度器用于追踪进程运行的时间记账。
+
+```c hl_lines="9"
+struct sched_entity {
+    struct load_weight load; // 权重，与优先级相关
+    struct rb_node run_node; // 红黑树的节点
+    struct list_head group_node; // 所在进程组
+    unsigned int on_rq; // 标记是否处于红黑树运行队列中
+
+    u64 exec_start; // 进程开始执行的时间
+    u64 sum_exec_runtime; // 进程总运行时间
+    u64 vruntime; // 虚拟运行时间
+    u64 prev_sum_exec_runtime; // 进程在切换CPU时的sum_exec_runtime
+
+    u64 last_wakeup;
+    u64 avg_overlap;
+    u64 nr_migrations;
+    u64 start_runtime;
+    u64 avg_wakeup;
+
+/* many stat variables elided, enabled only if CONFIG_SCHEDSTATS is set */
+};
+```
+
+该结构被嵌入在进程描述符`struct task_struct`中，对应名为`se`的成员变量。
+
+关于上面高亮的部分，也就是 **虚拟运行时间** `vruntime`, 不同于进程的实际运行时间，虚拟运行时间的计算是实际运行时间经过了所有可运行进程总数的标准化（或者说是加权）后的值。以ns为单位，与定时器节拍不再相关。
+
+CFS为了实现理想多任务处理器虚拟出了这个时钟，一个进程的`vruntime`随着运行时间增加而增加，但是增加的速度由其所在的权重决定，其权重又与nice值相关。
+
+权重越高，说明优先级越高，那么`vruntime`的增长速率就越小；反之权重越低，优先级越低，那么`vruntime`的增长速率就越大，感觉时间很快就耗尽了。
+
+下面来看下记账时间的更新，是在文件`kernel/sched_fair.c`的函数`update_curr`中完成的。
+
+```c hl_lines="15 19"
+static void update_curr(struct cfs_rq *cfs_rq)
+{
+    struct sched_entity *curr = cfs_rq->curr;
+    u64 now = rq_of(cfs_rq)->clock;
+    unsigned long delta_exec;
+
+    if (unlikely(!curr))
+        return;
+
+    /*
+    * Get the amount of time the current task was running
+    * since the last time we changed load (this cannot
+    * overflow on 32 bits):
+    */
+    delta_exec = (unsigned long)(now - curr->exec_start);
+    if (!delta_exec)
+        return;
+
+    __update_curr(cfs_rq, curr, delta_exec);
+    curr->exec_start = now;
+
+    if (entity_is_task(curr)) {
+        struct task_struct *curtask = task_of(curr);
+
+        trace_sched_stat_runtime(curtask, delta_exec, curr->vruntime);
+        cpuacct_charge(curtask, delta_exec);
+        account_group_exec_runtime(curtask, delta_exec);
+    }
+}
+```
+
+`delta_exec` 是进程实际的运行时间，由当前时间减去执行的启动时间得到。
+
+`vruntime`是在`__update_curr`函数中更新的，下面来看看。
+
+```c hl_lines="15 17"
+/*
+* Update the current task’s runtime statistics. Skip current tasks that
+* are not in our scheduling class.
+*/
+static inline void
+__update_curr(struct cfs_rq *cfs_rq, struct sched_entity *curr,
+              unsigned long delta_exec)
+{
+    unsigned long delta_exec_weighted;
+
+    schedstat_set(curr->exec_max, max((u64)delta_exec, curr->exec_max));
+
+    curr->sum_exec_runtime += delta_exec;
+    schedstat_add(cfs_rq, exec_clock, delta_exec);
+    delta_exec_weighted = calc_delta_fair(delta_exec, curr);
+
+    curr->vruntime += delta_exec_weighted;
+    update_min_vruntime(cfs_rq);
+}
+```
+
+`__update_curr`基于所有可运行进程数对实际运行时间`delta_exec`进行加权，最后将当前进程的`vruntime`值自增这个加权值。这个函数是由系统定时器周期性调用的，无论进程是可执行状态还是被堵塞处于不可运行状态。
+
+因此，`vruntime`可以准确测量给定进程的运行时间，并由此知道下一个被执行的进程。
+
