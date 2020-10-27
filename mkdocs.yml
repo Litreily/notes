@@ -106,6 +106,7 @@ nav:
     - Basic:
       - Preprocessor: linux/basic/preprocessor.md
       - Keywords: linux/basic/keywords.md
+      - Weak Symbol: linux/basic/weak_symbol.md
     - 内核开发:
       - 进程管理: linux/kernel-development/ch3-process-management.md
       - 进程调度: linux/kernel-development/ch4-process-scheduling.md
