@@ -4,13 +4,13 @@
 
 ## 分层协议
 
-| `TCP/IP`模型 | 常用协议                                                               |
-| :----------: | :--------------------------------------------------------------------- |
-|    应用层    | `DHCP`，`DNS`，`FTP`，`HTTP`，`IMAP`，`POP3`，`SMTP`，`SNMP`，`Telnet` |
-|    传输层    | `TCP`，`UDP`                                                           |
-|    网络层    | `IPv4`，`IPv6`，`ICMP`，`IGMP`                                         |
-|    链路层    | 以太网，`IEEE 802`，`ARP`，`RARP`，`PPP`，`SLIP`                       |
-|    硬件层    | ---                                                                    |
+| `TCP/IP` 模型 | 常用协议                                                               |
+| :-----------: | :--------------------------------------------------------------------- |
+|    应用层     | `DHCP`，`DNS`，`FTP`，`HTTP`，`IMAP`，`POP3`，`SMTP`，`SNMP`，`Telnet` |
+|    传输层     | `TCP`，`UDP`                                                           |
+|    网络层     | `IPv4`，`IPv6`，`ICMP`，`IGMP`                                         |
+|    链路层     | 以太网，`IEEE 802`，`ARP`，`RARP`，`PPP`，`SLIP`                       |
+|    硬件层     | ---                                                                    |
 
 ## 链路层
 
@@ -18,11 +18,11 @@
 
 <table widtd="100%" style="text-align:center">
     <tr>
-        <td>目的地址<br>6</td>
-        <td>源地址<br>6</td>
-        <td>类型<br>2</td>
-        <td colspan=4>数据<br>46~1500</td>
-        <td>CRC<br>4</td></tr>
+        <th>目的地址<br>6</th>
+        <th>源地址<br>6</th>
+        <th>类型<br>2</th>
+        <th colspan=4>数据<br>46~1500</th>
+        <th>CRC<br>4</th></tr>
     <tr>
         <td colspan=2></td>
         <td>0x0800<br>2</td>
@@ -95,87 +95,106 @@
 
 ### IPv4
 
-<table widtd="100%" style="text-align:center">
-    <tr>
-        <td colspan=4 widtd="50%">0~15</td>
-        <td colspan=4 widtd="50%">16~31</td></tr>
-    <tr>
-        <td colspan=1 widtd="12.5%">4位版本</td>
-        <td colspan=1 widtd="12.5%">4位首部长度</td>
-        <td colspan=2 widtd="25%">8位服务类型</td>
-        <td colspan=4 widtd="50%">16位总长度（字节）</td></tr>
-    <tr>
-        <td colspan=4 widtd="50%">16位标识</td>
-        <td colspan=1 widtd="15%">3位标志</td>
-        <td colspan=3 widtd="35%">13位片偏移</td></tr>
-    <tr>
-        <td colspan=2 widtd="25%">8位生成时间（TTL）</td>
-        <td colspan=2 widtd="25%">8位协议</td>
-        <td colspan=4 widtd="50%">16位首部校验和</td></tr>
-    <tr>
-        <td colspan=8 widtd="100%">32位源IP地址</td></tr>
-    <tr>
-        <td colspan=8 widtd="100%">32位目的IP地址</td></tr>
-    <tr>
-        <td colspan=8 widtd="100%">32位选项（若有）</td></tr>
-    <tr>
-        <td colspan=8 widtd="100%">数据</td></tr>
-</table>
+* [RFC 791](https://tools.ietf.org/html/rfc791#section-3.1)
+
+```yml
+ 0                   1                   2                   3
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Version|  IHL  |Type of Service|          Total Length         |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|         Identification        |Flags|      Fragment Offset    |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|  Time to Live |    Protocol   |         Header Checksum       |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                       Source Address                          |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                    Destination Address                        |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                    Options                    |    Padding    |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```
 
 **说明：**
 
-* 8位协议: 1 → `ICMP` ，2 → `IGMP` ，6 → `TCP` ，17 → `UDP`
+* 8位`protocol`: 1 → `ICMP` ，2 → `IGMP` ，6 → `TCP` ，17 → `UDP`
 * 首部校验和：先将校验和置零，然后以`16bit`为一个单元，对首部所有单元进行反码求和，结果存入校验和；接收端进行校验时同样对首部进行反码求和，求和结果应当为全1。
+
+### IPv6
+
+* [RFC 2460](https://tools.ietf.org/html/rfc2460)
+
+```yml
+ 0                   1                   2                   3
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|Version| Traffic Class |           Flow Label                  |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|         Payload Length        |  Next Header  |   Hop Limit   |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                                                               |
++                                                               +
+|                                                               |
++                         Source Address                        +
+|                                                               |
++                                                               +
+|                                                               |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                                                               |
++                                                               +
+|                                                               |
++                      Destination Address                      +
+|                                                               |
++                                                               +
+|                                                               |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```
 
 ## 传输层
 
 ### UDP
 
-<table widtd="100%" style="text-align:center">
-    <tr>
-        <td>0~15</td>
-        <td>16~31</td></tr>
-    <tr>
-        <td>16位源端口号</td>
-        <td>16位目的端口号</td></tr>
-    <tr>
-        <td>16位UDP长度</td>
-        <td>16位UDP校验和</td></tr>
-    <tr>
-        <td colspan=2 widtd="100%">数据（若有）</td></tr>
-</table>
+* [RFC 768](https://tools.ietf.org/html/rfc768)
+
+```yml
+ 0      7 8     15 16    23 24    31
++--------+--------+--------+--------+
+|     Source      |   Destination   |
+|      Port       |      Port       |
++--------+--------+--------+--------+
+|                 |                 |
+|     Length      |    Checksum     |
++--------+--------+--------+--------+
+|
+|          data octets ...
++---------------- ...
+```
 
 ### TCP
 
-<table widtd="100%" style="text-align:center">
-    <tr>
-        <td colspan=16 widtd="50%">0~15</td>
-        <td colspan=16 widtd="50%">16~31</td></tr>
-    <tr>
-        <td colspan=16 widtd="50%">16位源端口号</td>
-        <td colspan=16 widtd="50%">16位目的端口号</td></tr>
-    <tr>
-        <td colspan=32 widtd="100%">32位序列号</td></tr>
-    <tr>
-        <td colspan=32 widtd="100%">32位确认号</td></tr>
-    <tr>
-        <td colspan=4 widtd="16%">4位首部长度</td>
-        <td colspan=6 widtd="24%">6位保留</td>
-        <td>URG</td>
-        <td>ACK</td>
-        <td>PSH</td>
-        <td>PST</td>
-        <td>SYN</td>
-        <td>FIN</td>
-        <td colspan=16 widtd="40%">16位窗口大小</td></tr>
-    <tr>
-        <td colspan=16 widtd="50%">16位TCP校验和</td>
-        <td colspan=16 widtd="50%">16位紧急指针</td></tr>
-    <tr>
-        <td colspan=32 widtd="100%">选项（若有）</td></tr>
-    <tr>
-        <td colspan=32 widtd="100%">数据（若有）</td></tr>
-</table>
+* [RFC 793](https://tools.ietf.org/html/rfc793#section-3.1)
+
+```yml
+ 0                   1                   2                   3
+ 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|          Source Port          |       Destination Port        |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                        Sequence Number                        |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                    Acknowledgment Number                      |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|  Data |           |U|A|P|R|S|F|                               |
+| Offset| Reserved  |R|C|S|S|Y|I|            Window             |
+|       |           |G|K|H|T|N|N|                               |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|           Checksum            |         Urgent Pointer        |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                    Options                    |    Padding    |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+|                             data                              |
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+```
 
 ## 应用层
 
