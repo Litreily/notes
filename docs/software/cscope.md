@@ -38,7 +38,7 @@ endif
 
 cscope有很强大的跳转功能，默认需要使用`:cs find s`这样的指令去跳转，具体包含以下功能
 
-```
+```c
 a: Find assignments to this symbol
 c: Find functions calling this function
 d: Find functions called by this function
@@ -53,7 +53,7 @@ t: Find this text string
 为了简化跳转，可以在`.vimrc`中添加快捷映射，把指令映射为快捷键操作
 
 ```bash
-noremap <leader>cs :cs find s 
+noremap <leader>cs :cs find s
 noremap <C-\>a :cs find a <C-R>=expand("<cword>")<CR><CR>
 noremap <C-\>c :cs find c <C-R>=expand("<cword>")<CR><CR>
 noremap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>

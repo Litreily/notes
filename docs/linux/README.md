@@ -12,7 +12,7 @@
 
 ![kernel view 2](../assets/linux/kernel_view_2.png)
 
-图片来自《Linux Device Drivers, Third Edition》 CHAPTER 1 - An Introduction to Device Drivers 
+图片来自《Linux Device Drivers, Third Edition》 CHAPTER 1 - An Introduction to Device Drivers
 
 ## 内核学习路径
 

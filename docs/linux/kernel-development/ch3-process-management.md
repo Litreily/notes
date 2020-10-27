@@ -19,7 +19,6 @@
 
 进程描述符是通过slab分配器动态生成的，所以通常使用`struct thread_info`存储相关信息，并将thread_info放置在进程栈的尾部，通过其中的`*task`指针获得`task_struct`的真实地址。
 
-
 ```c
 struct thread_info {
     struct task_struct *task;
@@ -49,7 +48,6 @@ current_thread_info()->task;
 
 对于`x86`架构，其寄存器较少，所以当前`task_struct`被存放在`thread_info`中，而有些处理器，比如PowerPC，它富含寄存器，通常会将当前`task_struct`存入寄存器`r2`。
 
-
 ### 进程态
 
 - TASK_RUNNING: 运行态，唯一可以执行用户空间程序的状态
@@ -66,7 +64,7 @@ current_thread_info()->task;
 set_task_state(task, state);
 ```
 
-这等价于 
+这等价于
 
 ```c
 task->state = state;
@@ -75,7 +73,6 @@ task->state = state;
 ### 进程上下文
 
 正常进程执行时处于用户空间，当进程执行 **系统调用** (system call)或者触发异常情况时，会进入内核空间。这种情况被称之为
-
 
 !!! note "process context"
     At this point, the kernel is said to be “executing on behalf of the process” and is in process context
@@ -161,8 +158,7 @@ vfork 是早期没有实现COW(copy-on-write)技术时的优化方案，目前�
 
 ## 线程
 
-Linux内核中其实没有线程Thread的概念，内核对待线程就和普通进程是一样的，内核没有针对线程提供任何特定的调度算法或者数据结构。线程可以认为是进程共享资源的一种方式，每个线程在内核中和进程一样，有唯一的task_struct. 
-
+Linux内核中其实没有线程Thread的概念，内核对待线程就和普通进程是一样的，内核没有针对线程提供任何特定的调度算法或者数据结构。线程可以认为是进程共享资源的一种方式，每个线程在内核中和进程一样，有唯一的task_struct.
 
 ### 创建线程
 

@@ -35,5 +35,5 @@ upgrade_oh_my_zsh
 
 ### 配置grub开机顺序
 
-1. 修改`/boot/grub/grub.cfg` 
+1. 修改`/boot/grub/grub.cfg`
 2. 修改`/etc/default/grub`并执行`update-grub2` [推荐]

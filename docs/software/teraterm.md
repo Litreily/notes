@@ -13,7 +13,7 @@
 /L=C:\test.log      选择日志存储文件，如果已经打开了`teraterm`的日志记录功能，可以不设置该项
 ```
 
-更加详细的说明可以参考官方文档: http://www.teraterm.net/manual/en/commandline/teraterm.html
+更加详细的说明可以参考官方文档: <http://www.teraterm.net/manual/en/commandline/teraterm.html>
 
 下面是连接串口COM3的一个示例：
 
@@ -227,9 +227,9 @@ connect /C=3 /BAUD=115200 /F=TERATERM.INI
 
 while 1
     sendln "show console"
-    sendln "reboot"    
+    sendln "reboot"
     pause 240
-endwhile    
+endwhile
 
 end
 ```
@@ -242,43 +242,43 @@ end
 connect '/C=3 /BAUD=115200'
 
 while 1
-	call uBoot
-	sendln "tftpboot 0x84000000 RBS20-V1.12.0.38.img"
-	pause 20
-	sendln "nand erase 0x3080000 0x2800000;"
-	pause 15
-	sendln "nand write 0x84000080 0x3080000 0x2800000;"
-	pause 20
-	sendln "reset"
-	pause 300
-	
-	call uBoot
-	sendln "tftpboot 0x84000000 RBS20-V2.1.0.34-RC2.img"
-	pause 20
-	sendln "nand erase 0x3080000 0x2800000;"
-	pause 15
-	sendln "nand write 0x84000080 0x3080000 0x2800000;"
-	pause 20
-	sendln "reset"
+  call uBoot
+  sendln "tftpboot 0x84000000 RBS20-V1.12.0.38.img"
+  pause 20
+  sendln "nand erase 0x3080000 0x2800000;"
+  pause 15
+  sendln "nand write 0x84000080 0x3080000 0x2800000;"
+  pause 20
+  sendln "reset"
+  pause 300
+  
+  call uBoot
+  sendln "tftpboot 0x84000000 RBS20-V2.1.0.34-RC2.img"
+  pause 20
+  sendln "nand erase 0x3080000 0x2800000;"
+  pause 15
+  sendln "nand write 0x84000080 0x3080000 0x2800000;"
+  pause 20
+  sendln "reset"
 
-	offset=0
-	do
-		pause 300
-		sendln "show console"
-		sendln "reboot"
-		offset = offset + 1
-	loop while offset < 5
-	
+  offset=0
+  do
+    pause 300
+    sendln "show console"
+    sendln "reboot"
+    offset = offset + 1
+  loop while offset < 5
+  
 endwhile
 
 exit
 
 :uBoot
-	sendln "show console"
-	sendln "reboot"
-	wait "Hit any key to stop autoboot"
-	sendln "k"
-	pause 6
+  sendln "show console"
+  sendln "reboot"
+  wait "Hit any key to stop autoboot"
+  sendln "k"
+  pause 6
 return
 ```
 
@@ -291,5 +291,5 @@ return
 
 ## 参考文档
 
-* http://www.teraterm.net/manual/en/
-* http://www.teraterm.net/manual/en/macro/command/index.html
+* <http://www.teraterm.net/manual/en/>
+* <http://www.teraterm.net/manual/en/macro/command/index.html>

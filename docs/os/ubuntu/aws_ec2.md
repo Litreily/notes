@@ -33,7 +33,7 @@ scp -i aws-old.pem aws-new.pem ubuntu@host.ip:~/.ssh/
 
 ``` bash
 chmod 400 ~/.ssh/aws-new.pem
-ssh-keygen -y 
+ssh-keygen -y
 ```
 
 按提示输入`/home/ubuntu/.ssh/aws-new.pem`，之后可以得到公钥，最后一步就是将新的公钥复制进`~/.ssh/authorized_keys`.复制之前可以先将改文件清空，以清除旧的公钥。

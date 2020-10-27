@@ -23,7 +23,7 @@
 1. 官方下载刷`BIOS`工具和文件（部分工具自带刷机包）
 2. 重刷`BIOS`
 
-## 多个网卡如何设置优先级？
+## 多个网卡如何设置优先级
 
 解决方法：
 
@@ -36,10 +36,10 @@
 
 但是驱动精灵显示有更新的驱动，不过网络原因没法更新成功，为此，我都是官网下载，在设备管理器获取到网卡型号
 
-- qualcomm Atheros AR5B97
+* qualcomm Atheros AR5B97
 
 谷歌到对应网卡驱动下载网址
 
-- https://www.ath-drivers.eu/download-driver-nr-343-for-atheros-AR5B97-and-Windows10.html
+* <https://www.ath-drivers.eu/download-driver-nr-343-for-atheros-AR5B97-and-Windows10.html>
 
 找到最新版驱动 [10.0.3.456](https://www.ath-drivers.eu/qualcomm-atheros-download-drivers-nr-343-with-code-3717.html) 下载更新后，一切恢复正常，快捷键又恢复了，完美。

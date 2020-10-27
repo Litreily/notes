@@ -1,6 +1,6 @@
 # ShadowSocks
 
-## Ｃhrome 使用 SwitchyOmega
+## Chrome 使用 SwitchyOmega
 
 如果是新系统，安装 Chrome 浏览器后默认无法打开应用商店，也就无法安装`SwitchyOmega`代理插件，此时需要有两种方案
 

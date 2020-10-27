@@ -124,4 +124,3 @@ npm config set registry http://registry.npm.taobao.org
 打开`putty`配置选项，选择"Connection->Proxy"
 
 在`Proxy hostname`中填入代理IP，如`127.0.0.1`,在`Port`中填入代理端口，如1080
-

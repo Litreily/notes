@@ -58,4 +58,3 @@ echo 1 > /sys/kernel/debug/tracing/events/signal/enable
 echo 1 > /sys/kernel/debug/tracing/tracing_on
 sysctl -w kernel.ftrace_dump_on_oops=1
 ```
-

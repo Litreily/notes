@@ -15,4 +15,3 @@ sed -i 's/pattern/updated/' file
 ```zsh
 sed -i "0,/pattern/ s/pattern/updated/" file
 ```
-

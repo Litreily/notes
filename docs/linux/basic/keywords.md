@@ -12,7 +12,6 @@
 
 refer: <https://www.programiz.com/c-programming/list-all-keywords-c-language>
 
-
 ## typedef
 
 ``` c
@@ -150,4 +149,3 @@ register static int * a = &i;
 ```
 
 refer: [Understanding “register” keyword in C](https://www.geeksforgeeks.org/understanding-register-keyword/)
-

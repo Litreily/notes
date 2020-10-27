@@ -23,4 +23,3 @@ ubus call system watchdog '{"stop": false}'
 # To configure watchdog timeout as 20 seconds (default is 30 seconds)
 ubus call system watchdog '{"timeout": 20}'
 ```
-

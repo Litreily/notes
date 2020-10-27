@@ -3,7 +3,7 @@
 ## install texlive & tex2pdf
 
 * install texlive `sudo apt-get install texlive`
-* install tex2pdf https://sourceforge.net/projects/tex2pdf.berlios/
+* install tex2pdf <https://sourceforge.net/projects/tex2pdf.berlios/>
 
 ``` bash
 sudo mv tex2pdf /usr/bin
@@ -15,7 +15,7 @@ there may remind you that not found `subfloat.sty`
 
 ## install subfloat.sty
 
-* download `subfloat.sty` https://ctan.org/tex-archive/macros/latex/contrib/subfloat
+* download `subfloat.sty` <https://ctan.org/tex-archive/macros/latex/contrib/subfloat>
 * unzip this .zip file
 
 ``` bash

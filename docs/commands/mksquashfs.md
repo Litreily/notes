@@ -135,4 +135,3 @@ Compressors available and compressor specific options:
 # 使用xz压缩算法，1个处理器
 mksquashfs source/ source-xz.squashfs -comp xz -processors 1
 ```
-

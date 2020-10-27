@@ -155,7 +155,7 @@ PS again: 后经观察，发现在使用`git bash`时才有这个问题，如果
 
 在浏览器访问VPS上部署的VSCode server, 简直不要太棒！
 
-- [code server](https://github.com/cdr/code-server)
+* [code server](https://github.com/cdr/code-server)
 
 ### install on ubuntu
 

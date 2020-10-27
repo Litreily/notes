@@ -24,7 +24,7 @@ Ctrl-b # prefix
 <prefix> , # rename current window
 <prefix> . # move window
 <prefix> w # show and select window
-<prefix> Space # use next layout 
+<prefix> Space # use next layout
 <prefix> Ctrl-o # rotate window
 
 # pane related
