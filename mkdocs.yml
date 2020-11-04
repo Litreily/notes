@@ -75,10 +75,19 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Introduction: index.md
-  - Aphorisms: aphorisms.md
-  - Book List: books.md
-  - Favorites: favorites.md
+  - Linux C: 
+    - Introduction: index.md
+    - Linux: linux/README.md
+    - Basic:
+      - Preprocessor: linux/basic/preprocessor.md
+      - Keywords: linux/basic/keywords.md
+      - Weak Symbol: linux/basic/weak_symbol.md
+    - 内核开发:
+      - 进程管理: linux/kernel-development/ch3-process-management.md
+      - 进程调度: linux/kernel-development/ch4-process-scheduling.md
+    - 内核调试: 
+      - Ftrace: linux/kernel-debug/ftrace.md
+      - Watchdog: linux/kernel-debug/watchdog.md
   - Commands:
     - cd: commands/cd.md
     - df: commands/df.md
@@ -101,18 +110,6 @@ nav:
     - sed: commands/sed.md
     - sudo: commands/sudo.md
     - xargs: commands/xargs.md
-  - Linux C: 
-    - Linux: linux/README.md
-    - Basic:
-      - Preprocessor: linux/basic/preprocessor.md
-      - Keywords: linux/basic/keywords.md
-      - Weak Symbol: linux/basic/weak_symbol.md
-    - 内核开发:
-      - 进程管理: linux/kernel-development/ch3-process-management.md
-      - 进程调度: linux/kernel-development/ch4-process-scheduling.md
-    - 内核调试: 
-      - Ftrace: linux/kernel-debug/ftrace.md
-      - Watchdog: linux/kernel-debug/watchdog.md
   - Network: 
     - Concepts:
       - 单臂路由: network/signle-arm-routing.md
@@ -179,6 +176,9 @@ nav:
   - Appendix:
     - ASCII: appendix/ascii.md
     - GSM: appendix/gsm.md
+    - Aphorisms: appendix/aphorisms.md
+    - Book List: appendix/books.md
+    - Favorites: appendix/favorites.md
     - Tools:
       - common: appendix/tools/common.md
       - network: appendix/tools/network.md
