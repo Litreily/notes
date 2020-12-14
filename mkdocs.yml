@@ -81,6 +81,7 @@ nav:
     - Basic:
       - Preprocessor: linux/basic/preprocessor.md
       - Keywords: linux/basic/keywords.md
+      - Makefile: linux/basic/makefile.md
       - Weak Symbol: linux/basic/weak_symbol.md
     - Communications:
       - I2C: linux/communications/i2c.md
