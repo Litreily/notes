@@ -163,6 +163,7 @@ nav:
     - Docker: software/docker.md
     - Git: software/git.md
     - Gitbook: software/gitbook.md
+    - Gitlab: software/gitlab.md
     - Hexo: software/hexo.md
     - Nodejs: software/nodejs.md
     - Cscope: software/cscope.md
