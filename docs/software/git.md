@@ -61,6 +61,10 @@ Hi Litreily! You've successfully authenticated, but GitHub does not provide shel
 ``` bash
 git remote add <remote-name> <remote-address>  # 添加远程路径（ssh,http,...）
 git remote -v  # 显示当前所有远程路径的详细信息
+git remote remove <remote-name> # 删除 remote
+git remote set-url <remote-name> # 修改 remote 的远程路径，也可直接修改 .git/config
+git remote prune <remote-name> --dry-run # 列出可以删除的本地分支
+git remote prune <remote-name> # 删除本地分支，与远程保持同步
 ```
 
 ### git clone
