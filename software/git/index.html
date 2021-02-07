@@ -14,6 +14,10 @@ cat .ssh/id_rsa.pub
 Hi Litreily! You<span class=err>&#39;</span>ve successfully authenticated, but GitHub does not provide shell access.
 </code></pre></div> <p>以<code>github</code>为例，以上显示结果表明与<code>github</code>能够正常连接。</p> <h2 id=_3>远程操作<a class=headerlink href=#_3 title="Permanent link">&para;</a></h2> <h3 id=git-remote>git remote<a class=headerlink href=#git-remote title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>git remote add &lt;remote-name&gt; &lt;remote-address&gt;  <span class=c1># 添加远程路径（ssh,http,...）</span>
 git remote -v  <span class=c1># 显示当前所有远程路径的详细信息</span>
+git remote remove &lt;remote-name&gt; <span class=c1># 删除 remote</span>
+git remote set-url &lt;remote-name&gt; <span class=c1># 修改 remote 的远程路径，也可直接修改 .git/config</span>
+git remote prune &lt;remote-name&gt; --dry-run <span class=c1># 列出可以删除的本地分支</span>
+git remote prune &lt;remote-name&gt; <span class=c1># 删除本地分支，与远程保持同步</span>
 </code></pre></div> <h3 id=git-clone>git clone<a class=headerlink href=#git-clone title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>git clone &lt;remote-address&gt;  <span class=c1># 从远程仓库克隆项目文件至本地</span>
 </code></pre></div> <h2 id=_4>常用指令<a class=headerlink href=#_4 title="Permanent link">&para;</a></h2> <h3 id=git-add>git add<a class=headerlink href=#git-add title="Permanent link">&para;</a></h3> <div class=highlight><pre><span></span><code>git add .  <span class=c1># 添加所有修改后的文件和新创建的文件至暂存区（staging area)</span>
 git add &lt;file-name1&gt; &lt;file-name2&gt; ...  <span class=c1># 添加指定文件至暂存区（staging area）</span>
