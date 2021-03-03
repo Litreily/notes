@@ -180,6 +180,7 @@ nav:
   - Appendix:
     - ASCII: appendix/ascii.md
     - GSM: appendix/gsm.md
+    - SMS: appendix/sms.md
     - Aphorisms: appendix/aphorisms.md
     - Book List: appendix/books.md
     - Favorites: appendix/favorites.md
