@@ -15,7 +15,7 @@ theme:
   icon:
     logo: material/book-open-page-variant
   features:
-    - tabs
+    - navigation.tabs
   palette:
     scheme: 'default'
     primary: 'blue grey'
