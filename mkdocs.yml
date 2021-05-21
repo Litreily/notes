@@ -140,6 +140,7 @@ nav:
       - AWS EC2: os/ubuntu/aws_ec2.md
       - FAQ: os/ubuntu/faq.md
       - Installer: os/ubuntu/installer.md
+      - Soft route: os/ubuntu/route.md
       - Shell: os/ubuntu/shell.md
       - Shell scripts: os/ubuntu/shellScripts.md
       - Themes: os/ubuntu/themes.md
