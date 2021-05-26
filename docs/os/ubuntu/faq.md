@@ -61,3 +61,15 @@ sudo ln -s /lib/i386-linux-gnu/libc-2.15.so /lib/i386-linux-gnu/libc.so.6
 ```
 
 总算，一切恢复正常，从此不再手贱，同时立马给测试电脑启用了root用户，完美~
+
+## 64位系统执行32位程序
+
+```bash
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 zlib1g:i386
+sudo apt-get install lib32ncurses5
+sudo apt-get install lib32z1
+```
+
+- reference: [64位ubuntu下运行32位程序](https://blog.csdn.net/u013112749/article/details/89921308)

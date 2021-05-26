@@ -43,3 +43,21 @@
 * <https://www.ath-drivers.eu/download-driver-nr-343-for-atheros-AR5B97-and-Windows10.html>
 
 找到最新版驱动 [10.0.3.456](https://www.ath-drivers.eu/qualcomm-atheros-download-drivers-nr-343-with-code-3717.html) 下载更新后，一切恢复正常，快捷键又恢复了，完美。
+
+## 家庭版无法使用远程桌面
+
+安装 rdpwrap 解决。
+
+```bash
+# 管理员方式打开powershell
+net stop termservice
+# 修改或替换文件后
+net start termservice
+```
+
+reference: 
+
+- [Win10多用户远程桌面软件RDP Wrapper Library下载安装教程](https://blog.csdn.net/KotaTsuchiya/article/details/102908397)
+- [Version 10.0.19041.964 Not Supported](https://github.com/stascorp/rdpwrap/issues/1384)
+
+安装后 ubuntu 可使用系统自带 `remmina` 连接。
