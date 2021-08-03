@@ -73,3 +73,42 @@ sudo apt-get install lib32z1
 ```
 
 - reference: [64位ubuntu下运行32位程序](https://blog.csdn.net/u013112749/article/details/89921308)
+
+## 如何解压 initrd.img
+
+```bash
+cp initrd.img initrd.gz
+gzip -d initrd.gz
+cpio -i < initrd
+```
+
+## 如何更新ramdisk.img
+
+```bash
+cp ramdisk.img ramdisk.gz
+gzip  ramdisk.gz
+mkdir tmp
+mv ramdisk tmp
+
+cd tmp
+cpio -i -F ramdisk
+rm ramdisk
+# update files, then recreate ramdisk
+find . |cpio -o -H newc -O ../ramdisk
+cd ..
+gzip -v9 ramdisk
+rm -rf tmp
+```
+
+## 如何使用 vmlinux 生成 System.map
+
+```bash
+nm v
+```
+
+## 修改 ttyUSB 设备默认权限
+
+```bash
+$ cat /etc/udev/rules.d/50-udev-default.rules
+KERNEL=="ttyUSB[0-9]*", MODE="0777"
+```
