@@ -181,6 +181,15 @@ chmod -Rf 777 ./*
 
 接着测试远程访问，通过frp内网穿透功能测试，网络连接正常，但是访问速度显著下降，不过平常主要存储些文档，差不多够用了。
 
+## 网络安全
+
+默认情况下，通过web界面可以访问服务器的所有资源，包含根目录的数据，这是非常不安全的，需要通过以下配置禁用。
+
+```bash
+echo "open_basedir = /var/www/html/kodbox/:/tmp/" >> /etc/php5/fpm/conf.d/kodbox.ini
+service php5-fpm restart
+```
+
 ## 参考
 
 - [kodcloud 下载](https://kodcloud.com/download/)
