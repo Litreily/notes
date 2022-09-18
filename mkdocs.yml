@@ -125,6 +125,7 @@ nav:
     - Proxy: 
       - Proxy: network/proxy.md
       - Cntlm: network/cntlm.md
+      - Frp: network/frp.md
       - Proxychains4: network/proxychains4.md
       - ShadowSocks: network/shadowsocks.md
     - Tools:
@@ -178,6 +179,7 @@ nav:
   - Web: 
     - CSS: web/css.md
     - LNMP: web/LNMP.md
+    - Kodbox: web/kodbox.md
   - Appendix:
     - ASCII: appendix/ascii.md
     - GSM: appendix/gsm.md

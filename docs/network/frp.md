@@ -53,9 +53,45 @@ remote_port = 6000
 ./frpc -c ./frpc.ini
 ```
 
+## 支持网络服务器
+
+如果内网中搭建了web服务器，也可以通过frp进行逆向代理。不过需要添加以下配置。
+
+- frps.ini
+
+```ini
+[common]
+server_addr = 100.21.100.22
+server_port = 7000
+vhost_http_port = 8080
+```
+
+- frpc.ini
+
+```ini
+[common]
+server_addr = 100.21.100.22
+server_port = 7000
+
+[ssh]
+type = tcp
+local_ip = 127.0.0.1
+local_port = 22
+remote_port = 6000
+
+[web]
+type = http
+local_port = 80
+custom_domains = 100.21.100.22
+```
+
+> `custom_domains` 也可以是域名，不过需要添加对于DNS记录。
+
+这样一来，就可以在浏览器输入 `http://公网服务器IP:8080` 访问内网站点了。
+
 ## 配置公网服务器的安全组
 
-在公网服务器中需要添加安全组规则，添加端口(`7000`, `6000`)的安全规则，否则防火墙规则默认会挡掉连接。
+在公网服务器中需要添加安全组规则，添加端口(`7000`, `6000`, `8080`)的安全规则，否则防火墙规则默认会挡掉连接。
 
 ## 远程访问内网
 
