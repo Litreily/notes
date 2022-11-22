@@ -149,9 +149,11 @@ nav:
     - Windows:
       - PowerShell: os/windows/powershell.md
       - CMD: os/windows/cmd.md
+      - WSL: os/windows/wsl.md
       - FAQ: os/windows/faq.md
   - Python: 
     - general: 
+      - general: python/README.md
       - General: python/install.md
       - Decorator: python/decorator.md
       - Generator: python/generator.md
